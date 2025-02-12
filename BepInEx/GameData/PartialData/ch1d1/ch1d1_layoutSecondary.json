@@ -4,18 +4,18 @@
         "internalEnabled": true,
         "persistentID": "ch1d1LayoutSecondary",
         "datablock": "LevelLayout",
-        "ZoneAliasStart": 23,
+        "ZoneAliasStart": 61,
         "Zones": [
           {
-            "Comment": "Zone23 - Elevator Zone - basic enemy mix - no pickups",
+            "Comment": "Zone23 - First zone on secondary - basic enemy mix - meds - ammo - tool",
             "LocalIndex": 0,
             "AliasOverride": -1,
             "OverrideAliasPrefix": false,
-            "SubSeed": 13,
+            "SubSeed": 1,
             "MarkerSubSeed": 0,
             "LightsSubSeed": 22,
             "BulkheadDCScanSeed": 0,
-            "SubComplex": 4,
+            "SubComplex": 5,
             "CustomGeomorph": "",
             "IgnoreRandomGeomorphRotation": true,
             "CoverageMinMax": {
@@ -31,11 +31,11 @@
               "sqrMagnitude": 1525.0
             },
             "BuildFromLocalIndex": 0,
-            "StartPosition": 2,
+            "StartPosition": 3,
             "StartPosition_IndexWeight": 0.0,
             "StartExpansion": 2,
-            "ZoneExpansion": 4,
-            "LightSettings": 0,
+            "ZoneExpansion": 2,
+            "LightSettings": 71,
             "AltitudeData": {
               "AllowedZoneAltitude": 3,
               "ChanceToChange": 0
@@ -50,8 +50,8 @@
             "EventsOnTrigger": [
             ],
             "ProgressionPuzzleToEnter": {
-              "PuzzleType": 0,
-              "CustomText": 972,
+              "PuzzleType": 3,
+              "CustomText": "LOCKDOWN",
               "PlacementCount": 1,
               "ZonePlacementData": []
             },

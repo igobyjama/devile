@@ -167,7 +167,6 @@
                 "LevelLayoutData": "ch1d1LayoutMain",
                 "MainLayerData": {
                   "ZonesWithBulkheadEntrance": [
-
                   ],
                   "BulkheadDoorControllerPlacements": [
                   ],
@@ -225,16 +224,16 @@
                   },
                   "ChainedObjectiveData": [],
                   "ArtifactData": {
-                    "ArtifactAmountMulti": 0.8,
+                    "ArtifactAmountMulti": 0.0,
                     "ArtifactLayerDistributionDataID": 0,
                     "ArtifactZoneDistributions": []
                   }
                 },
-                "SecondaryLayerEnabled": false,
-                "SecondaryLayout": "",
+                "SecondaryLayerEnabled": true,
+                "SecondaryLayout": "ch1d1LayoutSecondary",
                 "BuildSecondaryFrom": {
                   "LayerType": 0,
-                  "Zone": 6
+                  "Zone": 2
                 },
                 "SecondaryLayerData": {
                   "ZonesWithBulkheadEntrance": [
@@ -242,33 +241,11 @@
                   ],
                   "BulkheadDoorControllerPlacements": [],
                   "BulkheadKeyPlacements": [
-                    [
-                      {
-                        "DimensionIndex": 0,
-                        "LocalIndex": 3,
-                        "Weights": {
-                          "Start": 0.0,
-                          "Middle": 0.0,
-                          "End": 0.0
-                        }
-                      }
-                    ]
                   ],
                   "ObjectiveData": {
-                    "DataBlockId": "",
+                    "DataBlockId": "unsolvable_obj",
                     "WinCondition": 1,
                     "ZonePlacementDatas": [
-                      [
-                        {
-                          "DimensionIndex": 0,
-                          "LocalIndex": 3,
-                          "Weights": {
-                            "Start": 0.0,
-                            "Middle": 0.0,
-                            "End": 0.0
-                          }
-                        }
-                      ]
                     ]
                   },
                   "ChainedObjectiveData": [],

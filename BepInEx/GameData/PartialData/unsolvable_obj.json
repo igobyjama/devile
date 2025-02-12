@@ -3,7 +3,7 @@
 "Header": "Dont escape",
 "MainObjective": "Dont escape",
 "WardenObjectiveSpecialUpdateType": 0,
-"GenericItemFromStart": 133,
+"GenericItemFromStart": 0,
 "DoNotMarkPickupItemsAsWardenObjectives": false,
 "FindLocationInfo": "",
 "FindLocationInfoHelp": "",
