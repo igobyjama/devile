@@ -183,7 +183,7 @@
                         "Weights": {
                           "Start": 0.0,
                           "Middle": 0.0,
-                          "End": 0.0
+                          "End": 1000.0
                         }
                         }
                       ],
@@ -243,9 +243,20 @@
                   "BulkheadKeyPlacements": [
                   ],
                   "ObjectiveData": {
-                    "DataBlockId": "unsolvable_obj",
-                    "WinCondition": 1,
+                    "DataBlockId": "ch1d1ObjectiveSecondary",
+                    "WinCondition": 0,
                     "ZonePlacementDatas": [
+                      [                        
+                        {
+                        "DimensionIndex": 0,
+                        "LocalIndex": 0,
+                        "Weights": {
+                          "Start": 0.0,
+                          "Middle": 0.0,
+                          "End": 1000.0
+                        }
+                        }
+                      ]
                     ]
                   },
                   "ChainedObjectiveData": [],

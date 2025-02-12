@@ -65,6 +65,9 @@
 [Message:   BepInEx] Chainloader startup complete
 [Info   :Il2CppInterop] Registered mono type LocalProgression.Component.ExpeditionWindow_NoBoosterIcon in il2cpp domain
 [Info   :Il2CppInterop] Registered mono type LocalProgression.Component.ExpeditionSuccessPage_NoBoosterIcon in il2cpp domain
+[Warning:Il2CppInterop] Method Void AddOnReloadListener(MTFO.HotReload.IHotManager) on type MTFO.HotReload.HotReloader has unsupported parameter MTFO.HotReload.IHotManager manager of type MTFO.HotReload.IHotManager
+[Warning:Il2CppInterop] Method Void RemoveOnReloadListener(MTFO.HotReload.IHotManager) on type MTFO.HotReload.HotReloader has unsupported parameter MTFO.HotReload.IHotManager manager of type MTFO.HotReload.IHotManager
+[Info   :Il2CppInterop] Registered mono type MTFO.HotReload.HotReloader in il2cpp domain
 [Message:CheatConsole] CheatConsole Loaded On Revision : 34855!
 [Message:CheatConsole] Initialized Command System! (Found: 80 Commands)
 [Info   :Il2CppInterop] Registered mono type MTFO.Custom.CCP.Components.CorePuzzleData in il2cpp domain
@@ -77,127 +80,6 @@
 [Warning:LocalProgression] Update LPData to rundown_id: 1
 [Warning:LocalProgression] Chapter 1 - old format
 [Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
-[Warning:LocalProgression] Update LPData to rundown_id: 1
-[Warning:LocalProgression] Chapter 1 - old format
-[Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
-[Message:   LGTuner] tile info: 0 1 geo_64x64_tech_lab_HA_10 for Zone_0 : Reality
-[Message:   LGTuner] tile info: 0 2 geo_64x64_tech_lab_HA_03 for Zone_1 : Reality
-[Message:   LGTuner] tile info: -1 2 geo_64x64_tech_lab_HA_09 for Zone_2 : Reality
-[Message:   LGTuner] tile info: 1 2 geo_64x64_tech_lab_HA_05 for Zone_3 : Reality
-[Message:   LGTuner] tile info: 2 2 geo_64x64_tech_lab_HA_03 for Zone_3 : Reality
-[Message:   LGTuner] tile info: 1 3 geo_64x64_tech_lab_HA_01 for Zone_4 : Reality
-[Message:   LGTuner] tile info: 2 1 geo_64x64_tech_lab_HA_10 for Zone_5 : Reality
-[Message:   LGTuner] tile info: 3 2 geo_64x64_tech_lab_hub_HA_03 for Zone_7 : Reality
-[Message:   LGTuner] tile info: 3 3 geo_64x64_tech_lab_HA_10 for Zone_8 : Reality
-[Message:   LGTuner] tile info: 4 3 geo_64x64_tech_lab_HA_08 for Zone_8 : Reality
-[Message:   LGTuner] tile info: 3 1 geo_64x64_tech_data_center_HA_02 for Zone_9 : Reality
-[Message:   LGTuner] tile info: 4 2 geo_64x64_tech_lab_HA_04 for Zone_10 : Reality
-[Message:   LGTuner] tile info: 5 2 geo_64x64_tech_data_center_HA_09 for Zone_10 : Reality
-[Message:   LGTuner] tile info: 0 3 geo_64x64_tech_data_center_HA_06 for Zone_0 : Reality
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
-[Message:   LGTuner] found plug for zone: Zone_13_Area B (LevelGeneration.LG_Area)->Zone_14_Area A (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Right ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_14_Area A (LevelGeneration.LG_Area)->Zone_38_Area A (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
-[Message:   LGTuner] found plug for zone: Zone_25_Area B (LevelGeneration.LG_Area)->Zone_26_Area C (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
-[Message:   LGTuner] found plug for zone: Zone_037_Area C (LevelGeneration.LG_Area)->Zone_038_Area D (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_38_Area A (LevelGeneration.LG_Area)->Zone_310_Area B (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
-[Message:   LGTuner] found plug for zone: Zone_411_Area B (LevelGeneration.LG_Area)->Zone_412_Area A (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_514_Area A (LevelGeneration.LG_Area)->Zone_717_Area A (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
-[Message:   LGTuner] found plug for zone: Zone_514_Area A (LevelGeneration.LG_Area)->Zone_515_Area B (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Up ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_930_Area C (LevelGeneration.LG_Area)->Zone_928_Area E (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_718_Area B (LevelGeneration.LG_Area)->Zone_1033_Area C (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
-[Message:   LGTuner] found plug for zone: Zone_719_Area C (LevelGeneration.LG_Area)->Zone_823_Area C (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
-[Message:   LGTuner] found plug for zone: Zone_720_Area D (LevelGeneration.LG_Area)->Zone_926_Area G (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_823_Area C (LevelGeneration.LG_Area)->Zone_824_Area A (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Up ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Right ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Right ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Up ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
-[Message:   LGTuner] found plug for zone: Zone_1035_Area E (LevelGeneration.LG_Area)->Zone_1036_Area C (LevelGeneration.LG_Area)
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Up ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Left ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Up ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Right ..
-[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Down ..
-[Info   :       AWO] SessionSeed 85635084
-[Info   :       AWO] [SerialLookupManager] On build done, collected 139 serial numbers
-[Message:CheatConsole] Level Built: Looking for any objective reactor is in level...
-[Message:CheatConsole] Found one?: False
-[Message:CheatConsole] Update Current Expedition to CH1-D1 : Locale...
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
-[Warning:LocalProgression] Update LPData to rundown_id: 1
-[Warning:LocalProgression] Chapter 1 - old format
-[Warning:LocalProgression] Update LPData to rundown_id: 1
-[Warning:LocalProgression] Chapter 1 - old format
-[Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
 [Warning:LocalProgression] Update LPData to rundown_id: 1
 [Warning:LocalProgression] Chapter 1 - old format
 [Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
@@ -275,19 +157,283 @@
 [Message:   LGTuner] found plug for zone: Zone_037_Area A (LevelGeneration.LG_Area)->Zone_038_Area B (LevelGeneration.LG_Area)
 [Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Left ..
 [Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Up ..
-[Info   :       AWO] SessionSeed 2066468227
-[Info   :       AWO] [SerialLookupManager] On build done, collected 133 serial numbers
+[Info   :       AWO] SessionSeed 1126152080
+[Info   :       AWO] [SerialLookupManager] On build done, collected 132 serial numbers
 [Message:CheatConsole] Level Built: Looking for any objective reactor is in level...
 [Message:CheatConsole] Found one?: False
 [Message:CheatConsole] Update Current Expedition to CH1-D1 : Locale...
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutMain.json
-[Warning:MTFO pDataBlock] Replaced Block: 65535, ch1d1LayoutMain
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
-[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_layoutSecondary.json
-[Warning:MTFO pDataBlock] Replaced Block: 65534, ch1d1LayoutSecondary
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Error  :       AWO] Handshake::Session Type StateReplicator cannot be created without lobby!
+[Warning:LocalProgression] Update LPData to rundown_id: 1
+[Warning:LocalProgression] Chapter 1 - old format
+[Warning:LocalProgression] Update LPData to rundown_id: 1
+[Warning:LocalProgression] Chapter 1 - old format
+[Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\ch1d1\ch1d1_objectiveSecondary.json
+[Warning:MTFO pDataBlock] Replaced Block: 65534, Chapter 1 D1 locate gargo and bring to extraction
+[Warning:LocalProgression] Update LPData to rundown_id: 1
+[Warning:LocalProgression] Chapter 1 - old format
+[Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
+[Message:   LGTuner] tile info: 0 1 geo_64x64_tech_lab_HA_10 for Zone_0 : Reality
+[Message:   LGTuner] tile info: 0 2 geo_64x64_tech_lab_HA_03 for Zone_1 : Reality
+[Message:   LGTuner] tile info: -1 2 geo_64x64_tech_lab_HA_09 for Zone_2 : Reality
+[Message:   LGTuner] tile info: 1 2 geo_64x64_tech_lab_HA_05 for Zone_3 : Reality
+[Message:   LGTuner] tile info: 2 2 geo_64x64_tech_lab_HA_03 for Zone_3 : Reality
+[Message:   LGTuner] tile info: 1 3 geo_64x64_tech_lab_HA_01 for Zone_4 : Reality
+[Message:   LGTuner] tile info: 2 1 geo_64x64_tech_lab_HA_10 for Zone_5 : Reality
+[Message:   LGTuner] tile info: 3 2 geo_64x64_tech_lab_hub_HA_03 for Zone_7 : Reality
+[Message:   LGTuner] tile info: 3 3 geo_64x64_tech_lab_HA_10 for Zone_8 : Reality
+[Message:   LGTuner] tile info: 4 3 geo_64x64_tech_lab_HA_08 for Zone_8 : Reality
+[Message:   LGTuner] tile info: 3 1 geo_64x64_tech_data_center_HA_02 for Zone_9 : Reality
+[Message:   LGTuner] tile info: 4 2 geo_64x64_tech_lab_HA_04 for Zone_10 : Reality
+[Message:   LGTuner] tile info: 5 2 geo_64x64_tech_data_center_HA_09 for Zone_10 : Reality
+[Message:   LGTuner] tile info: -1 1 geo_64x64_tech_lab_HA_06 for Zone_0 : Reality
+[Message:   LGTuner] tile info: -1 0 geo_64x64_tech_data_center_HA_06 for Zone_0 : Reality
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
+[Message:   LGTuner] found plug for zone: Zone_13_Area B (LevelGeneration.LG_Area)->Zone_14_Area A (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Right ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_14_Area A (LevelGeneration.LG_Area)->Zone_38_Area A (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
+[Message:   LGTuner] found plug for zone: Zone_25_Area B (LevelGeneration.LG_Area)->Zone_26_Area C (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] found plug for zone: Zone_27_Area B (LevelGeneration.LG_Area)->Zone_037_Area A (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_38_Area A (LevelGeneration.LG_Area)->Zone_310_Area B (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
+[Message:   LGTuner] found plug for zone: Zone_411_Area B (LevelGeneration.LG_Area)->Zone_412_Area A (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_514_Area A (LevelGeneration.LG_Area)->Zone_717_Area A (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] found plug for zone: Zone_514_Area A (LevelGeneration.LG_Area)->Zone_515_Area B (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Up ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_930_Area C (LevelGeneration.LG_Area)->Zone_928_Area E (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_718_Area B (LevelGeneration.LG_Area)->Zone_1033_Area C (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
+[Message:   LGTuner] found plug for zone: Zone_719_Area C (LevelGeneration.LG_Area)->Zone_823_Area C (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] found plug for zone: Zone_720_Area D (LevelGeneration.LG_Area)->Zone_926_Area G (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_823_Area C (LevelGeneration.LG_Area)->Zone_824_Area A (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Up ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Right ..
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Right ..
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Up ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Blocked plug direction Down ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Right ..
+[Message:   LGTuner] found plug for zone: Zone_1035_Area E (LevelGeneration.LG_Area)->Zone_1036_Area C (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Up ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Up ..
+[Message:   LGTuner] buildplugjob plug in complex Lab plug status Connected plug direction Down ..
+[Message:   LGTuner] found plug for zone: Zone_037_Area A (LevelGeneration.LG_Area)->Zone_038_Area B (LevelGeneration.LG_Area)
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Blocked plug direction Left ..
+[Message:   LGTuner] buildplugjob plug in complex DataCenter plug status Connected plug direction Up ..
+[Info   :       AWO] SessionSeed 519717034
+[Info   :       AWO] [SerialLookupManager] On build done, collected 135 serial numbers
+[Message:CheatConsole] Level Built: Looking for any objective reactor is in level...
+[Message:CheatConsole] Found one?: False
+[Message:CheatConsole] Update Current Expedition to CH1-D1 : Locale...
 [Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
 [Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!
 [Error  :    FloLib] Handshake::Session Type StateReplicator cannot be created without lobby!

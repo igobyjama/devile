@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Devile default population",
+        "commentDiff0": "Diff 0 baby for breeder spawn",
+        "commentDiff3":  "Diff3 Breeder hibernate",
+        "commentDiff50": "Diff 50 - Boss enemies",
+        "commentDiff75": "Diff 75 - Scouts",
+        "commentDiff100": "Diff 100 - default enemies",
+        "commentDiff150": "Diff 150 - Chargers",
+        "commentDiff200": "Diff 200 - Shadows",
+        "CommentBloodDoor250": "Diff 250 - BloodDoor enemies",
+        "CommentDiff300": "Diff 300 - Weaklings",
+        "internalEnabled": true,
+        "persistentID": "devileDefaultPopulation",
+        "datablock": "EnemyPopulation",
+        "RoleDatas": [
+
+        ]
+    }
+]
