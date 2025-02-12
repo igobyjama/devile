@@ -464,3 +464,886 @@ System.ArgumentException: An item with the same key has already been added. Key:
 [Warning:LocalProgression] Update LPData to rundown_id: 1
 [Warning:LocalProgression] Chapter 1 - old format
 [Message:LocalProgression] CM_PageRundown_New.UpdateRundownExpeditionProgression, overwrite with LocalProgression Data, RundownID 1
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 1 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 1 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_1
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_giant
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: basic group easy mix giant
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: basic group easy mix giant
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_giant
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_giant
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] GUID is Missing: 4xgiant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: 4xgiant
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4xgiant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4xgiant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devilePopulation.json
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] GUID is Missing: devileDefaultPopulation
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Devile default population
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: forced_scout
+[Error  :MTFO pDataBlock] GUID is Missing: forced_shadow_scout
+[Error  :MTFO pDataBlock] GUID is Missing: forced_charger_scout
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: forced_scout
+[Error  :MTFO pDataBlock] GUID is Missing: forced_shadow_scout
+[Error  :MTFO pDataBlock] GUID is Missing: forced_charger_scout
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Warning:MTFO pDataBlock] LiveEdit File Changed: C:\Users\devha\AppData\Roaming\Thunderstore Mod Manager\DataFolder\GTFO\profiles\Devile\BepInEx\GameData\PartialData\devileDefaultEnemyGroups.json
+[Error  :MTFO pDataBlock] GUID is Missing: forced_scout
+[Error  :MTFO pDataBlock] GUID is Missing: forced_shadow_scout
+[Error  :MTFO pDataBlock] GUID is Missing: forced_charger_scout
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] GUID is Missing: forced_scout
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Forced scout
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Forced scout
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: forced_shadow_scout
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Forced Shadow Scout
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Forced Shadow Scout
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: forced_charger_scout
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Forced Charger Scout
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Forced Charger Scout
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_4_2
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 4 strikers 2 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_3_3
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 3 strikers 3 shooter
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: easy_mix_2x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group mix 2 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)
+[Error  :MTFO pDataBlock] GUID is Missing: normal_4x_giant
+[Error  :MTFO pDataBlock] Error While Adding Block: Il2CppInterop.Runtime.Il2CppException: System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+--- BEGIN IL2CPP STACK TRACE ---
+System.ArgumentException: An item with the same key has already been added. Key: Basic group 4 x Giants
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <00000000000000000000000000000000>:0 
+  at GameData.GameDataBlockBase`1[T].AddBlock (T block, System.Int32 addIndex) [0x00000] in <00000000000000000000000000000000>:0 
+--- END IL2CPP STACK TRACE ---
+
+   at Il2CppInterop.Runtime.Il2CppException.RaiseExceptionIfNecessary(IntPtr returnedException) in /home/runner/work/Il2CppInterop/Il2CppInterop/Il2CppInterop.Runtime/Il2CppException.cs:line 36
+   at GameData.GameDataBlockBase`1.AddBlock(T block, Int32 addIndex)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddBlock(T block)
+   at MTFO.Ext.PartialData.DataBlockTypes.DataBlockTypeWrapper`1.AddJsonBlock(String json)

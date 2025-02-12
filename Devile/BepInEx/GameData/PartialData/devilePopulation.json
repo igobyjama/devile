@@ -14,7 +14,62 @@
         "persistentID": "devileDefaultPopulation",
         "datablock": "EnemyPopulation",
         "RoleDatas": [
-
+            {
+                "Role": 5,
+                "Difficulty": 75,
+                "Enemy": 20,
+                "Cost": 5.0,
+                "Weight": 1.0,
+                "Comment": "Scout"
+            },
+            {
+                "Role": 5,
+                "Difficulty": 76,
+                "Enemy": 40,
+                "Cost": 5.0,
+                "Weight": 1.0,
+                "Comment": "ShadowScout"
+            },
+            {
+                "Role": 5,
+                "Difficulty": 77,
+                "Enemy": 41,
+                "Cost": 5.0,
+                "Weight": 1.0,
+                "Comment": "ChargerScout"
+            },
+            {
+                "Role": 0,
+                "Difficulty": 100,
+                "Enemy": 24,
+                "Cost": 1.0,
+                "Weight": 1.0,
+                "Comment": "Diff 100 - randomized group striker"
+            },
+            {
+                "Role": 1,
+                "Difficulty": 100,
+                "Enemy": 26,
+                "Cost": 1.0,
+                "Weight": 1.0,
+                "Comment": "Diff 100 - randomized shooter"
+            },
+            {
+                "Role": 0,
+                "Difficulty": 100,
+                "Enemy": 28,
+                "Cost": 2.0,
+                "Weight": 1.0,
+                "Comment": "Diff 100 - randomized group Giant striker"
+            },
+            {
+                "Role": 0,
+                "Difficulty": 101,
+                "Enemy": 28,
+                "Cost": 2.0,
+                "Weight": 1.0,
+                "Comment": "Diff 101 - ensured giant striker spawn"
+            }
         ]
     }
 ]

@@ -1,0 +1,140 @@
+[
+    {
+        "Type": 1,
+        "Difficulty": 75,
+        "SpawnPlacementType": 0,
+        "MaxScore": 5.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 1.0,
+        "Roles": [
+        {
+            "Role": 5,
+            "Distribution": 1
+        }
+        ],
+        "name": "Forced scout",
+        "internalEnabled": true,
+        "persistentID": "forced_scout",
+        "datablock": "EnemyGroup"
+    },
+    {
+      "Type": 1,
+      "Difficulty": 76,
+      "SpawnPlacementType": 0,
+      "MaxScore": 5.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+      {
+          "Role": 5,
+          "Distribution": 1
+      }
+      ],
+      "name": "Forced Shadow Scout",
+      "internalEnabled": true,
+      "persistentID": "forced_shadow_scout",
+      "datablock": "EnemyGroup"
+    },
+    {
+      "Type": 1,
+      "Difficulty": 77,
+      "SpawnPlacementType": 0,
+      "MaxScore": 5.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+      {
+          "Role": 5,
+          "Distribution": 1
+      }
+      ],
+      "name": "Forced Charger Scout",
+      "internalEnabled": true,
+      "persistentID": "forced_charger_scout",
+      "datablock": "EnemyGroup"
+    },
+    {
+        "Type": 0,
+        "Difficulty": 100,
+        "SpawnPlacementType": 0,
+        "MaxScore": 6.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 1.0,
+        "Roles": [
+          {
+            "Role": 0,
+            "Distribution": 4
+          },
+          {
+            "Role": 1,
+            "Distribution": 2
+          }
+        ],
+        "name": "Basic group mix 4 strikers 2 shooter",
+        "Comment": "Basic group mix 4 strikers 2 shooter",
+        "internalEnabled": true,
+        "persistentID": "easy_mix_4_2",
+        "datablock": "EnemyGroup"
+    },
+    {
+        "Type": 0,
+        "Difficulty": 100,
+        "SpawnPlacementType": 0,
+        "MaxScore": 6.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 0.5,
+        "Roles": [
+          {
+            "Role": 0,
+            "Distribution": 3
+          },
+          {
+            "Role": 1,
+            "Distribution": 3
+          }
+        ],
+        "name": "Basic group mix 3 strikers 3 shooter",
+        "Comment": "Basic group mix 3 strikers 3 shooter",
+        "internalEnabled": true,
+        "persistentID": "easy_mix_3_3",
+        "datablock": "EnemyGroup"
+    },
+    {
+        "Type": 0,
+        "Difficulty": 100,
+        "SpawnPlacementType": 0,
+        "MaxScore": 4.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 0.5,
+        "Roles": [
+          {
+            "Role": 0,
+            "Distribution": 5
+          }
+        ],
+        "name": "Basic group mix 2 x Giants",
+        "Comment": "Basic group  mix 2 x Giants",
+        "internalEnabled": true,
+        "persistentID": "easy_mix_2x_giant",
+        "datablock": "EnemyGroup"
+    },
+    {
+        "Type": 0,
+        "Difficulty": 101,
+        "SpawnPlacementType": 0,
+        "MaxScore": 8.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 1.0,
+        "Roles": [
+          {
+            "Role": 0,
+            "Distribution": 5
+          }
+        ],
+        "name": "Basic group 4 x Giants",
+        "Comment": "Basic group 4 x Giants",
+        "internalEnabled": true,
+        "persistentID": "normal_4x_giant",
+        "datablock": "EnemyGroup"
+    }
+]
