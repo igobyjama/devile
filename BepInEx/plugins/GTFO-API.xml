@@ -1,0 +1,1492 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GTFO-API</name>
+    </assembly>
+    <members>
+        <member name="P:GTFO.API.AssetAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.AssetAPI"/>
+            </summary>
+        </member>
+        <member name="E:GTFO.API.AssetAPI.OnStartupAssetsLoaded">
+            <summary>
+            Invoked when the game's startup assets have been fully loaded
+            </summary>
+        </member>
+        <member name="E:GTFO.API.AssetAPI.OnAssetBundlesLoaded">
+            <summary>
+            Invoked when all external asset bundles have been loaded (Not invoked if no bundles)
+            </summary>
+        </member>
+        <member name="E:GTFO.API.AssetAPI.OnImplReady">
+            <summary>
+            Invoked when the internal handler is ready
+            </summary>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.ContainsAsset(System.String)">
+            <summary>
+            Checks if an asset is already registered in the <see cref="T:GTFO.API.AssetAPI"/>
+            </summary>
+            <param name="assetName">Name of the asset to check</param>
+            <returns>Whether the asset is registered or not</returns>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.GetLoadedAsset(System.String)">
+            <summary>
+            Obtains an asset from the currently loaded asset shards
+            </summary>
+            <param name="path">The path to the asset to use</param>
+            <returns>The <see cref="T:UnityEngine.Object"/> of the asset requested or null if it's not loaded</returns>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.GetLoadedAsset``1(System.String)">
+            <summary>
+            Obtains an asset from the currently loaded asset shards and casts it to <typeparamref name="TAsset"/>
+            </summary>
+            <typeparam name="TAsset">The type of asset to load</typeparam>
+            <param name="path">The path to the asset to use</param>
+            <returns><typeparamref name="TAsset"/> as the asset requested or null if it's not loaded</returns>
+            <exception cref="T:System.InvalidCastException">The loaded asset cannot be cast to <typeparamref name="TAsset"/></exception>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.RegisterAsset(System.String,UnityEngine.Object)">
+            <summary>
+            Registers an asset into the asset shard lookup
+            </summary>
+            <param name="name">The name/path of the asset to use as a lookup</param>
+            <param name="gameObject">The <see cref="T:UnityEngine.Object"/> that will be used</param>
+            <exception cref="T:System.ArgumentException">The name is already registered</exception>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.RegisterAssetBundle(UnityEngine.AssetBundle)">
+            <summary>
+            Registers an <see cref="T:UnityEngine.AssetBundle"/>'s assets into the asset registry
+            <para>Use <seealso cref="M:GTFO.API.AssetAPI.LoadAndRegisterAssetBundle(System.String)"/> if you want to load from a path</para>
+            </summary>
+            <param name="bundle">The bundle to register</param>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.LoadAndRegisterAssetBundle(System.String)">
+            <summary>
+            Loads an asset bundle by path and registers its assets into the asset registry
+            </summary>
+            <param name="pathToBundle">The location of the asset bundle</param>
+            <exception cref="T:System.Exception">Failed to load the bundle</exception>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.LoadAndRegisterAssetBundle(System.Byte[])">
+            <summary>
+            Loads an asset bundle from bytes and registers its assets into the asset registry
+            </summary>
+            <param name="bundleBytes">The raw bytes of the asset bundle</param>
+            <exception cref="T:System.Exception">Failed to load the bundle</exception>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.InstantiateAsset(System.String,System.String)">
+            <summary>
+            Clones an asset into a new one with a different name
+            </summary>
+            <param name="assetName">The original asset name</param>
+            <param name="copyName">The name it should be cloned into</param>
+            <returns>The <see cref="T:UnityEngine.Object"/> of the asset requested or null if it's not loaded</returns>
+            <exception cref="T:System.ArgumentException">The name you're trying to copy into is already registered</exception>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.InstantiateAsset``1(System.String,System.String)">
+            <summary>
+            Clones an asset into a new one with a different name
+            </summary>
+            <typeparam name="TAsset">Type of asset to extract</typeparam>
+            <param name="assetName">The original asset name</param>
+            <param name="copyName">The name it should be cloned into</param>
+            <returns>The asset requested as <typeparamref name="TAsset"/> or null if it's not loaded</returns>
+            <exception cref="T:System.ArgumentException">The name you're trying to copy into is already registered</exception>
+            <exception cref="T:System.InvalidCastException">The asset cannot be cast to <typeparamref name="TAsset"/></exception>
+        </member>
+        <member name="M:GTFO.API.AssetAPI.TryInstantiateAsset``1(System.String,System.String,``0@)">
+            <summary>
+            Attempts to clone an asset into a new one with a different name
+            </summary>
+            <typeparam name="TAsset">Type of asset to extract</typeparam>
+            <param name="assetName">The original asset name</param>
+            <param name="copyName">The name it should be cloned into</param>
+            <param name="clonedObj"></param>
+            <returns>If the asset was successfully copied and cast to <typeparamref name="TAsset"/></returns>
+            <exception cref="T:System.ArgumentException">The name you're trying to copy into is already registered</exception>
+        </member>
+        <member name="P:GTFO.API.EventAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.EventAPI"/>
+            </summary>
+        </member>
+        <member name="E:GTFO.API.EventAPI.OnManagersSetup">
+            <summary>
+            Invoked when all native managers are set up
+            </summary>
+        </member>
+        <member name="E:GTFO.API.EventAPI.OnExpeditionStarted">
+            <summary>
+            Invoked when the player exits the elevator and is able to move
+            </summary>
+        </member>
+        <member name="E:GTFO.API.EventAPI.OnAssetsLoaded">
+            <summary>
+            Invoked when all native assets are loaded
+            </summary>
+        </member>
+        <member name="P:GTFO.API.GameDataAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.GameDataAPI"/>
+            </summary>
+        </member>
+        <member name="E:GTFO.API.GameDataAPI.OnGameDataInitialized">
+            <summary>
+            Invoked when the game data has been fully initialized
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Il2CppAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.Il2CppAPI"/>
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Il2CppAPI.InjectWithInterface``1">
+            <summary>
+            Injects a class and its interfaces with <see cref="T:Il2CppInterop.Runtime.Injection.ClassInjector"/>
+            </summary>
+            <typeparam name="T">The class to inject into Il2Cpp</typeparam>
+        </member>
+        <member name="M:GTFO.API.Il2CppAPI.GetIl2CppMethod``1(System.String,System.String,System.Boolean,System.String[])">
+            <summary>
+            Obtains the function pointer for an Il2Cpp internal method
+            </summary>
+            <typeparam name="T">The type to look for the method in</typeparam>
+            <param name="methodName">Method name in <typeparamref name="T"/></param>
+            <param name="isGeneric">If the requested method is generic</param>
+            <param name="returnTypeName">Full return type name e.g (System.Void)</param>
+            <param name="argTypes">List of full type names for the arguments e.g (System.Single)</param>
+            <returns>Function pointer of the Il2Cpp method or 0x00 if not found</returns>
+        </member>
+        <member name="M:GTFO.API.Il2CppAPI.GetIl2CppMethod``2(System.String,System.String,System.Boolean,System.String[])">
+            <summary>
+            Obtains a delegate for an Il2Cpp internal method
+            </summary>
+            <typeparam name="T">The type to look for the method in</typeparam>
+            <typeparam name="TDelegate">The delegate to return</typeparam>
+            <param name="methodName">Method name in <typeparamref name="T"/></param>
+            <param name="isGeneric">If the requested method is generic</param>
+            <param name="returnTypeName">Full return type name e.g (System.Void)</param>
+            <param name="argTypes">List of full type names for the arguments e.g (System.Single)</param>
+            <returns>A delegate to invoke the Il2Cpp method or null if invalid</returns>
+        </member>
+        <member name="M:GTFO.API.Il2CppAPI.CreateGenericDetour``2(System.String,System.String,System.String[],System.Type[],``1,``1@)">
+            <summary>
+            Creates (and applies) a detour to a generic il2cpp method
+            </summary>
+            <typeparam name="TClass">Il2Cpp class that contains the generic method</typeparam>
+            <typeparam name="TDelegate">Delegate of the method</typeparam>
+            <param name="methodName">Name of the il2cpp method</param>
+            <param name="returnType">Return type of the il2cpp method</param>
+            <param name="paramTypes">List of full type names for the arguments</param>
+            <param name="genericArguments">List of generic arguments for the il2cpp class</param>
+            <param name="to">The method to detour to</param>
+            <param name="original">Delegate to the original function</param>
+            <returns>The applied detour</returns>
+            <exception cref="T:System.ArgumentException">The il2cpp class is not registered in il2cpp</exception>
+        </member>
+        <member name="T:GTFO.API.LevelDataUpdateEvent">
+            <summary>
+            Delegate for LevelDataUpdate Event
+            </summary>
+            <param name="activeExp">Currenct Data of Expedition (Contains Rundown Type / Expedition Index / Seed Info)</param>
+            <param name="expData">Current Data of Expedition in RundownDataBlock</param>
+        </member>
+        <member name="T:GTFO.API.LevelSelectedEvent">
+            <summary>
+            Delegate for LevelSelected Event
+            </summary>
+            <param name="expTier">Tier of Selected Expedition</param>
+            <param name="expIndexInTier">Expedition Index inside tier of Selected Expedition</param>
+            <param name="expData">Current Data of Expedition in RundownDataBlock</param>
+        </member>
+        <member name="P:GTFO.API.LevelAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.LevelAPI"/>
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnLevelDataUpdated">
+            <summary>
+            Invoked when Level Data has Updated (This includes level change / seed change)
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnLevelSelected">
+            <summary>
+            Invoked when Level has Selected
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnBuildStart">
+            <summary>
+            Invoked when LevelBuild has started
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnBuildDone">
+            <summary>
+            Invoked when LevelBuild has finished
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnEnterLevel">
+            <summary>
+            Invoked when Enter the level (Player is able to move)
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnLevelCleanup">
+            <summary>
+            Invoked when Level has Cleaned up
+            </summary>
+        </member>
+        <member name="T:GTFO.API.ActiveExpedition">
+            <summary>
+            Blittable variant of pActiveExpedition
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.LocalizationAPI"/>
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LocalizationAPI.OnLanguageChange">
+            <summary>
+            An event called when the game's current language is changed.
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.CurrentLanguage">
+            <summary>
+            Gets the current language GTFO is using.
+            </summary>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FormatString(System.String,System.Object[])">
+            <summary>
+            Gets the localized value for specified key in the current language and
+            formats it with the specified <paramref name="args"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="args">
+            The arguments to format the string with.
+            </param>
+            <returns>
+            The found localized value formatted with <paramref name="args"/>.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localized value could be found.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FormatString(System.String,Localization.Language,System.Object[])">
+            <summary>
+            Gets the localized value for specified key in the current language or
+            if not found gets the localized value in the specified
+            <paramref name="fallbackLanguage"/>, and formats it with the specified
+            <paramref name="args"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="args">
+            The arguments to format the string with.
+            </param>
+            <param name="fallbackLanguage">
+            The fallback language to use if no value for the current language could be found.
+            </param>
+            <returns>
+            The found localized value formatted with <paramref name="args"/>.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localized value could be found.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FormatString(System.String,GTFO.API.LocalizationAPI.FallbackValueOptions,System.Object[])">
+            <summary>
+            Gets the localized value for specified key in the current language or
+            a fallback value using the specified <paramref name="options"/>, and 
+            formats it with the specified <paramref name="args"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="args">
+            The arguments to format the string with.
+            </param>
+            <param name="options">
+            The fallback options if no value could be found.
+            </param>
+            <returns>
+            The found localized value formatted with <paramref name="args"/>.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localized value could be found and
+            <paramref name="options"/>.<see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">UseKey</see>
+            is <see langword="false"/>.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.GetString(System.String)">
+            <summary>
+            Gets the localized value for the specified key in the current language.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <returns>
+            The found localized value for the current language.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localized value could be found.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.GetString(System.String,Localization.Language)">
+            <summary>
+            Gets a localized value for the specified key in the current language, or
+            if not found gets the localized value in the specified
+            <paramref name="fallbackLanguage"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="fallbackLanguage">
+            The fallback language to use if no value for the current language could be found.
+            </param>
+            <returns>
+            The found localized value for the current language, or the found
+            localized value for the fallback language.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace, or
+            <paramref name="fallbackLanguage"/> isn't a valid language.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localized value could be found.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.GetString(System.String,GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <summary>
+            Gets the localized value for the specified key in the current language, or
+            a fallback value using the specified <paramref name="options"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="options">
+            The fallback options if no value could be found.
+            </param>
+            <returns>
+            The found localized value.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localized value could be found and
+            <paramref name="options"/>.<see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">UseKey</see>
+            is <see langword="false"/>.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.TryGetString(System.String,System.String@)">
+            <summary>
+            Attempts to get a localized value for the specified key in the
+            current language.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="value">
+            The found value. Won't be null if this method returns <see langword="true"/>.
+            </param>
+            <returns>
+            <see langword="true"/> if <paramref name="value"/> was found;
+            <see langword="false"/>, otherwise.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.TryGetString(System.String,Localization.Language,System.String@)">
+            <summary>
+            Attempts to get a localized value for the specified key in the
+            current language, or if not found gets the localized value in the
+            specified <paramref name="fallbackLanguage"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="fallbackLanguage">
+            The fallback language to use if no value for the current language could be found.
+            </param>
+            <param name="value">
+            The found value. Won't be null if this method returns <see langword="true"/>.
+            </param>
+            <returns>
+            <see langword="true"/> if <paramref name="value"/> was found;
+            <see langword="false"/>, otherwise.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace, or
+            <paramref name="fallbackLanguage"/> isn't a valid language.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.TryGetString(System.String,GTFO.API.LocalizationAPI.FallbackValueOptions,System.String@)">
+            <summary>
+            Attempts to get a localized value for the specified key in the
+            current language, or a fallback value using the specified
+            <paramref name="options"/>.
+            </summary>
+            <param name="key">
+            The case-sensitive localization entry key.
+            </param>
+            <param name="options">
+            The fallback options if no value could be found.
+            </param>
+            <param name="value">
+            The found value. Won't be null if this method returns <see langword="true"/>.
+            </param>
+            <returns>
+            <see langword="true"/> if <paramref name="value"/> was found;
+            <see langword="false"/>, otherwise.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.HasKey(System.String)">
+            <summary>
+            Whether or not this localization api has the given localization key
+            </summary>
+            <param name="key">
+            The localization key to test.
+            </param>
+            <returns>
+            <see langword="true"/> if a localization entry with key <paramref name="key"/>
+            was found; <see langword="false"/>, otherwise.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.HasLocalizedValue(System.String,Localization.Language)">
+            <summary>
+            Whether or not this localization api has the given localization key,
+            and a value in the specified language.
+            </summary>
+            <param name="key">
+            The localization key to test.
+            </param>
+            <param name="language">
+            The localization language to test.
+            </param>
+            <returns>
+            <see langword="true"/> if a localization entry with key <paramref name="key"/>
+            was found, and a value in language <paramref name="language"/> was found;
+            <see langword="false"/>, otherwise.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="language"/> isn't a valid language.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.GenerateTextBlock(System.String,System.Nullable{GTFO.API.LocalizationAPI.TextDBOptions})">
+            <summary>
+            Generates a text data block for the specific localization key
+            if not done so already.
+            </summary>
+            <param name="key">
+            The localization entry key.
+            </param>
+            <param name="textDataBlockOptions">
+            The options for generating the text data block. If <see langword="null"/>,
+            this method will use the default text data block options.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No such localization entry with key <paramref name="key"/>
+            exists.
+            </exception>
+            <returns>The text data block id for the key.</returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.TryGetTextBlockId(System.String,System.UInt32@)">
+            <summary>
+            Attempts to get the text data block id of the given localization
+            key.
+            </summary>
+            <param name="key">
+            The localization key.
+            </param>
+            <param name="blockId">
+            The found datablock id, or <c>0</c> if not found.
+            </param>
+            <returns>
+            <see langword="true"/> if <paramref name="blockId"/> was found;
+            <see langword="false"/>, otherwise.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.AddEntry(System.String,Localization.Language,System.String,System.Nullable{GTFO.API.LocalizationAPI.TextDBOptions})">
+            <summary>
+            Manually adds a localization entry.
+            </summary>
+            <param name="key">
+            The localization key.
+            </param>
+            <param name="language">
+            The language of the value.
+            </param>
+            <param name="value">
+            The value for the localization key <paramref name="key"/>.
+            </param>
+            <param name="textDataBlockOptions">
+            The options for generating the text data block. If <see langword="null"/>,
+            this method wont generate text data blocks.
+            </param>
+            <remarks>
+            This method will not override existing values!
+            </remarks>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="key"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="key"/> is empty/whitespace, or <paramref name="language"/>
+            isn't a valid language.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.LoadFromResources(System.String,System.Nullable{GTFO.API.LocalizationAPI.TextDBOptions})">
+            <summary>
+            Loads localizations from the calling assembly's resources. 
+            </summary>
+            <param name="baseName">
+            The base resource name. Should be in the format <c>AssemblyName.Path.Resource</c>,
+            where <c>Path</c> is a dot-seperated path to the resource from the root project
+            folder.
+            <para>
+            Exclude file extensions (like <c>.resx</c>) or language tags (like <c>.en</c>)
+            from the name.
+            </para>
+            </param>
+            <param name="textDataBlockOptions">
+            The options for generating the text data block. If <see langword="null"/>,
+            this method wont generate text data blocks.
+            </param>
+            <exception cref="T:System.AggregateException">
+            Thrown if exceptions occur whilst loading a resource set. This will
+            only be thrown after loading all possible resource sets.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.LoadFromResources(System.String,System.Reflection.Assembly,System.Nullable{GTFO.API.LocalizationAPI.TextDBOptions})">
+            <summary>
+            Loads localizations from the specified assembly's resources.
+            </summary>
+            <param name="baseName">
+            The base resource name. Should be in the format <c>AssemblyName.Path.Resource</c>,
+            where <c>Path</c> is a dot-seperated path to the resource from the root project
+            folder.
+            </param>
+            <param name="assembly">
+            The assembly's resources to use.
+            </param>
+            <param name="textDataBlockOptions">
+            The options for generating the text data block. If <see langword="null"/>,
+            this method wont generate text data blocks.
+            </param>
+            <exception cref="T:System.AggregateException">
+            Thrown if exceptions occur whilst loading a resource set. This will
+            only be thrown after loading all possible resource sets.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.Entry.GetStringForTextDB(Localization.Language,System.String,GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localization value could be found and
+            <paramref name="options"/>.<see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">UseKey</see>
+            is <see langword="false"/>.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.Entry.GenerateTextDataBlock(System.String,System.Boolean)">
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localization value could be found and
+            <see cref="P:GTFO.API.LocalizationAPI.TextDBOptions.FallbackOptions">FallbackOptions</see>.<see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">UseKey</see>
+            is <see langword="false"/>.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.Entry.GetString(Localization.Language,System.String,GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localization value could be found and
+            <paramref name="options"/>.<see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">UseKey</see>
+            is <see langword="false"/>.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.Entry.FormatString(Localization.Language,System.String,GTFO.API.LocalizationAPI.FallbackValueOptions,System.Object[])">
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            No localization value could be found and
+            <paramref name="options"/>.<see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">UseKey</see>
+            is <see langword="false"/>.
+            </exception>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.STR_NoValueFoundExceptionMsg">
+            <summary>
+            Exception message for not being able to find a localization value
+            <list type="table">
+            <item>
+            <term><c>{0}</c></term>
+            <description>language</description>
+            </item>
+            <item>
+            <term><c>{1}</c></term>
+            <description>key</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.STR_UseKeyGeneric">
+            <summary>
+            Message for logging when using a key as a localization value.
+            <list type="table">
+            <item>
+            <term><c>{0}</c></term>
+            <description>language</description>
+            </item>
+            <item>
+            <term><c>{1}</c></term>
+            <description>key</description>
+            </item>
+            <item>
+            <term><c>{2}</c></term>
+            <description>category</description>
+            </item>
+            </list>
+            </summary>
+        </member>
+        <member name="T:GTFO.API.LocalizationAPI.FallbackValueFlags">
+            <summary>
+            The flags of <see cref="T:GTFO.API.LocalizationAPI.FallbackValueOptions"/>.
+            </summary>
+            <remarks>
+            <i>A warning will be logged if the key is forced to be returned.</i>
+            </remarks>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.None">
+            <summary>
+            Strictest option - no fallback will be used.
+            </summary>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage">
+            <summary>
+            Enables use of returning a specified fallback language's value.
+            </summary>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguage">
+            <summary>
+            Enables use of returning a value of any language that has one.
+            </summary>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.Key">
+            <summary>
+            Enables returning the key if a value is not found.
+            </summary>
+            <remarks>
+            <i>A warning will be logged if the key is forced to be returned.</i>
+            </remarks>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackOrAnyLanguage">
+            <summary>
+            Enables use of returning a specified fallback language's value, or a
+            value of any language that has one.
+            </summary>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguageOrKey">
+            <summary>
+            Enables use of returning a specified fallback language's value, or
+            returning the key if a value is not found.
+            </summary>
+            <remarks>
+            <i>A warning will be logged if the key is forced to be returned.</i>
+            </remarks>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguageOrKey">
+            <summary>
+            Enables use of returning a value of any language that has one, or
+            returning the key if a value is not found.
+            </summary>
+            <remarks>
+            <i>A warning will be logged if the key is forced to be returned.</i>
+            </remarks>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackOrAnyLanguageOrKey">
+            <summary>
+            Enables use of returning a specified fallback language's value, a
+            value of any language that has one, or returning the key if a value is
+            not found.
+            </summary>
+            <remarks>
+            <i>A warning will be logged if the key is forced to be returned.</i>
+            </remarks>
+        </member>
+        <member name="T:GTFO.API.LocalizationAPI.FallbackValueOptions">
+            <summary>
+            The options for fallback values when translating. A value is found using the
+            specified table:
+            <list type="table">
+            <item>
+            <term>
+            If no entry with the key is found
+            </term>
+            <description>
+            If this has the flag <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.Key"/>, return the key; 
+            otherwise throw a <see cref="T:System.Collections.Generic.KeyNotFoundException"/>.
+            </description>
+            </item>
+            <item>
+            <term>
+            If a value exists for the current language
+            </term>
+            <description>
+            Return that value.
+            </description>
+            </item>
+            <item>
+            <term>
+            If a value exists for a specified fallback language<c>*</c>
+            </term>
+            <description>
+            Return that value.
+            </description>
+            </item>
+            <item>
+            <term>
+            If a value exists for any language<c>**</c>
+            </term>
+            <description>
+            Return that value.
+            </description>
+            </item>
+            <item>
+            <term>
+            Otherwise
+            </term>
+            <description>
+            If this has the flag <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.Key"/>, return the key; 
+            otherwise throw a <see cref="T:System.Collections.Generic.KeyNotFoundException"/>.
+            </description>
+            </item>
+            </list>
+            <para>
+            <c>*</c> Requires this to have the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>.
+            </para>
+            <para>
+            <c>**</c> Requires this to have the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguage"/>. Looping starts at
+            <see cref="F:Localization.Language.English"/>, and ends at
+            <see cref="F:Localization.Language.Chinese_Simplified"/>.
+            </para>
+            </summary>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.#ctor(GTFO.API.LocalizationAPI.FallbackValueFlags,System.Nullable{Localization.Language})">
+            <summary>
+            Initializes this fallback options instance with the specified
+            <paramref name="flags"/> and <paramref name="fallbackLanguage"/>.
+            </summary>
+            <remarks>
+            If <paramref name="flags"/> includes the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>, then
+            <paramref name="fallbackLanguage"/> is required to not be
+            <see langword="null"/>.
+            </remarks>
+            <param name="flags">
+            The fallback flags.
+            </param>
+            <param name="fallbackLanguage">
+            The fallback language to use. Only used when specifying the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>.
+            </param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="fallbackLanguage"/> isn't a valid language.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="flags"/> includes the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>, and
+            <paramref name="fallbackLanguage"/> is <see langword="null"/>.
+            </exception>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.FallbackValueOptions.Flags">
+            <summary>
+            The flags for this fallback options instance.
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.FallbackValueOptions.FallbackLanguage">
+            <summary>
+            The fallback language for this fallback options instance.
+            </summary>
+            <remarks>
+            Not <see langword="null"/> if <see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.Flags"/> includes the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>.
+            </remarks>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.Equals(GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseKey">
+            <summary>
+            Whether or not to use the key as a fallback value.
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseFallbackLanguage">
+            <summary>
+            Whether or not to use the value of the
+            <see cref="P:GTFO.API.LocalizationAPI.FallbackValueOptions.FallbackLanguage">Fallback Language</see> as a fallback value.
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.FallbackValueOptions.UseAnyLanguage">
+            <summary>
+            Whether or not to use any language's value as a fallback value.
+            </summary>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.IncludeKey">
+            <summary>
+            Returns a new instance of this where the localization key can be used
+            as a fallback value.
+            </summary>
+            <returns>
+            A clone of this with the flag <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.Key"/>.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.ExcludeKey">
+            <summary>
+            Returns a new instance of this where the localization key cannot be used
+            as a fallback value.
+            </summary>
+            <returns>
+            A clone of this without the flag <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.Key"/>.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.IncludeFallbackLanguage(Localization.Language)">
+            <summary>
+            Returns a new instance of this where the value of the specified
+            fallback language can be used as a fallback value.
+            </summary>
+            <param name="language">The fallback language.</param>
+            <returns>
+            A clone of this with the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>, and the fallback
+            language <paramref name="language"/>.
+            </returns>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="language"/> is not a valid language.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.ExcludeFallbackLanguage">
+            <summary>
+            Returns a new instance of this without the value of a a fallback
+            language being able to be used as a fallback value.
+            </summary>
+            <returns>
+            A clone of this without the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/> and without
+            a fallback value.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.IncludeAnyLanguage">
+            <summary>
+            Returns a new instance of this where the value of any language can be
+            used as a fallback value.
+            </summary>
+            <returns>
+            A clone of this with the flag <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguage"/>.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.ExcludeAnyLanguage">
+            <summary>
+            Returns a new instance of this where the value of any language cannot be
+            used as a fallback value, unless it's a fallback language and this has the
+            flag <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>.
+            </summary>
+            <returns>
+            A clone of this without the flag
+            <see cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguage"/>.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.Combine(GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <summary>
+            Combines the flags/fallback language of this with the other
+            options specified.
+            </summary>
+            <param name="other">The other options.</param>
+            <returns>
+            The combined version of <see langword="this"/> and
+            <paramref name="other"/>.
+            </returns>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.op_Equality(GTFO.API.LocalizationAPI.FallbackValueOptions,GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.op_Inequality(GTFO.API.LocalizationAPI.FallbackValueOptions,GTFO.API.LocalizationAPI.FallbackValueOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueOptions.None">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.None"/>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueOptions.Key">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.Key"/>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.FallbackLang(Localization.Language)">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguage"/>
+            <param name="fallbackLanguage">The fallback language to use.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="fallbackLanguage"/> is not a valid language.
+            </exception>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueOptions.AnyLang">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguage"/>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.FallbackOrAnyLang(Localization.Language)">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackOrAnyLanguage"/>
+            <param name="fallbackLanguage">The fallback language to use.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="fallbackLanguage"/> is not a valid language.
+            </exception>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.FallbackLangOrKey(Localization.Language)">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackLanguageOrKey"/>
+            <param name="fallbackLanguage">The fallback language to use.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="fallbackLanguage"/> is not a valid language.
+            </exception>
+        </member>
+        <member name="F:GTFO.API.LocalizationAPI.FallbackValueOptions.AnyLangOrKey">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.AnyLanguageOrKey"/>
+        </member>
+        <member name="M:GTFO.API.LocalizationAPI.FallbackValueOptions.FallbackOrAnyLangOrKey(Localization.Language)">
+            <inheritdoc cref="F:GTFO.API.LocalizationAPI.FallbackValueFlags.FallbackOrAnyLanguageOrKey"/>
+            <param name="fallbackLanguage">The fallback language to use.</param>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="fallbackLanguage"/> is not a valid language.
+            </exception>
+        </member>
+        <member name="T:GTFO.API.LocalizationAPI.TextDBOptions">
+            <summary>
+            Options for generating the text data block.
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.TextDBOptions.CharacterMetadataId">
+            <summary>
+            The <see cref="T:GameData.TextCharacterMetaDataBlock"/> Id to use
+            for the text data block. If not specified, defaults to <c>1</c>.
+            </summary>
+        </member>
+        <member name="P:GTFO.API.LocalizationAPI.TextDBOptions.FallbackOptions">
+            <summary>
+            The fallback options to use when no value exists for a specific
+            language. If not specified, defaults to
+            <c><see cref="F:GTFO.API.LocalizationAPI.FallbackValueOptions.AnyLangOrKey"/></c>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.NetworkAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.NetworkAPI"/>
+            </summary>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.IsEventRegistered(System.String)">
+            <summary>
+            Checks if an event is registered in the <see cref="T:GTFO.API.NetworkAPI"/>
+            </summary>
+            <param name="eventName">The name of the event to check.</param>
+            <returns>If the specified event name is in use</returns>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.RegisterEvent``1(System.String,System.Action{System.UInt64,``0})">
+            <summary>
+            Registers a network event with a name and receive action.
+            </summary>
+            <typeparam name="T">The struct that will be used for the event info</typeparam>
+            <param name="eventName">The name of the event to register</param>
+            <param name="onReceive">The method that will be invoked when the event is received from another player</param>
+            <exception cref="T:System.ArgumentException">The event is already registered</exception>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.InvokeEvent``1(System.String,``0,SNetwork.SNet_ChannelType)">
+            <summary>
+            Sends an event to every player connected to the lobby
+            </summary>
+            <typeparam name="T">The struct that holds the event information</typeparam>
+            <param name="eventName">The name of the event to invoke</param>
+            <param name="payload">The data to send</param>
+            <param name="channelType">The <see cref="T:SNetwork.SNet_ChannelType"/> to send the event to</param>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.InvokeEvent``1(System.String,``0,SNetwork.SNet_Player,SNetwork.SNet_ChannelType)">
+            <summary>
+            Sends an event to a specific player in the lobby
+            </summary>
+            <typeparam name="T">The struct that holds the event information</typeparam>
+            <param name="eventName">The name of the event to invoke</param>
+            <param name="payload">The data to send</param>
+            <param name="target">The player to send the event to</param>
+            <param name="channelType">The <see cref="T:SNetwork.SNet_ChannelType"/> to send the event to</param>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.InvokeEvent``1(System.String,``0,System.Collections.Generic.List{SNetwork.SNet_Player},SNetwork.SNet_ChannelType)">
+            <summary>
+            Sends an event to a specific set of players in the lobby
+            </summary>
+            <typeparam name="T">The struct that holds the event information</typeparam>
+            <param name="eventName">The name of the event to invoke</param>
+            <param name="payload">The data to send</param>
+            <param name="targets">The players to send the event to</param>
+            <param name="channelType">The <see cref="T:SNetwork.SNet_ChannelType"/> to send the event to</param>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.RegisterFreeSizedEvent(System.String,System.Action{System.UInt64,System.Byte[]})">
+            <summary>
+            Registers a free-sized network event with name and receive action.
+            </summary>
+            <param name="eventName">The name of the event to register</param>
+            <param name="onReceiveBytes">The method that will be invoked when the event is received from another player</param>
+            <exception cref="T:System.ArgumentException">The event is already registered</exception>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.InvokeFreeSizedEvent(System.String,System.Byte[],SNetwork.SNet_ChannelType)">
+            <summary>
+            Sends an free-sized event to every player connected to the lobby
+            </summary>
+            <param name="eventName">The name of the event to invoke</param>
+            <param name="payload">The data to send</param>
+            <param name="channelType">The <see cref="T:SNetwork.SNet_ChannelType"/> to send the event to</param>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.InvokeFreeSizedEvent(System.String,System.Byte[],SNetwork.SNet_Player,SNetwork.SNet_ChannelType)">
+            <summary>
+            Sends an free-sized event to a specific player in the lobby
+            </summary>
+            <param name="eventName">The name of the event to invoke</param>
+            <param name="payload">The data to send</param>
+            <param name="target">The player to send the event to</param>
+            <param name="channelType">The <see cref="T:SNetwork.SNet_ChannelType"/> to send the event to</param>
+        </member>
+        <member name="M:GTFO.API.NetworkAPI.InvokeFreeSizedEvent(System.String,System.Byte[],System.Collections.Generic.IEnumerable{SNetwork.SNet_Player},SNetwork.SNet_ChannelType)">
+            <summary>
+            Sends an free-sized event to a specific set of players in the lobby
+            </summary>
+            <param name="eventName">The name of the event to invoke</param>
+            <param name="payload">The data to send</param>
+            <param name="targets">The players to send the event to</param>
+            <param name="channelType">The <see cref="T:SNetwork.SNet_ChannelType"/> to send the event to</param>
+        </member>
+        <member name="P:GTFO.API.PrefabAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.PrefabAPI"/>
+            </summary>
+        </member>
+        <member name="M:GTFO.API.PrefabAPI.CreateConsumable(System.String,System.Boolean)">
+            <summary>
+            Creates a consumable from the provided asset and applies the necessary shaders and components
+            </summary>
+            <param name="assetName">The asset to create a consumable from</param>
+            <param name="enableEmissive">If the consumable GFX should be emissive</param>
+            <exception cref="T:System.ArgumentException">The asset isn't loaded</exception>
+        </member>
+        <member name="M:GTFO.API.PrefabAPI.CreateConsumablePickup(System.String,System.Boolean)">
+            <summary>
+            Creates a consumable pickup and applies the necessary shaders and components
+            </summary>
+            <param name="assetName">The asset to create a consumable pickup from</param>
+            <param name="enableEmissive">If the consumable pickup GFX should be emissive</param>
+            <exception cref="T:System.ArgumentException">The asset isn't loaded</exception>
+            <exception cref="T:System.Exception">The asset doesn't contain a box collider for interaction</exception>
+        </member>
+        <member name="M:GTFO.API.PrefabAPI.CreateConsumableInstance``1(System.String)">
+            <summary>
+            Creates a consumble instance and applies the necessary shaders and components
+            </summary>
+            <typeparam name="T">A <see cref="T:GTFO.API.Components.ConsumableInstance"/> script to be attached to the asset for customized behavior</typeparam>
+            <param name="assetName">The asset to create a consumable instance from</param>
+            <exception cref="T:System.ArgumentException">The asset isn't loaded</exception>
+            <exception cref="T:System.Exception">The asset doesn't contain a rigidbody</exception>
+        </member>
+        <member name="M:GTFO.API.PrefabAPI.CreateGearComponent(System.String,System.Boolean)">
+            <summary>
+            Creates a gear component and applies necessary shaders and components
+            </summary>
+            <param name="assetName">The asset to create a gear component from</param>
+            <param name="enableEmissive">If the gear component GFX should be emissive</param>
+            <exception cref="T:System.ArgumentException">The asset isn't loaded</exception>
+        </member>
+        <member name="M:GTFO.API.PrefabAPI.CreateSyringe(System.UInt32,System.Action{SyringeFirstPerson})">
+            <summary>
+            Attaches an OnUse action to a syringe by persistent id
+            </summary>
+            <param name="itemPersistentId">The persistent ID of the syringe from the <see cref="T:GameData.ItemDataBlock"/></param>
+            <param name="onUse">The delegate that will be called when the syringe is used</param>
+            <exception cref="T:System.ArgumentException">This persistent ID already has a registered use action</exception>
+        </member>
+        <member name="P:GTFO.API.SoundBankAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.SoundBankAPI"/>
+            </summary>
+        </member>
+        <member name="E:GTFO.API.SoundBankAPI.OnSoundBanksLoaded">
+            <summary>
+            Invoked when all external soundbanks have been loaded (Not invoked if no soundbanks)
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Components.ConsumableInstance">
+            <summary>
+            The core class that is used for consumable instances
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Extensions.ListExtensions">
+            <summary>
+            Container for all extension for <see cref="T:System.Collections.Generic.List`1"/>
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Extensions.ListExtensions.ToIl2Cpp``1(System.Collections.Generic.List{``0})">
+            <summary>
+            Converts the <see cref="T:System.Collections.Generic.List`1"/> to <see cref="T:Il2CppSystem.Collections.Generic.List`1"/>
+            </summary>
+            <returns>A copy of the list as <see cref="T:Il2CppSystem.Collections.Generic.List`1"/></returns>
+        </member>
+        <member name="T:GTFO.API.JSON.JsonSerializer">
+            <summary>
+            Wrapper class for System Json serializer
+            </summary>
+        </member>
+        <member name="P:GTFO.API.JSON.JsonSerializer.DefaultSerializerSettings">
+            <summary>
+            Obtains the serialization options used by PersistentData
+            </summary>
+            <returns>The serialization options used by PersistentData</returns>
+        </member>
+        <member name="P:GTFO.API.JSON.JsonSerializer.DefaultSerializerSettingsWithLocalizedText">
+            <summary>
+            Obtains the serialization options used by PersistentData with LocalizedTextConverter
+            </summary>
+            <returns>The serialization options used by PersistentData with LocalizedTextConverter</returns>
+        </member>
+        <member name="M:GTFO.API.JSON.JsonSerializer.Serialize(System.Object,System.Text.Json.JsonSerializerOptions)">
+            <summary>
+            Converts the object specified into a JSON string.
+            </summary>
+            <param name="value">The value to convert.</param>
+            <param name="options">Options to control serialization behavior. If null: DefaultSerializerSettings will be used</param>
+            <returns>A JSON string representation of the value.</returns>
+        </member>
+        <member name="M:GTFO.API.JSON.JsonSerializer.Deserialize``1(System.String,System.Text.Json.JsonSerializerOptions)">
+            <summary>
+            Parses the JSON text into an instance type of <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T">The target type of the JSON value.</typeparam>
+            <param name="json">The JSON text to parse.</param>
+            <param name="options">Options to control the behavior during parsing.</param>
+            <returns><typeparamref name="T"/> with deserialized JSON data</returns>
+        </member>
+        <member name="T:GTFO.API.Resources.ApiStatusInfo">
+            <summary>
+            Container for API statuses
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.ApiStatusInfo.Created">
+            <summary>
+            If the API handler script has been created
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.ApiStatusInfo.Ready">
+            <summary>
+            If the API handler is ready to be used
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Resources.APIStatus">
+            <summary>
+            Contains all of the usable API status information
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Asset">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.AssetAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Event">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.EventAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.GameData">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.GameDataAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Localization">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.LocalizationAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Il2Cpp">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.Il2CppAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Level">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.LevelAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Network">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.NetworkAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Prefab">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.PrefabAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.SoundBank">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.SoundBankAPI"/>
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Utilities.CoroutineDispatcher">
+            <summary>
+            Utility class for dispatching Coroutine without making new monobehaviour
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.CoroutineDispatcher.StartCoroutine(System.Collections.IEnumerator)">
+            <summary>
+            Start Coroutine (persistent between sessions)
+            </summary>
+            <param name="routine">Coroutine to Run</param>
+            <returns>Coroutine Instance for StopCoroutine</returns>
+        </member>
+        <member name="M:GTFO.API.Utilities.CoroutineDispatcher.StartInLevelCoroutine(System.Collections.IEnumerator)">
+            <summary>
+            Start InLevel Coroutine that will be stopped automatically when you stop playing level
+            </summary>
+            <param name="routine">Coroutine to Run</param>
+            <returns>Coroutine Instance for StopCoroutine, Null if Game is not in Level</returns>
+        </member>
+        <member name="T:GTFO.API.Utilities.LiveEditEventHandler">
+            <summary>
+            LiveEditEventHandler
+            </summary>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="T:GTFO.API.Utilities.LiveEditEventArgs">
+            <summary>
+            LiveEditEvent Arguments
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Utilities.LiveEditEventArgs.Type">
+            <summary>
+            Updated Event Type
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Utilities.LiveEditEventArgs.FullPath">
+            <summary>
+            Full Path to File which it Updated
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Utilities.LiveEditEventArgs.FileName">
+            <summary>
+            Filename which it Updated
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Utilities.LiveEditEventType">
+            <summary>
+            LiveEditEvent Type
+            </summary>
+        </member>
+        <member name="F:GTFO.API.Utilities.LiveEditEventType.Created">
+            <summary>
+            File has created
+            </summary>
+        </member>
+        <member name="F:GTFO.API.Utilities.LiveEditEventType.Deleted">
+            <summary>
+            File has deleted
+            </summary>
+        </member>
+        <member name="F:GTFO.API.Utilities.LiveEditEventType.Renamed">
+            <summary>
+            File has renamed
+            </summary>
+        </member>
+        <member name="F:GTFO.API.Utilities.LiveEditEventType.Changed">
+            <summary>
+            File has changed
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Utilities.LiveEdit">
+            <summary>
+            Utility class to make support of LiveEdit config file for plugins
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.LiveEdit.CreateListener(System.String,System.String,System.Boolean)">
+            <summary>
+            Create the LiveEdit Listener and Allocate
+            </summary>
+            <param name="path">Base Path to Track the change</param>
+            <param name="filter">File filter to filter the files ie) *.json</param>
+            <param name="includeSubDir">Include Sub-directories?</param>
+        </member>
+        <member name="M:GTFO.API.Utilities.LiveEdit.TryReadFileContent(System.String,System.Action{System.String})">
+            <summary>
+            Read File Content safely from file
+            </summary>
+            <param name="filepath">File path to Read all Content</param>
+            <param name="onReaded">Callback when it readed all content</param>
+        </member>
+        <member name="T:GTFO.API.Utilities.LiveEditListener">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Utilities.LiveEditListener.FileChangedEventCooldown">
+            <summary>
+            Cooldown for FileChangedEvent for filtering double call of FileChanged event
+            </summary>
+        </member>
+        <member name="E:GTFO.API.Utilities.LiveEditListener.FileChanged">
+            <summary>
+            Event when File has Changed, Thread-safe
+            </summary>
+        </member>
+        <member name="E:GTFO.API.Utilities.LiveEditListener.FileDeleted">
+            <summary>
+            Event when File has Deleted, Thread-safe
+            </summary>
+        </member>
+        <member name="E:GTFO.API.Utilities.LiveEditListener.FileCreated">
+            <summary>
+            Event when File has Created, Thread-safe
+            </summary>
+        </member>
+        <member name="E:GTFO.API.Utilities.LiveEditListener.FileRenamed">
+            <summary>
+            Event when File has Renamed, Thread-safe
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.LiveEditListener.Dispose">
+            <summary>
+            Dispose LiveEditListener
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.LiveEditListener.StopListen">
+            <summary>
+            Stop Listening LiveEdit
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.LiveEditListener.StartListen">
+            <summary>
+            Start Listening LiveEdit (Default On LiveEdit Allocated)
+            </summary>
+        </member>
+        <member name="T:GTFO.API.Utilities.PersistentData`1">
+            <summary>
+            Utility class used to easily store configuration and data on disk in JSON format
+            </summary>
+            <typeparam name="T">The data type to store on disk</typeparam>
+        </member>
+        <member name="P:GTFO.API.Utilities.PersistentData`1.CurrentData">
+            <summary>
+            The current data instance, loaded automatically when first accessed
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Utilities.PersistentData`1.persistentPath">
+            <summary>
+            The default data path on disk
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Utilities.PersistentData`1.PersistentDataVersion">
+            <summary>
+            The version of the stored data
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.PersistentData`1.Load">
+            <summary>
+            Loads the stored data from the default path and creates default if it didn't exist
+            </summary>
+            <returns>The stored data or default if it didn't exist</returns>
+        </member>
+        <member name="M:GTFO.API.Utilities.PersistentData`1.Load(System.String)">
+            <summary>
+            Loads the stored data from the specified path and creates default if it didn't exist
+            </summary>
+            <param name="path">The path to load from</param>
+            <returns>The stored data or default if it didn't exist</returns>
+        </member>
+        <member name="M:GTFO.API.Utilities.PersistentData`1.Save">
+            <summary>
+            Saves this data to the default path
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.PersistentData`1.Save(System.String)">
+            <summary>
+            Saves this data to the specified path
+            </summary>
+            <param name="path">The path to save to</param>
+        </member>
+        <member name="T:GTFO.API.Utilities.RegexUtils">
+            <summary>
+            Regex utilities class
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.RegexUtils.TryParseVectorString(System.String,System.Single[]@)">
+            <summary>
+            Tries to parse an array of floats from json
+            </summary>
+            <param name="input">Json input string</param>
+            <param name="vectorArray">Resulting array of floats</param>
+            <returns>Whether parse was successful</returns>
+        </member>
+        <member name="T:GTFO.API.Utilities.ThreadDispatcher">
+            <summary>
+            Utility class for dispatching threads on the Unity main thread
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.ThreadDispatcher.Dispatch(System.Action)">
+            <summary>
+            Queues an action up to be executed on the next frame
+            </summary>
+            <param name="action">Action to execute on unity's main thread</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,38 @@
+[
+    {
+        "Enabled": true,
+        "FogColor": {
+          "a": 0.0,
+          "r": 0.847058833,
+          "g": 1.0,
+          "b": 0.956862748
+        },
+        "FogDensity": 0.001,
+        "FogAmbience": 0.1,
+        "DensityNoiseDirection": {
+          "x": 0.5,
+          "y": 0.2,
+          "z": 0.5,
+          "normalized": {
+            "x": 0.577350259,
+            "y": 0.577350259,
+            "z": 0.577350259,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "DensityNoiseSpeed": 0.034,
+        "DensityNoiseScale": 0.2,
+        "DensityHeightAltitude": 0.6,
+        "DensityHeightRange": 0.3,
+        "DensityHeightMaxBoost": 0.02,
+        "Infection": 0.0,
+        "name": "Chapter1 D1 FogSettings, light fog",
+        "Comment": "ID 501",
+        "internalEnabled": true,
+        "persistentID": "ch1d1FogSettings",
+        "datablock": "FogSettings"
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "SpawnsPerZone": 3,
+        "ChanceToSpawnInResourceContainer": 1.0,
+        "SpawnData": [
+          {
+            "ItemID": 116,
+            "Weight": 10.0
+          },
+          {
+            "ItemID": 115,
+            "Weight": 1.0
+          },
+          {
+            "ItemID": 174,
+            "Weight": 5.0
+          },
+          {
+            "ItemID": 140,
+            "Weight": 1.0
+          },
+          {
+            "ItemID": 142,
+            "Weight": 1.0
+          },
+          {
+            "ItemID": 139,
+            "Weight": 1.0
+          },
+          {
+            "ItemID": 117,
+            "Weight": 1.0
+          },
+          {
+            "ItemID": 30,
+            "Weight": 3.0
+          }
+        ],
+        "name": "devolutionBaseConsumableDistribution",
+        "internalEnabled": true,
+        "persistentID": "devileDefaultConsumableDistribution",
+        "datablock": "ConsumableDistribution"
+    },
+    {
+        "SpawnsPerZone": 2,
+        "ChanceToSpawnInResourceContainer": 1.0,
+        "SpawnData": [
+            {
+                "ItemID": 114,
+                "Weight": 1.0
+            },
+            {
+                "ItemID": 130,
+                "Weight": 1.0
+            },
+            {
+                "ItemID": 167,
+                "Weight": 1.0
+            },
+            {
+                "ItemID": 174,
+                "Weight": 1.0
+            }
+        ],
+        "name": "devolutionGlowStickTroll",
+        "internalEnabled": true,
+        "persistentID": "devileGlowStickTroll",
+        "datablock": "ConsumableDistribution"
+    },
+    {
+      "SpawnsPerZone": 4,
+      "ChanceToSpawnInResourceContainer": 1.0,
+      "SpawnData": [
+        {
+          "ItemID": 117,
+          "Weight": 10.0
+        }
+      ],
+      "name": "fogRepConcumableDistribution",
+      "internalEnabled": true,
+      "persistentID": "devileFogRepHeavyConsumableDistribution",
+      "datablock": "ConsumableDistribution"
+  }
+]

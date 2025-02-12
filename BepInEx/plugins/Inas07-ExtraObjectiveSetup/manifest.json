@@ -1,0 +1,10 @@
+{
+    "name": "ExtraObjectiveSetup",
+    "version_number": "1.6.4",
+    "website_url": "https://github.com/Inas-07/ExtraObjectiveSetup",
+    "description": "Further customize your level design!",
+    "dependencies": [
+        "dakkhuza-MTFO-4.5.0",
+        "BepInEx-BepInExPack_GTFO-3.2.0"
+    ]
+}

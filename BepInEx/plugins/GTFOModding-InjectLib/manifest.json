@@ -1,0 +1,9 @@
+{
+  "name": "InjectLib",
+  "version_number": "1.0.2",
+  "website_url": "https://github.com/GTFO-Modding/InjectLib",
+  "description": "Dauda wants to inject things",
+  "dependencies": [
+    "BepInEx-BepInExPack_GTFO-3.2.1"
+  ]
+}

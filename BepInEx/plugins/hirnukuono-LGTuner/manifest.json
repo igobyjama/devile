@@ -1,0 +1,11 @@
+{
+    "name": "LGTuner",
+    "author": "hirnukuono",
+    "version_number": "1.1.2",
+    "website_url": "",
+    "description": "Flowaria LGTuner, tweaked",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.1",
+        "dakkhuza-MTFO-4.6.1"
+    ]
+}

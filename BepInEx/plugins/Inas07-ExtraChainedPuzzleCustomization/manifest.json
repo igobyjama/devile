@@ -1,0 +1,10 @@
+{
+    "name": "ExtraChainedPuzzleCustomization",
+    "version_number": "1.6.7",
+    "description": "Customize your security scan",
+    "website_url": "",
+    "dependencies": [
+    	"BepInEx-BepInExPack_GTFO-3.2.0",
+	"dakkhuza-MTFO-4.4.4"
+     ]
+}

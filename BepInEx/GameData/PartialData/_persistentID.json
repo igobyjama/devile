@@ -1,0 +1,11 @@
+[
+	//AUTO-GENERATED PERSISTENT ID LIST
+	{ "GUID": "ch1d1FogSettings", "ID": 255 },
+	{ "GUID": "ch1d1LayoutMain", "ID": 65535 },
+	{ "GUID": "ch1d1LayoutSecondary", "ID": 65534 },
+	{ "GUID": "ch1d1ObjectiveMain", "ID": 65535 },
+	{ "GUID": "devileDefaultConsumableDistribution", "ID": 65535 },
+	{ "GUID": "devileGlowStickTroll", "ID": 65534 },
+	{ "GUID": "devileFogRepHeavyConsumableDistribution", "ID": 65533 },
+	{ "GUID": "unsolvable_obj", "ID": 65534 }
+]

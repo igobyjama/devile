@@ -1,0 +1,7 @@
+{
+  "name": "CConsole",
+  "version_number": "0.12.1",
+  "website_url": "",
+  "description": "CUI-Based Utility Plugin for Rundown Developers",
+  "dependencies": []
+}

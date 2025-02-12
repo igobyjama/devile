@@ -1,0 +1,284 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack_GTFO
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/gtfo/p/BepInEx/BepInExPack_GTFO/
+  displayName: BepInExPack_GTFO
+  description: BepInEx pack for GTFO. Preconfigured and includes Unity Base DLLs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228161972
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/BepInEx-BepInExPack_GTFO/3.2.1/icon.png
+- manifestVersion: 1
+  name: dakkhuza-MTFO
+  authorName: dakkhuza
+  websiteUrl: https://thunderstore.io/c/gtfo/p/dakkhuza/MTFO/
+  displayName: MTFO
+  description: The premier in GTFO DataBlock editing ;^)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228162025
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-1.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 6
+    patch: 2
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/dakkhuza-MTFO/4.6.2/icon.png
+- manifestVersion: 1
+  name: GTFOModding-InjectLib
+  authorName: GTFOModding
+  websiteUrl: https://thunderstore.io/c/gtfo/p/GTFOModding/InjectLib/
+  displayName: InjectLib
+  description: Dauda wants to inject things
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228176613
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/GTFOModding-InjectLib/1.0.2/icon.png
+- manifestVersion: 1
+  name: Flowaria-MTFO_Extension_PartialData
+  authorName: Flowaria
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Flowaria/MTFO_Extension_PartialData/
+  displayName: MTFO_Extension_PartialData
+  description: Add PartialData Support for your MTFO
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228184635
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.0
+    - GTFOModding-InjectLib-1.0.1
+    - dakkhuza-MTFO-4.5.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 3
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Flowaria-MTFO_Extension_PartialData/1.4.3/icon.png
+- manifestVersion: 1
+  name: hirnukuono-AWOPartialDataFixer
+  authorName: hirnukuono
+  websiteUrl: https://thunderstore.io/c/gtfo/p/hirnukuono/AWOPartialDataFixer/
+  displayName: AWOPartialDataFixer
+  description: PartialData with AWO and inheritance support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228192299
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+    - dakkhuza-MTFO-4.6.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 1
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/hirnukuono-AWOPartialDataFixer/1.5.1/icon.png
+- manifestVersion: 1
+  name: hirnukuono-AdvancedWardenObjective
+  authorName: hirnukuono
+  websiteUrl: https://thunderstore.io/c/gtfo/p/hirnukuono/AdvancedWardenObjective/
+  displayName: AdvancedWardenObjective
+  description: A modern fork of Flowaria's AdvancedWardenObjective (AWO). Now with
+    50+ warden events!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228195218
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+    - GTFOModding-InjectLib-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/hirnukuono-AdvancedWardenObjective/2.0.3/icon.png
+- manifestVersion: 1
+  name: Inas07-ExtraObjectiveSetup
+  authorName: Inas07
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Inas07/ExtraObjectiveSetup/
+  displayName: ExtraObjectiveSetup
+  description: Further customize your level design!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228205251
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.0
+    - dakkhuza-MTFO-4.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 4
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Inas07-ExtraObjectiveSetup/1.6.4/icon.png
+- manifestVersion: 1
+  name: Inas07-ExtraChainedPuzzleCustomization
+  authorName: Inas07
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Inas07/ExtraChainedPuzzleCustomization/
+  displayName: ExtraChainedPuzzleCustomization
+  description: Customize your security scan
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228216548
+  loaders: []
+  dependencies:
+    - dakkhuza-MTFO-4.4.4
+    - BepInEx-BepInExPack_GTFO-3.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 7
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Inas07-ExtraChainedPuzzleCustomization/1.6.7/icon.png
+- manifestVersion: 1
+  name: Inas07-LocalProgression
+  authorName: Inas07
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Inas07/LocalProgression/
+  displayName: LocalProgression
+  description: Record Modded Rundown Clears on your PC!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228223283
+  loaders: []
+  dependencies:
+    - dakkhuza-MTFO-4.4.4
+    - BepInEx-BepInExPack_GTFO-3.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 7
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Inas07-LocalProgression/1.3.7/icon.png
+- manifestVersion: 1
+  name: Dinorush-InheritanceDataBlocks
+  authorName: Dinorush
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Dinorush/InheritanceDataBlocks/
+  displayName: InheritanceDataBlocks
+  description: Allows datablocks to inherit fields from another.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228236426
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+    - GTFOModding-InjectLib-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 5
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Dinorush-InheritanceDataBlocks/1.1.5/icon.png
+- manifestVersion: 1
+  name: hirnukuono-LGTuner
+  authorName: hirnukuono
+  websiteUrl: https://thunderstore.io/c/gtfo/p/hirnukuono/LGTuner/
+  displayName: LGTuner
+  description: Flowaria LGTuner, tweaked
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228250897
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+    - dakkhuza-MTFO-4.6.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/hirnukuono-LGTuner/1.1.2/icon.png
+- manifestVersion: 1
+  name: GTFOModding-CConsole
+  authorName: GTFOModding
+  websiteUrl: https://thunderstore.io/c/gtfo/p/GTFOModding/CConsole/
+  displayName: CConsole
+  description: CUI-Based Utility Plugin for Rundown Developers
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1739228301798
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 12
+    patch: 1
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/GTFOModding-CConsole/0.12.1/icon.png

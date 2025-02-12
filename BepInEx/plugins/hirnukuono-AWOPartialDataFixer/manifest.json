@@ -1,0 +1,11 @@
+{
+    "name": "AWOPartialDataFixer",
+    "author": "hirnukuono",
+    "version_number": "1.5.1",
+    "website_url": "",
+    "description": "PartialData with AWO and inheritance support",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.1",
+        "dakkhuza-MTFO-4.6.2"
+    ]
+}

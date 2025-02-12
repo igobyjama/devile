@@ -1,0 +1,50 @@
+{
+  "MainLevelLayout": 0,
+  "Puzzles": [
+    {
+      "Index": 0,
+      "Position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "HideSpline": false,
+      "PrevPosOverride": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "PrevPosOverrideIndex": 0,
+      "ConcurrentCluster": false,
+      "TMoveSpeedMulti": -1,
+      "EventsOnBioscanProgress": [
+        {
+          "Progress": -1,
+          "Events": []
+        }
+      ],
+      "EventsOnClusterProgress": [
+        {
+          "Count": -1,
+          "Events": []
+        }
+      ],
+      "TPositions": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "RequiredItemsIndices": [
+        0
+      ],
+      "EventsOnPuzzleSolved": []
+    }
+  ]
+}
