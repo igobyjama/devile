@@ -145,7 +145,7 @@
                   "MLSLevelKit": 0,
                   "LightSettings": 19,
                   "FogSettings": "ch1d1FogSettings",
-                  "EnemyPopulation": 1,
+                  "EnemyPopulation": "devileDefaultPopulation",
                   "ExpeditionBalance": 1,
                   "ScoutWaveSettings": 3,
                   "ScoutWavePopulation": 1,

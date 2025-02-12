@@ -15,6 +15,30 @@
         "datablock": "EnemyPopulation",
         "RoleDatas": [
             {
+                "Role": 8,
+                "Difficulty": 0,
+                "Enemy": 38,
+                "Cost": 1.0,
+                "Weight": 1.0,
+                "Comment": "Baby"
+            },
+            {
+                "Role": 9,
+                "Difficulty": 3,
+                "Enemy": 36,
+                "Cost": 10.0,
+                "Weight": 1.0,
+                "Comment": "breederHibernate"
+            },
+            {
+                "Role": 2,
+                "Difficulty": 50,
+                "Enemy": 29,
+                "Cost": 10.0,
+                "Weight": 1.0,
+                "Comment": "Tank"
+            },
+            {
                 "Role": 5,
                 "Difficulty": 75,
                 "Enemy": 20,

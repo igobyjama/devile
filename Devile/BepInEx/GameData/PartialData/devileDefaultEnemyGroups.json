@@ -1,5 +1,60 @@
 [
     {
+        "Type": 0,
+        "Difficulty": 50,
+        "SpawnPlacementType": 0,
+        "MaxScore": 10.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 1.0,
+        "Roles": [
+        {
+            "Role": 2,
+            "Distribution": 1
+        }
+        ],
+        "name": "Tank",
+        "Comment": "Sleeper Tank",
+        "internalEnabled": true,
+        "persistentID": "tank_sleep",
+        "datablock": "EnemyGroup"
+    },
+    {
+        "Type": 6,
+        "Difficulty": 50,
+        "SpawnPlacementType": 0,
+        "MaxScore": 10.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 1.0,
+        "Roles": [
+        {
+            "Role": 2,
+            "Distribution": 1
+        }
+        ],
+        "name": "Blood door Tank Wake",
+        "internalEnabled": true,
+        "persistentID": "bd_tank_wake",
+        "datablock": "EnemyGroup"
+    },
+    {
+        "Type": 6,
+        "Difficulty": 50,
+        "SpawnPlacementType": 0,
+        "MaxScore": 20.0,
+        "ScoreInAreaPaddingMulti": 1.0,
+        "RelativeWeight": 1.0,
+        "Roles": [
+        {
+            "Role": 2,
+            "Distribution": 5
+        }
+        ],
+        "name": "Blood door Tank Wake",
+        "internalEnabled": true,
+        "persistentID": "bd_tank_wake_x2",
+        "datablock": "EnemyGroup"
+    },
+    {
         "Type": 1,
         "Difficulty": 75,
         "SpawnPlacementType": 0,
