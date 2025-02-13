@@ -77,13 +77,13 @@
           "EnemyGroupsInArea": 0
         },
         "EnemySpawningInZone": [
-          {
-            "GroupType": 0,
-            "Difficulty": 100,
-            "Distribution": 2,
-            "DistributionValue": 1.6,
-            "Comment": "Basic mix 16 score"
-          }
+          //{
+            //"GroupType": 0,
+            //"Difficulty": 100,
+            //"Distribution": 2,
+            //"DistributionValue": 1.6,
+            //"Comment": "Basic mix 16 score"
+          //}
         ],
         "EnemyRespawning": false,
         "EnemyRespawnRequireOtherZone": true,
@@ -210,7 +210,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d1_ClassV",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
