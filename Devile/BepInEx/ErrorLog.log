@@ -1,3 +1,0 @@
-Setting breakpad minidump AppID = 493520
-SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198057761629 [API loaded no]
-src\steamnetworkingsockets\clientlib\steamnetworkingsockets_lowlevel.cpp (4056) : Trying to close low level socket support, but we still have sockets open!
