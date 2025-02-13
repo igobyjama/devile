@@ -1,13 +1,14 @@
 [
 	//AUTO-GENERATED PERSISTENT ID LIST
 	{ "GUID": "ch1d1_ClassV", "ID": 65535 },
+	{ "GUID": "ch1d1_ClassIII_all_cluster", "ID": 65534 },
 	{ "GUID": "ch1d1FogSettings", "ID": 255 },
 	{ "GUID": "ch1d1LayoutMain", "ID": 65535 },
 	{ "GUID": "ch1d1LayoutSecondary", "ID": 65534 },
 	{ "GUID": "ch1d1ObjectiveMain", "ID": 65535 },
 	{ "GUID": "ch1d1ObjectiveSecondary", "ID": 65534 },
 	{ "GUID": "ch1d1_BasicMix", "ID": 255 },
-	{ "GUID": "devileTeamScan", "ID": 65534 },
+	{ "GUID": "devileTeamScan", "ID": 65533 },
 	{ "GUID": "devileDefaultConsumableDistribution", "ID": 65535 },
 	{ "GUID": "devileGlowStickTroll", "ID": 65534 },
 	{ "GUID": "devileFogRepHeavyConsumableDistribution", "ID": 65533 },

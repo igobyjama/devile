@@ -210,7 +210,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": "ch1d1_ClassV",
+        "ChainedPuzzleToEnter": 0,
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -364,7 +364,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d1_ClassV",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -839,7 +839,7 @@
             }
           ]
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d1_ClassI_S",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -1584,7 +1584,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d1_ClassIII_S",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,

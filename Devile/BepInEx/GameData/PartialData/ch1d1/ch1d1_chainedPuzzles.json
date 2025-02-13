@@ -32,6 +32,60 @@
 		"name": "Ch1 D1 class V basic mix ",
 		"internalEnabled": true,
 		"persistentID": "ch1d1_ClassV",
-		"datablock": "ChainedPuzzle"
+		"datablock": "ChainedPuzzle",
+        "Comment": "All - Big - Smalls - Big - Smalls"
+	},
+    {
+		"PublicAlarmName": "Alarm Class III S",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "ch1d1_BasicMix",
+		"SurvivalWavePopulation": "baselineWave_DevileCommonWavePopulation",
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 12.0,
+		"WantedDistanceBetweenPuzzleComponents": 18.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 48
+			},
+			{
+				"PuzzleType": 48
+			},
+			{
+				"PuzzleType": 48
+			}
+
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Ch1 D1 class III S",
+		"internalEnabled": true,
+		"persistentID": "ch1d1_ClassIII_S",
+		"datablock": "ChainedPuzzle",
+        "Comment": "3 x S - bridge hub scan"
+	},
+    {
+		"PublicAlarmName": "Alarm Class I S",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "ch1d1_BasicMix",
+		"SurvivalWavePopulation": "baselineWave_DevileCommonWavePopulation",
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 12.0,
+		"WantedDistanceBetweenPuzzleComponents": 18.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 48
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Ch1 D1 class III S",
+		"internalEnabled": true,
+		"persistentID": "ch1d1_ClassI_S",
+		"datablock": "ChainedPuzzle",
+        "Comment": "1 x S - mid error scan"
 	}
 ]
