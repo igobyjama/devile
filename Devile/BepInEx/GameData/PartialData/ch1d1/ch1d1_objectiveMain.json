@@ -26,13 +26,25 @@
     "FogTransitionDataOnElevatorLand": 0,
     "FogTransitionDurationOnElevatorLand": 0.0,
     "OnActivateOnSolveItem": false,
-    "WavesOnActivate": [],
+    "WavesOnActivate": [
+
+    ],
     "EventsOnActivate": [],
     "StopAllWavesBeforeGotoWin": false,
-    "WavesOnGotoWin": [],
+    "WavesOnGotoWin": [
+      {
+        "WaveSettings": "ch1d1_extractionMix",
+        "WavePopulation": "ch1d1_extraction_SurvivarlWavePopulation",
+        "AreaDistance": 2,
+        "SpawnDelay": 3.0,
+        "TriggerAlarm": true,
+        "IntelMessage": 0
+      }
+    ],
     "WaveOnGotoWinTrigger": 0,
     "EventsOnGotoWin": [
         {
+
             "Comment": "Open door to main ZONE_1 after Reactor startup",
             "Type": 2,
             "Condition": {

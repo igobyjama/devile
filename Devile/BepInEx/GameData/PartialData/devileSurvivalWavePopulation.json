@@ -22,5 +22,17 @@
         "persistentID": "ch1d1_errorSurvivarlWavePopulation",
         "datablock": "SurvivalWavePopulation",
         "Comment": "Shadow, Striker, Giant, Hybrid, Hybrid"
-        }
+    },
+    {
+        "WaveRoleWeakling": 11,
+        "WaveRoleStandard": 13,
+        "WaveRoleSpecial": 33,
+        "WaveRoleMiniBoss": 33,
+        "WaveRoleBoss": 33,
+        "name": "Devile ch1d1 population for extraction error",
+        "internalEnabled": true,
+        "persistentID": "ch1d1_extraction_SurvivarlWavePopulation",
+        "datablock": "SurvivalWavePopulation",
+        "Comment": "Shooter, Striker, Hybrid, Hybrid, Hybrid"
+    }
 ]
