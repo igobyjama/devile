@@ -91,7 +91,15 @@
                 "Enemy": 28,
                 "Cost": 2.0,
                 "Weight": 1.0,
-                "Comment": "Diff 101 - ensured giant striker spawn"
+                "Comment": "Diff 101 - ensured giant striker spawn used with 4 x giant spawns"
+            },
+            {
+                "Role": 0,
+                "Difficulty": 102,
+                "Enemy": 28,
+                "Cost": 2.0,
+                "Weight": 1.0,
+                "Comment": "Diff 102 - ensured giant striker spawn used with 2 x giant spawns"
             },
             {
                 "Role": 8,

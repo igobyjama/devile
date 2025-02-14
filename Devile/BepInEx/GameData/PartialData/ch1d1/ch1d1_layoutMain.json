@@ -409,7 +409,7 @@
         "AllowSmallPickupsAllocation": true,
         "AllowResourceContainerAllocation": true,
         "ForceBigPickupsAllocation": false,
-        "ConsumableDistributionInZone": "devileDefaultConsumableDistribution",
+        "ConsumableDistributionInZone": "fogRepConcumableDistribution",
         "BigPickupDistributionInZone": 0,
         "TerminalPlacements": [
           {
@@ -541,10 +541,10 @@
         "EnemySpawningInZone": [
           {
             "GroupType": 0,
-            "Difficulty": 101,
+            "Difficulty": 102,
             "Distribution": 2,
             "DistributionValue": 1.2,
-            "Comment": "Basic mix 12 score"
+            "Comment": "Giants score"
           },
           {
             "GroupType": 1,
@@ -584,7 +584,7 @@
             "PlacementWeights": {
               "Start": 0.0,
               "Middle": 0.0,
-              "End": 0.0
+              "End": 100.0
             },
             "AreaSeedOffset": 0,
             "MarkerSeedOffset": 1996,
@@ -859,29 +859,26 @@
             {
               "DimensionIndex": 0,
               "LocalIndex": 4,
-              "SeedType": 0,
               "Weights": {
                 "Start": 0.0,
                 "Middle": 0.0,
+                "End": 1000.0
+              }
+            },
+            {
+              "DimensionIndex": 0,
+              "LocalIndex": 4,
+              "Weights": {
+                "Start": 0.0,
+                "Middle": 1000.0,
                 "End": 0.0
               }
             },
             {
               "DimensionIndex": 0,
               "LocalIndex": 4,
-              "SeedType": 0,
               "Weights": {
-                "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
-              }
-            },
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "SeedType": 0,
-              "Weights": {
-                "Start": 0.0,
+                "Start": 1000.0,
                 "Middle": 0.0,
                 "End": 0.0
               }
@@ -913,8 +910,22 @@
             "GroupType": 0,
             "Difficulty": 100,
             "Distribution": 2,
-            "DistributionValue": 1.6,
-            "Comment": "Basic mix 16 score"
+            "DistributionValue": 2.0,
+            "Comment": "Basic mix 20 score"
+          },
+          {
+            "GroupType": 1,
+            "Difficulty": 75,
+            "Distribution": 1,
+            "DistributionValue": 1,
+            "Comment": "Forced Scout"
+          },          
+          {
+            "GroupType": 1,
+            "Difficulty": 75,
+            "Distribution": 1,
+            "DistributionValue": 1,
+            "Comment": "Forced Scout"
           }
         ],
         "EnemyRespawning": false,
@@ -1046,28 +1057,8 @@
               "LocalIndex": 4,
               "SeedType": 0,
               "Weights": {
-                "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
-              }
-            },
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "SeedType": 0,
-              "Weights": {
-                "Start": 0.0,
-                "Middle": 0.0,
-                "End": 0.0
-              }
-            },
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "SeedType": 0,
-              "Weights": {
-                "Start": 0.0,
-                "Middle": 0.0,
+                "Start": 1000.0,
+                "Middle": 1000.0,
                 "End": 0.0
               }
             }
@@ -1275,6 +1266,13 @@
             "Distribution": 1,
             "DistributionValue": 1,
             "Comment": "Forced Scout"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 100,
+            "Distribution": 2,
+            "DistributionValue": 2.4,
+            "Comment": "Basic mix 24 score"
           }
         ],
         "EnemyRespawning": false,
@@ -1441,8 +1439,8 @@
             "GroupType": 0,
             "Difficulty": 100,
             "Distribution": 2,
-            "DistributionValue": 2.0,
-            "Comment": "Basic mix 20 score"
+            "DistributionValue": 2.4,
+            "Comment": "Basic mix 24 score"
           }
         ],
         "EnemyRespawning": false,
@@ -1609,8 +1607,8 @@
             "GroupType": 0,
             "Difficulty": 100,
             "Distribution": 2,
-            "DistributionValue": 2.0,
-            "Comment": "Basic mix 20 score"
+            "DistributionValue": 2.4,
+            "Comment": "Basic mix 24 score"
           }
         ],
         "EnemyRespawning": false,
@@ -1777,8 +1775,8 @@
             "GroupType": 0,
             "Difficulty": 100,
             "Distribution": 2,
-            "DistributionValue": 2.0,
-            "Comment": "Basic mix 20 score"
+            "DistributionValue": 2.4,
+            "Comment": "Basic mix 24 score"
           }
         ],
         "EnemyRespawning": false,
@@ -1837,7 +1835,7 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.8,
+        "WeaponAmmoMulti": 0.6,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
