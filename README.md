@@ -1,7 +1,7 @@
 # devile
 GTFO modded rundown
 
-Installatin:
+Installation:
 
 1. Download zip file. 
 2. Create profile in Thunderstore mod manager.
