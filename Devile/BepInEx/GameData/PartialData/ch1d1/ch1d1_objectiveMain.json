@@ -5,7 +5,7 @@
     "WardenObjectiveSpecialUpdateType": 2,
     "GenericItemFromStart": 0,
     "DoNotMarkPickupItemsAsWardenObjectives": false,
-    "FindLocationInfo": "Locate required terminals and download local data from all of them",
+    "FindLocationInfo": "Locate required terminals in [ZONE_2], [ZONE_8], [ZONE_9] and [ZONE_10] to download local data from all of them",
     "FindLocationInfoHelp": 0,
     "GoToZone": "Locate Terminal and find the location of other terminals on the quadrants",
     "GoToZoneHelp": "",
