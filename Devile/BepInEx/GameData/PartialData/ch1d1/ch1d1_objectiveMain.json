@@ -27,7 +27,6 @@
     "FogTransitionDurationOnElevatorLand": 0.0,
     "OnActivateOnSolveItem": false,
     "WavesOnActivate": [
-
     ],
     "EventsOnActivate": [],
     "StopAllWavesBeforeGotoWin": false,
@@ -43,52 +42,51 @@
     ],
     "WaveOnGotoWinTrigger": 0,
     "EventsOnGotoWin": [
-        {
-
-            "Comment": "Open door to main ZONE_1 after Reactor startup",
-            "Type": 2,
-            "Condition": {
-              "ConditionIndex": -1,
-              "IsTrue": false
-            },
-            "Trigger": 2,
-            "ChainPuzzle": 0,
-            "UseStaticBioscanPoints": false,
-            "Layer": 1,
-            "DimensionIndex": 0,
-            "LocalIndex": 0,
-            "Delay": 5.0,
-            "Duration": 0.0,
-            "ClearDimension": false,
-            "WardenIntel": "<color=orange>Bulkhead door to secondary objective is open.</color>",
-            "CustomSubObjectiveHeader": 0,
-            "CustomSubObjective": 0,
-            "SoundID": 0,
-            "SoundSubtitle": 0,
-            "DialogueID": 0,
-            "FogSetting": 0,
-            "FogTransitionDuration": 0.0,
-            "EnemyWaveData": {
+      {
+        "Comment": "Open door to main ZONE_1 after Reactor startup",
+        "Type": 2,
+        "Condition": {
+          "ConditionIndex": -1,
+          "IsTrue": false
+         },
+         "Trigger": 2,
+          "ChainPuzzle": 0,
+          "UseStaticBioscanPoints": false,
+          "Layer": 1,
+          "DimensionIndex": 0,
+          "LocalIndex": 0,
+          "Delay": 5.0,
+          "Duration": 0.0,
+          "ClearDimension": false,
+          "WardenIntel": "<color=orange>Bulkhead door to secondary objective is open.</color>",
+          "CustomSubObjectiveHeader": 0,
+          "CustomSubObjective": 0,
+          "SoundID": 0,
+          "SoundSubtitle": 0,
+          "DialogueID": 0,
+          "FogSetting": 0,
+          "FogTransitionDuration": 0.0,
+          "EnemyWaveData": {
               "WaveSettings": 0,
               "WavePopulation": 0,
               "AreaDistance": 2,
               "SpawnDelay": 0.0,
               "TriggerAlarm": false,
               "IntelMessage": 0
-            },
-            "EnemyID": 0,
-            "Position": {
+          },
+          "EnemyID": 0,
+          "Position": {
               "x": 0.0,
               "y": 0.0,
               "z": 0.0,
               "magnitude": 0.0,
               "sqrMagnitude": 0.0
             },
-            "Count": 0,
-            "Enabled": false,
-            "TerminalCommand": 0,
-            "TerminalCommandRule": 0
-        }
+          "Count": 0,
+          "Enabled": false,
+          "TerminalCommand": 0,
+          "TerminalCommandRule": 0
+       }
     ],
     "EventsOnGotoWinTrigger": 0,
     "FogTransitionDataOnGotoWin": 0,

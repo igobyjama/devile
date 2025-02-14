@@ -250,11 +250,12 @@
                         {
                         "DimensionIndex": 0,
                         "LocalIndex": 0,
+                        "SeedType": 0,
                         "Weights": {
                           "Start": 0.0,
-                          "Middle": 0.0,
-                          "End": 1000.0
-                        }
+                          "Middle": 0.5,
+                          "End": 0.5
+                          }
                         }
                       ]
                     ]

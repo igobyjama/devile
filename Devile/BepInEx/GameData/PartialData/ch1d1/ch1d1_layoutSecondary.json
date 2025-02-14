@@ -51,7 +51,7 @@
             ],
             "ProgressionPuzzleToEnter": {
               "PuzzleType": 3,
-              "CustomText": "LOCKDOWN",
+              "CustomText": "//:ERROR LOCKDOWN",
               "PlacementCount": 1,
               "ZonePlacementData": []
             },
@@ -76,6 +76,41 @@
               "EnemyGroupsInArea": 0
             },
             "EnemySpawningInZone": [
+              {
+                "GroupType": 0,
+                "Difficulty": 51,
+                "Distribution": 1,
+                "DistributionValue": 1,
+                "Comment": "Forced Breeder - Hibernate"
+              },
+              {
+                "GroupType": 0,
+                "Difficulty": 51,
+                "Distribution": 1,
+                "DistributionValue": 1,
+                "Comment": "Forced Breeder - Hibernate"
+              },
+              {
+                "GroupType": 1,
+                "Difficulty": 75,
+                "Distribution": 1,
+                "DistributionValue": 1,
+                "Comment": "Forced Scout"
+              },
+              {
+                "GroupType": 1,
+                "Difficulty": 75,
+                "Distribution": 1,
+                "DistributionValue": 1,
+                "Comment": "Forced Scout"
+              },
+              {
+                "GroupType": 0,
+                "Difficulty": 149,
+                "Distribution": 2,
+                "DistributionValue": 1.8,
+                "Comment": "Breeder child - Hibernate"
+              }
             ],
             "EnemyRespawning": false,
             "EnemyRespawnRequireOtherZone": true,
@@ -92,7 +127,7 @@
             "DeconUnitsInZone": 0,
             "AllowSmallPickupsAllocation": true,
             "AllowResourceContainerAllocation": true,
-            "ForceBigPickupsAllocation": false,
+            "ForceBigPickupsAllocation": true,
             "ConsumableDistributionInZone": "devileDefaultConsumableDistribution",
             "BigPickupDistributionInZone": 0,
             "TerminalPlacements": [

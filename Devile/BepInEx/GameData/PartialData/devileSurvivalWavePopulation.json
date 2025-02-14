@@ -1,15 +1,15 @@
 [
     {
-    "WaveRoleWeakling": 21,
-    "WaveRoleStandard": 13,
-    "WaveRoleSpecial": 11,
-    "WaveRoleMiniBoss": 16,
-    "WaveRoleBoss": 33,
-    "name": "Devile baseline population for survival waves",
-    "internalEnabled": true,
-    "persistentID": "baselineWave_DevileCommonWavePopulation",
-    "datablock": "SurvivalWavePopulation",
-    "Comment": "Shadow, Striker, shooter, giant, Hybrid"
+        "WaveRoleWeakling": 21,
+        "WaveRoleStandard": 13,
+        "WaveRoleSpecial": 11,
+        "WaveRoleMiniBoss": 16,
+        "WaveRoleBoss": 33,
+        "name": "Devile baseline population for survival waves",
+        "internalEnabled": true,
+        "persistentID": "baselineWave_DevileCommonWavePopulation",
+        "datablock": "SurvivalWavePopulation",
+        "Comment": "Shadow, Striker, shooter, giant, Hybrid"
     },
     {
         "WaveRoleWeakling": 21,

@@ -1,7 +1,7 @@
 {
     "Type": 6,
-    "Header": "Retrieve HISEC_CARGO",
-    "MainObjective": "Locate HISEC_CARGO",
+    "Header": "Retrieve CARGO",
+    "MainObjective": "Locate CARGO",
     "WardenObjectiveSpecialUpdateType": 0,
     "GenericItemFromStart": 0,
     "DoNotMarkPickupItemsAsWardenObjectives": false,
