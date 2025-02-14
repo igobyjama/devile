@@ -28,5 +28,35 @@
         "persistentID": "ch1d1_BasicMix",
         "datablock": "SurvivalWaveSettings",
         "Comment": "Use with - baselineWave_DevileCommonWavePopulation"
+    },
+    {
+        "m_pauseBeforeStart": 3.0,
+        "m_pauseBetweenGroups": 30.0,
+        "m_wavePauseMin_atCost": 3.0,
+        "m_wavePauseMax_atCost": 10.0,
+        "m_wavePauseMin": 3.0,
+        "m_wavePauseMax": 10.0,
+        "m_populationFilter": [
+            1,
+            2,
+            3
+        ],
+        "m_filterType": 0,
+        "m_chanceToRandomizeSpawnDirectionPerWave": 0.0,
+        "m_chanceToRandomizeSpawnDirectionPerGroup": 0.0,
+        "m_overrideWaveSpawnType": false,
+        "m_survivalWaveSpawnType": 6,
+        "m_populationPointsTotal": -1.0,
+        "m_populationPointsPerWaveStart": 10.0,
+        "m_populationPointsPerWaveEnd": 10.0,
+        "m_populationPointsMinPerGroup": 5.0,
+        "m_populationPointsPerGroupStart": 5.0,
+        "m_populationPointsPerGroupEnd": 10.0,
+        "m_populationRampOverTime": 200.0,
+        "name": "CH1 - D1 error hybrid giant striker mix",
+        "internalEnabled": true,
+        "persistentID": "ch1d1_errorMix",
+        "datablock": "SurvivalWaveSettings",
+        "Comment": "Use with - baselineWave_DevileCommonWavePopulation"
     }
 ]

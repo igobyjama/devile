@@ -1,14 +1,17 @@
 [
 	//AUTO-GENERATED PERSISTENT ID LIST
 	{ "GUID": "ch1d1_ClassV", "ID": 65535 },
-	{ "GUID": "ch1d1_ClassIII_all_cluster", "ID": 65534 },
+	{ "GUID": "ch1d1_ClassIII_S", "ID": 65534 },
+	{ "GUID": "ch1d1_ClassI_S", "ID": 65533 },
+	{ "GUID": "ch1d1_S_error", "ID": 65532 },
 	{ "GUID": "ch1d1FogSettings", "ID": 255 },
 	{ "GUID": "ch1d1LayoutMain", "ID": 65535 },
 	{ "GUID": "ch1d1LayoutSecondary", "ID": 65534 },
 	{ "GUID": "ch1d1ObjectiveMain", "ID": 65535 },
 	{ "GUID": "ch1d1ObjectiveSecondary", "ID": 65534 },
 	{ "GUID": "ch1d1_BasicMix", "ID": 255 },
-	{ "GUID": "devileTeamScan", "ID": 65533 },
+	{ "GUID": "ch1d1_errorMix", "ID": 254 },
+	{ "GUID": "devileTeamScan", "ID": 65531 },
 	{ "GUID": "devileDefaultConsumableDistribution", "ID": 65535 },
 	{ "GUID": "devileGlowStickTroll", "ID": 65534 },
 	{ "GUID": "devileFogRepHeavyConsumableDistribution", "ID": 65533 },
@@ -24,5 +27,6 @@
 	{ "GUID": "normal_4x_giant", "ID": 65526 },
 	{ "GUID": "devileDefaultPopulation", "ID": 65535 },
 	{ "GUID": "baselineWave_DevileCommonWavePopulation", "ID": 255 },
+	{ "GUID": "ch1d1_errorSurvivarlWavePopulation", "ID": 254 },
 	{ "GUID": "unsolvable_obj", "ID": 65533 }
 ]

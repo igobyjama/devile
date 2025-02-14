@@ -231,13 +231,13 @@
           "EnemyGroupsInArea": 1
         },
         "EnemySpawningInZone": [
-          {
-            "GroupType": 0,
-            "Difficulty": 100,
-            "Distribution": 2,
-            "DistributionValue": 2.4,
-            "Comment": "Basic mix 24 score"
-          }
+          //{
+           // "GroupType": 0,
+           // "Difficulty": 100,
+           // "Distribution": 2,
+           // "DistributionValue": 2.4,
+           // "Comment": "Basic mix 24 score"
+         // }
         ],
         "EnemyRespawning": false,
         "EnemyRespawnRequireOtherZone": true,
@@ -385,13 +385,13 @@
           "EnemyGroupsInArea": 0
         },
         "EnemySpawningInZone": [
-          {
-            "GroupType": 0,
-            "Difficulty": 100,
-            "Distribution": 2,
-            "DistributionValue": 1.6,
-            "Comment": "Basic mix 16 score"
-          }
+          //{
+           // "GroupType": 0,
+           // "Difficulty": 100,
+           // "Distribution": 2,
+           // "DistributionValue": 1.6,
+           // "Comment": "Basic mix 16 score"
+          //}
         ],
         "EnemyRespawning": false,
         "EnemyRespawnRequireOtherZone": true,
@@ -539,13 +539,13 @@
           "EnemyGroupsInArea": 0
         },
         "EnemySpawningInZone": [
-          {
-            "GroupType": 0,
-            "Difficulty": 101,
-            "Distribution": 2,
-            "DistributionValue": 1.6,
-            "Comment": "Basic mix 24 score"
-          }
+          //{
+          //  "GroupType": 0,
+          //  "Difficulty": 101,
+           // "Distribution": 2,
+            //"DistributionValue": 1.6,
+            //"Comment": "Basic mix 24 score"
+          //}
         ],
         "EnemyRespawning": false,
         "EnemyRespawnRequireOtherZone": true,
@@ -624,7 +624,7 @@
         "StaticSpawnDataContainers": []
       },
       {
-        "Comment": "Zone 16 - North from id 3 (Low zone, fog) - Class Error (shutdown in zone 6) - [GIANTS + 2 SCOUTS] - 4 x ammo, 2 x tool - 2x Cell for Zone 5 and 6" ,
+        "Comment": "Zone 16 - North from id 3 (Low zone, fog) - Class Error (shutdown in zone 6) - [GIANTS + 2 SCOUTS] - 4 x ammo, - 2x Cell for Zone 5 and 6" ,
         "LocalIndex": 4,
         "AliasOverride": -1,
         "OverrideAliasPrefix": false,
@@ -682,15 +682,15 @@
             }
           ]
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d1_S_error",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
         "SecurityGateToEnter": 0,
         "UseStaticBioscanPointsInZone": false,
-        "TurnOffAlarmOnTerminal": false,
+        "TurnOffAlarmOnTerminal": true,
         "TerminalPuzzleZone": {
-          "LocalIndex": 0,
+          "LocalIndex": 6,
           "SeedType": 1,
           "TerminalIndex": 0,
           "StaticSeed": 0
@@ -1004,7 +1004,7 @@
         "UseStaticBioscanPointsInZone": false,
         "TurnOffAlarmOnTerminal": false,
         "TerminalPuzzleZone": {
-          "LocalIndex": 0,
+          "LocalIndex": 6,
           "SeedType": 1,
           "TerminalIndex": 0,
           "StaticSeed": 0

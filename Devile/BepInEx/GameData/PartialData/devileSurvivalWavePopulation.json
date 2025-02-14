@@ -10,5 +10,17 @@
     "persistentID": "baselineWave_DevileCommonWavePopulation",
     "datablock": "SurvivalWavePopulation",
     "Comment": "Shadow, Striker, shooter, giant, Hybrid"
-    }
+    },
+    {
+        "WaveRoleWeakling": 21,
+        "WaveRoleStandard": 13,
+        "WaveRoleSpecial": 16,
+        "WaveRoleMiniBoss": 33,
+        "WaveRoleBoss": 33,
+        "name": "Devile ch1d1 population for error alarm",
+        "internalEnabled": true,
+        "persistentID": "ch1d1_errorSurvivarlWavePopulation",
+        "datablock": "SurvivalWavePopulation",
+        "Comment": "Shadow, Striker, Giant, Hybrid, Hybrid"
+        }
 ]

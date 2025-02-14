@@ -82,10 +82,34 @@
 		"OnlyShowHUDWhenPlayerIsClose": false,
 		"AlarmSoundStart": 3339129407,
 		"AlarmSoundStop": 42633153,
-		"name": "Ch1 D1 class III S",
+		"name": "Ch1 D1 class I S",
 		"internalEnabled": true,
 		"persistentID": "ch1d1_ClassI_S",
 		"datablock": "ChainedPuzzle",
         "Comment": "1 x S - mid error scan"
-	}
+	},
+    {
+        "PublicAlarmName": "Class S ://ERROR! Alarm",
+        "TriggerAlarmOnActivate": true,
+        "SurvivalWaveSettings": "ch1d1_errorMix",
+        "SurvivalWavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+        "SurvivalWaveAreaDistance": 2,
+        "DisableSurvivalWaveOnComplete": false,
+        "UseRandomPositions": false,
+        "WantedDistanceFromStartPos": 18.0,
+        "WantedDistanceBetweenPuzzleComponents": 1.0,
+        "ChainedPuzzle": [
+          {
+            "PuzzleType": 48
+          }
+        ],
+        "OnlyShowHUDWhenPlayerIsClose": false,
+        "AlarmSoundStart": 2200133294,
+        "AlarmSoundStop": 2200133294,
+        "name": "ch1d1 class I S Error",
+        "internalEnabled": true,
+        "persistentID": "ch1d1_S_error",
+        "datablock": "ChainedPuzzle",
+        "Comment": "Class S + Error alarm for 2 x Cell Zone"
+      }
 ]
