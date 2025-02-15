@@ -915,6 +915,13 @@
             "Distribution": 1,
             "DistributionValue": 1,
             "Comment": "Forced Scout"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 103,
+            "Distribution": 2,
+            "DistributionValue": 0.8,
+            "Comment": "Forced Hybrids"
           }
         ],
         "EnemyRespawning": false,
@@ -1249,8 +1256,15 @@
             "GroupType": 0,
             "Difficulty": 100,
             "Distribution": 2,
-            "DistributionValue": 2.4,
-            "Comment": "Basic mix 24 score"
+            "DistributionValue": 2.0,
+            "Comment": "Basic mix 20 score"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 103,
+            "Distribution": 2,
+            "DistributionValue": 1.6,
+            "Comment": "Forced Hybrids"
           }
         ],
         "EnemyRespawning": false,
@@ -1419,6 +1433,13 @@
             "Distribution": 2,
             "DistributionValue": 2.4,
             "Comment": "Basic mix 24 score"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 103,
+            "Distribution": 2,
+            "DistributionValue": 0.8,
+            "Comment": "Forced Hybrids"
           }
         ],
         "EnemyRespawning": false,
@@ -1587,6 +1608,13 @@
             "Distribution": 2,
             "DistributionValue": 2.4,
             "Comment": "Basic mix 24 score"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 103,
+            "Distribution": 2,
+            "DistributionValue": 0.8,
+            "Comment": "Forced Hybrids"
           }
         ],
         "EnemyRespawning": false,
@@ -1755,6 +1783,13 @@
             "Distribution": 2,
             "DistributionValue": 2.4,
             "Comment": "Basic mix 24 score"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 103,
+            "Distribution": 2,
+            "DistributionValue": 0.8,
+            "Comment": "Forced Hybrids"
           }
         ],
         "EnemyRespawning": false,
