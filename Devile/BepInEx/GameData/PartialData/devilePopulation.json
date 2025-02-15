@@ -2,7 +2,6 @@
     {
         "name": "Devile default population",
         "commentDiff0": "Diff 0 baby for breeder spawn",
-        "commentDiff3":  "Diff3 Breeder hibernate",
         "commentDiff50": "Diff 50 - Boss enemies",
         "commentDiff75": "Diff 75 - Scouts",
         "commentDiff100": "Diff 100 - default enemies",
@@ -22,20 +21,20 @@
                 "Comment": "Baby"
             },
             {
-                "Role": 9,
-                "Difficulty": 51,
-                "Enemy": 36,
-                "Cost": 10.0,
-                "Weight": 1.0,
-                "Comment": "breederHibernate"
-            },
-            {
                 "Role": 2,
                 "Difficulty": 50,
                 "Enemy": 29,
                 "Cost": 10.0,
                 "Weight": 1.0,
                 "Comment": "Tank"
+            },
+            {
+                "Role": 9,
+                "Difficulty": 51,
+                "Enemy": 36,
+                "Cost": 10.0,
+                "Weight": 1.0,
+                "Comment": "breederHibernate"
             },
             {
                 "Role": 5,
@@ -100,6 +99,14 @@
                 "Cost": 2.0,
                 "Weight": 1.0,
                 "Comment": "Diff 102 - ensured giant striker spawn used with 2 x giant spawns"
+            },
+            {
+                "Role": 9,
+                "Difficulty": 103,
+                "Enemy": 33,
+                "Cost": 2.0,
+                "Weight": 1.0,
+                "Comment": "Diff 103 - Ensured Hybrid Spawn"
             },
             {
                 "Role": 8,

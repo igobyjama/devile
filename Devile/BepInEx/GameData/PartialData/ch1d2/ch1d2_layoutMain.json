@@ -1058,7 +1058,17 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "StaticSpawnDataContainers": []
+        "StaticSpawnDataContainers": [
+            {
+                "Count": 25,
+                "DistributionWeightType": 1,
+                "DistributionWeight": 1.0,
+                "DistributionRandomBlend": 0.5,
+                "DistributionResultPow": 2.0,
+                "StaticSpawnDataId": 1,
+                "FixedSeed": 0
+            }
+        ]
       },
       {
         "Comment": "Zone38 - South from reactor, opens in completion, BD mom + Tank. Bulkhead key",
@@ -1352,7 +1362,17 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "StaticSpawnDataContainers": []
+        "StaticSpawnDataContainers": [
+            {
+                "Count": 75,
+                "DistributionWeightType": 1,
+                "DistributionWeight": 1.0,
+                "DistributionRandomBlend": 0.5,
+                "DistributionResultPow": 2.0,
+                "StaticSpawnDataId": 1,
+                "FixedSeed": 0
+            }
+        ]
       },
       {
         "Comment": "Zone40 - 2nd Code for Reactor",
@@ -1966,7 +1986,8 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "StaticSpawnDataContainers": []
+        "StaticSpawnDataContainers": [
+        ]
       }
     ]
 }

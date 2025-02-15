@@ -51,7 +51,7 @@
             ],
             "ProgressionPuzzleToEnter": {
               "PuzzleType": 3,
-              "CustomText": "://ERROR LOCKDOWN",
+              "CustomText": "<color=red>ERROR: SYSTEM LOCKDOWN</color>",
               "PlacementCount": 1,
               "ZonePlacementData": []
             },
@@ -186,7 +186,17 @@
               "Middle": 0.0,
               "End": 0.0
             },
-            "StaticSpawnDataContainers": []
+            "StaticSpawnDataContainers": [
+              {
+                "Count": 250,
+                "DistributionWeightType": 1,
+                "DistributionWeight": 1.0,
+                "DistributionRandomBlend": 0.5,
+                "DistributionResultPow": 2.0,
+                "StaticSpawnDataId": 3,
+                "FixedSeed": 0
+            }
+            ]
           }
         ]
     }

@@ -467,7 +467,17 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "StaticSpawnDataContainers": []
+        "StaticSpawnDataContainers": [
+          {
+            "Count": 250,
+            "DistributionWeightType": 1,
+            "DistributionWeight": 1.0,
+            "DistributionRandomBlend": 0.5,
+            "DistributionResultPow": 2.0,
+            "StaticSpawnDataId": 3,
+            "FixedSeed": 0
+        }
+        ]
       },
       {
         "Comment": "Zone 15 - east from id 1 - Free - GIANTS + SCOUT - no pickups",
@@ -643,7 +653,7 @@
         "AliasOverride": -1,
         "OverrideAliasPrefix": false,
         "SubSeed": 13,
-        "MarkerSubSeed": 0,
+        "MarkerSubSeed": 12,
         "LightsSubSeed": 0,
         "BulkheadDCScanSeed": 0,
         "SubComplex": 4,
@@ -719,10 +729,17 @@
         "EnemySpawningInZone": [
           {
             "GroupType": 0,
-            "Difficulty": 101,
+            "Difficulty": 102,
             "Distribution": 2,
-            "DistributionValue": 1.2,
-            "Comment": "Basic mix 12 score"
+            "DistributionValue": 1.6,
+            "Comment": "Giants 16 score - 6"
+          },
+          {
+            "GroupType": 0,
+            "Difficulty": 103,
+            "Distribution": 2,
+            "DistributionValue": 0.8,
+            "Comment": "Hybrid 12 score - 4"
           },
           {
             "GroupType": 1,
@@ -749,16 +766,16 @@
         "AllowResourceContainerAllocation": true,
         "ForceBigPickupsAllocation": false,
         "ConsumableDistributionInZone": "devileDefaultConsumableDistribution",
-        "BigPickupDistributionInZone": 0,
+        "BigPickupDistributionInZone": 6,
         "TerminalPlacements": [
           {
             "PlacementWeights": {
               "Start": 0.0,
               "Middle": 0.0,
-              "End": 0.0
+              "End": 10.0
             },
             "AreaSeedOffset": 0,
-            "MarkerSeedOffset": 1996,
+            "MarkerSeedOffset": 15,
             "LocalLogFiles": [],
             "UniqueCommands": [],
             "StartingStateData": {
@@ -794,7 +811,7 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.4,
+        "ToolAmmoMulti": 0.0,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -854,36 +871,8 @@
         "ProgressionPuzzleToEnter": {
           "PuzzleType": 2,
           "CustomText": 972,
-          "PlacementCount": 1,
-          "ZonePlacementData": [
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "Weights": {
-                "Start": 0.0,
-                "Middle": 0.0,
-                "End": 1000.0
-              }
-            },
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "Weights": {
-                "Start": 0.0,
-                "Middle": 1000.0,
-                "End": 0.0
-              }
-            },
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "Weights": {
-                "Start": 1000.0,
-                "Middle": 0.0,
-                "End": 0.0
-              }
-            }
-          ]
+          "PlacementCount": 0,
+          "ZonePlacementData": []
         },
         "ChainedPuzzleToEnter": "ch1d1_ClassI_S",
         "IsCheckpointDoor": false,
@@ -1050,19 +1039,8 @@
         "ProgressionPuzzleToEnter": {
           "PuzzleType": 2,
           "CustomText": 972,
-          "PlacementCount": 1,
-          "ZonePlacementData": [
-            {
-              "DimensionIndex": 0,
-              "LocalIndex": 4,
-              "SeedType": 0,
-              "Weights": {
-                "Start": 1000.0,
-                "Middle": 1000.0,
-                "End": 0.0
-              }
-            }
-          ]
+          "PlacementCount": 0,
+          "ZonePlacementData": []
         },
         "ChainedPuzzleToEnter": 0,
         "IsCheckpointDoor": false,

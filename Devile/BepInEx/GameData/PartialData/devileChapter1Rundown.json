@@ -43,53 +43,53 @@
                 },
                 "TierAVisuals": {
                     "Color": {
-                        "a": 1.0,
-                        "r": 0.9716981,
-                        "g": 0.875337541,
-                        "b": 0.792942345
+                      "a": 1.0,
+                      "r": 0.4509804,
+                      "g": 0.7490196,
+                      "b": 0.858823538
                     },
                     "Scale": 0.65,
-                    "ScaleYModifier": 0.3
+                    "ScaleYModifier": 1.0
                 },
                 "TierBVisuals": {
                     "Color": {
-                        "a": 1.0,
-                        "r": 0.9056604,
-                        "g": 0.7743971,
-                        "b": 0.662157357
+                      "a": 1.0,
+                      "r": 0.4509804,
+                      "g": 0.7490196,
+                      "b": 0.858823538
                     },
                     "Scale": 0.65,
-                    "ScaleYModifier": 0.3
+                    "ScaleYModifier": 1.0
                 },
                 "TierCVisuals": {
                     "Color": {
-                        "a": 1.0,
-                        "r": 0.8113208,
-                        "g": 0.6648489,
-                        "b": 0.539604843
+                      "a": 1.0,
+                      "r": 0.4509804,
+                      "g": 0.7490196,
+                      "b": 0.858823538
                     },
                     "Scale": 0.65,
-                    "ScaleYModifier": 0.3
+                    "ScaleYModifier": 1.0
                 },
                 "TierDVisuals": {
                     "Color": {
-                        "a": 1.0,
-                        "r": 0.6784314,
-                        "g": 0.486430019,
-                        "b": 0.322254926
+                      "a": 1.0,
+                      "r": 0.4509804,
+                      "g": 0.7490196,
+                      "b": 0.858823538
                     },
                     "Scale": 0.65,
-                    "ScaleYModifier": 0.3
+                    "ScaleYModifier": 1.0
                 },
                 "TierEVisuals": {
                     "Color": {
-                        "a": 1.0,
-                        "r": 0.6784314,
-                        "g": 0.407843143,
-                        "b": 0.1764706
+                      "a": 1.0,
+                      "r": 0.4509804,
+                      "g": 0.7490196,
+                      "b": 0.858823538
                     },
                     "Scale": 0.65,
-                    "ScaleYModifier": 0.3
+                    "ScaleYModifier": 1.0
                 }
             },
             "SurfaceIconPosition": {
