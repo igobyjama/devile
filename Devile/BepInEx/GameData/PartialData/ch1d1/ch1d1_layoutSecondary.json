@@ -51,7 +51,7 @@
             ],
             "ProgressionPuzzleToEnter": {
               "PuzzleType": 3,
-              "CustomText": "//:ERROR LOCKDOWN",
+              "CustomText": "://ERROR LOCKDOWN",
               "PlacementCount": 1,
               "ZonePlacementData": []
             },

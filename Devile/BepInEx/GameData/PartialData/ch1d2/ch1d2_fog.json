@@ -1,0 +1,31 @@
+[
+    {
+        "Enabled": true,
+        "FogColor": {
+          "a": 0.03137255,
+          "r": 0.4392157,
+          "g": 0.7529412,
+          "b": 0.5176471
+        },
+        "FogDensity": 0.00025,
+        "FogAmbience": 0.0,
+        "DensityNoiseDirection": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "DensityNoiseSpeed": 0.034,
+        "DensityNoiseScale": 0.1,
+        "DensityHeightAltitude": 0.0,
+        "DensityHeightRange": 0.3,
+        "DensityHeightMaxBoost": 0.002,
+        "Infection": 0.025,
+        "name": "Chapter1 D2 FogSettings, light fog",
+        "Comment": "Infectious mid high fog",
+        "internalEnabled": true,
+        "persistentID": "ch1d2FogSettings_inf",
+        "datablock": "FogSettings"
+    }
+]
