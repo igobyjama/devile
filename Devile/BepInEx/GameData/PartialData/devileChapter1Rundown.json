@@ -301,164 +301,163 @@
                 },
                 "HasExternalStyle": false,
                 "HasStoryStyle": false
+            },
+            {
+              "Enabled": false,
+              "IsSinglePlayer": false,
+              "SkipLobby": false,
+              "PutIconAboveTier": false,
+              "DisablePlayerVoicelines": false,
+              "ExcludeFromProgression": false,
+              "Accessibility": 2,
+              "UnlockedByExpedition": {
+                "Tier": 1,
+                "Exp": 0
+              },
+              "CustomProgressionLock": {
+                "MainSectors": 1,
+                "SecondarySectors": 0,
+                "ThirdSectors": 0,
+                "AllClearedSectors": 0
+              },
+              "Descriptive": {
+                "Prefix": "CH1-D",
+                "PublicName": "Outage",
+                "IsExtraExpedition": false,
+                "SkipExpNumberInName": false,
+                "UseCustomMatchmakingTier": false,
+                "CustomMatchmakingTier": 1,
+                "ProgressionVisualStyle": 0,
+                "ExpeditionDepth": 682,
+                "EstimatedDuration": "Unkown",
+                "ExpeditionDescription": "Voluenteers are dispatched to power on a backup reactor.",
+                "RoleplayedWardenIntel": "'Do we really have to go that way?'\r\n'Shhh... i really don't want to wake them up'.\r\n<color=red>*SCREAM*</color>"
+              },
+              "Seeds": {
+                "BuildSeed": 1,
+                "FunctionMarkerOffset": 0,
+                "StandardMarkerOffset": 0,
+                "LightJobSeedOffset": 0
+              },
+              "Expedition": {
+                "ComplexResourceData": 1,
+                "MLSLevelKit": 0,
+                "LightSettings": 19,
+                "FogSettings": "ch1d2FogSettings_inf",
+                "EnemyPopulation": "devileDefaultPopulation",
+                "ExpeditionBalance": 1,
+                "ScoutWaveSettings": 3,
+                "ScoutWavePopulation": 1,
+                "EnvironmentWetness": 0.0,
+                "DustColor": {
+                  "a": 1.0,
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5
+                },
+                "DustTurbulence": 1.0
+              },
+              "VanityItemsDropData": {
+                "Groups": [
+                  36
+                ]
+              },
+              "UseGearPicker": false,
+              "LevelLayoutData": "ch1d2LayoutMain",
+              "MainLayerData": {
+                "ZonesWithBulkheadEntrance": [
+                ],
+                "BulkheadDoorControllerPlacements": [
+                ],
+                "BulkheadKeyPlacements": [
+                ],
+                "ObjectiveData": {
+                  "DataBlockId": "ch1d2_ObjectiveMain",
+                  "WinCondition": 0,
+                  "ZonePlacementDatas": [
+                    [                        
+                      {
+                      "DimensionIndex": 0,
+                      "LocalIndex": 0,
+                      "Weights": {
+                        "Start": 0.0,
+                        "Middle": 0.0,
+                        "End": 0.0
+                      }
+                      }
+                    ]
+                  ]
+                },
+                "ChainedObjectiveData": [],
+                "ArtifactData": {
+                  "ArtifactAmountMulti": 0.0,
+                  "ArtifactLayerDistributionDataID": 0,
+                  "ArtifactZoneDistributions": []
+                }
+              },
+              "SecondaryLayerEnabled": false,
+              "SecondaryLayout": 0,
+              "BuildSecondaryFrom": {
+                "LayerType": 0,
+                "Zone": 0
+              },
+              "SecondaryLayerData": {
+                "ZonesWithBulkheadEntrance": [
+                  0
+                ],
+                "BulkheadDoorControllerPlacements": [],
+                "BulkheadKeyPlacements": [
+                ],
+                "ObjectiveData": {
+                  "DataBlockId": 0,
+                  "WinCondition": 0,
+                  "ZonePlacementDatas": [
+                  ]
+                },
+                "ChainedObjectiveData": [],
+                "ArtifactData": {
+                  "ArtifactAmountMulti": 1.0,
+                  "ArtifactLayerDistributionDataID": 0,
+                  "ArtifactZoneDistributions": []
+                }
+              },
+              "ThirdLayerEnabled": false,
+              "ThirdLayout": 0,
+              "BuildThirdFrom": {
+                "LayerType": 0,
+                "Zone": 0
+              },
+              "ThirdLayerData": {
+                "ZonesWithBulkheadEntrance": [],
+                "BulkheadDoorControllerPlacements": [],
+                "BulkheadKeyPlacements": [],
+                "ObjectiveData": {
+                  "DataBlockId": 0,
+                  "WinCondition": 0,
+                  "ZonePlacementDatas": []
+                },
+                "ChainedObjectiveData": [],
+                "ArtifactData": {
+                  "ArtifactAmountMulti": 1.0,
+                  "ArtifactLayerDistributionDataID": 0,
+                  "ArtifactZoneDistributions": []
+                }
+              },
+              "DimensionDatas": [],
+              "SoundEventOnWarpToReality": 0,
+              "SpecialOverrideData": {
+                "WeakResourceContainerWithPackChanceForLocked": -1.0,
+                "InfectionLevelAtExpeditionStart": 0.0,
+                "HealthLevelAtExpeditionStart": 1.0,
+                "StandardAmmoAtExpeditionStart": 1.0,
+                "SpecialAmmoAtExpeditionStart": 1.0,
+                "ToolAmmoAtExpeditionStart": 1.0
+              },
+              "HasExternalStyle": false,
+              "HasStoryStyle": false
             }
         ],
-        "TierB": [
-          {
-            "Enabled": false,
-            "IsSinglePlayer": false,
-            "SkipLobby": false,
-            "PutIconAboveTier": false,
-            "DisablePlayerVoicelines": false,
-            "ExcludeFromProgression": false,
-            "Accessibility": 2,
-            "UnlockedByExpedition": {
-              "Tier": 1,
-              "Exp": 0
-            },
-            "CustomProgressionLock": {
-              "MainSectors": 1,
-              "SecondarySectors": 0,
-              "ThirdSectors": 0,
-              "AllClearedSectors": 0
-            },
-            "Descriptive": {
-              "Prefix": "CH1-D",
-              "PublicName": "Outage",
-              "IsExtraExpedition": false,
-              "SkipExpNumberInName": false,
-              "UseCustomMatchmakingTier": false,
-              "CustomMatchmakingTier": 1,
-              "ProgressionVisualStyle": 0,
-              "ExpeditionDepth": 682,
-              "EstimatedDuration": "Unkown",
-              "ExpeditionDescription": "Voluenteers are dispatched to power on a backup reactor.",
-              "RoleplayedWardenIntel": "'Do we really have to go that way?'\r\n'Shhh... i really don't want to wake them up'.\r\n<color=red>*SCREAM*</color>"
-            },
-            "Seeds": {
-              "BuildSeed": 1,
-              "FunctionMarkerOffset": 0,
-              "StandardMarkerOffset": 0,
-              "LightJobSeedOffset": 0
-            },
-            "Expedition": {
-              "ComplexResourceData": 1,
-              "MLSLevelKit": 0,
-              "LightSettings": 19,
-              "FogSettings": "ch1d2FogSettings_inf",
-              "EnemyPopulation": "devileDefaultPopulation",
-              "ExpeditionBalance": 1,
-              "ScoutWaveSettings": 3,
-              "ScoutWavePopulation": 1,
-              "EnvironmentWetness": 0.0,
-              "DustColor": {
-                "a": 1.0,
-                "r": 0.5,
-                "g": 0.5,
-                "b": 0.5
-              },
-              "DustTurbulence": 1.0
-            },
-            "VanityItemsDropData": {
-              "Groups": [
-                36
-              ]
-            },
-            "UseGearPicker": false,
-            "LevelLayoutData": "ch1d2LayoutMain",
-            "MainLayerData": {
-              "ZonesWithBulkheadEntrance": [
-              ],
-              "BulkheadDoorControllerPlacements": [
-              ],
-              "BulkheadKeyPlacements": [
-              ],
-              "ObjectiveData": {
-                "DataBlockId": "unsolvable_obj",
-                "WinCondition": 1,
-                "ZonePlacementDatas": [
-                  [                        
-                    {
-                    "DimensionIndex": 0,
-                    "LocalIndex": 0,
-                    "Weights": {
-                      "Start": 0.0,
-                      "Middle": 0.0,
-                      "End": 0.0
-                    }
-                    }
-                  ]
-                ]
-              },
-              "ChainedObjectiveData": [],
-              "ArtifactData": {
-                "ArtifactAmountMulti": 0.0,
-                "ArtifactLayerDistributionDataID": 0,
-                "ArtifactZoneDistributions": []
-              }
-            },
-            "SecondaryLayerEnabled": false,
-            "SecondaryLayout": 0,
-            "BuildSecondaryFrom": {
-              "LayerType": 0,
-              "Zone": 0
-            },
-            "SecondaryLayerData": {
-              "ZonesWithBulkheadEntrance": [
-                0
-              ],
-              "BulkheadDoorControllerPlacements": [],
-              "BulkheadKeyPlacements": [
-              ],
-              "ObjectiveData": {
-                "DataBlockId": 0,
-                "WinCondition": 0,
-                "ZonePlacementDatas": [
-                ]
-              },
-              "ChainedObjectiveData": [],
-              "ArtifactData": {
-                "ArtifactAmountMulti": 1.0,
-                "ArtifactLayerDistributionDataID": 0,
-                "ArtifactZoneDistributions": []
-              }
-            },
-            "ThirdLayerEnabled": false,
-            "ThirdLayout": 0,
-            "BuildThirdFrom": {
-              "LayerType": 0,
-              "Zone": 0
-            },
-            "ThirdLayerData": {
-              "ZonesWithBulkheadEntrance": [],
-              "BulkheadDoorControllerPlacements": [],
-              "BulkheadKeyPlacements": [],
-              "ObjectiveData": {
-                "DataBlockId": 0,
-                "WinCondition": 0,
-                "ZonePlacementDatas": []
-              },
-              "ChainedObjectiveData": [],
-              "ArtifactData": {
-                "ArtifactAmountMulti": 1.0,
-                "ArtifactLayerDistributionDataID": 0,
-                "ArtifactZoneDistributions": []
-              }
-            },
-            "DimensionDatas": [],
-            "SoundEventOnWarpToReality": 0,
-            "SpecialOverrideData": {
-              "WeakResourceContainerWithPackChanceForLocked": -1.0,
-              "InfectionLevelAtExpeditionStart": 0.0,
-              "HealthLevelAtExpeditionStart": 1.0,
-              "StandardAmmoAtExpeditionStart": 1.0,
-              "SpecialAmmoAtExpeditionStart": 1.0,
-              "ToolAmmoAtExpeditionStart": 1.0
-            },
-            "HasExternalStyle": false,
-            "HasStoryStyle": false
-        }
-        ],
+        "TierB": [],
         "TierC": [],
         "TierD": [],
         "TierE": [],

@@ -14,6 +14,7 @@
 	{ "GUID": "ch1d1_extractionMix", "ID": 253 },
 	{ "GUID": "ch1d2FogSettings_inf", "ID": 254 },
 	{ "GUID": "ch1d2LayoutMain", "ID": 65533 },
+	{ "GUID": "ch1d2_ObjectiveMain", "ID": 65533 },
 	{ "GUID": "devileTeamScan", "ID": 65531 },
 	{ "GUID": "devileDefaultConsumableDistribution", "ID": 65535 },
 	{ "GUID": "devileGlowStickTroll", "ID": 65534 },
@@ -37,5 +38,5 @@
 	{ "GUID": "baselineWave_DevileCommonWavePopulation", "ID": 255 },
 	{ "GUID": "ch1d1_errorSurvivarlWavePopulation", "ID": 254 },
 	{ "GUID": "ch1d1_extraction_SurvivarlWavePopulation", "ID": 253 },
-	{ "GUID": "unsolvable_obj", "ID": 65533 }
+	{ "GUID": "unsolvable_obj", "ID": 65532 }
 ]
