@@ -48,12 +48,37 @@
       {
         "Warmup": 15.0,
         "WarmupFail": 10.0,
-        "Wave": 60.0,
+        "Wave": 75.0,
         "Verify": 120.0,
-        "VerifyFail": 60.0,
+        "VerifyFail": 75.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 8,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.3,
+                "SpawnType": 1
+            }
+        ],
         "Events": 
         [
           {
@@ -111,7 +136,20 @@
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 6,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            }
+        ],
         "Events": 
         []
       },
@@ -177,7 +215,7 @@
         "Warmup": 20.0,
         "WarmupFail": 10.0,
         "Wave": 90.0,
-        "Verify": 450.0,
+        "Verify": 510.0,
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 11,
@@ -292,7 +330,7 @@
       {
         "Warmup": 10.0,
         "WarmupFail": 10.0,
-        "Wave": 120.0,
+        "Wave": 100.0,
         "Verify": 45.0,
         "VerifyFail": 45.0,
         "VerifyInOtherZone": true,

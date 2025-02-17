@@ -303,7 +303,7 @@
                 "HasStoryStyle": false
             },
             {
-              "Enabled": false,
+              "Enabled": true,
               "IsSinglePlayer": false,
               "SkipLobby": false,
               "PutIconAboveTier": false,

@@ -304,16 +304,16 @@
         "LocalIndex": 2,
         "AliasOverride": -1,
         "OverrideAliasPrefix": false,
-        "SubSeed": 1,
+        "SubSeed": 2,
         "MarkerSubSeed": 0,
         "LightsSubSeed": 5,
         "BulkheadDCScanSeed": 0,
         "SubComplex": 0,
-        "CustomGeomorph": "",
+        "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo_64x64_mining_dig_site_hub_SF_01.prefab",
         "IgnoreRandomGeomorphRotation": true,
         "CoverageMinMax": {
-          "x": 35.0,
-          "y": 35.0,
+          "x": 25.0,
+          "y": 25.0,
           "normalized": {
             "x": 0.6401844,
             "y": 0.7682213,
@@ -533,7 +533,7 @@
         "AllowSmallPickupsAllocation": true,
         "AllowResourceContainerAllocation": true,
         "ForceBigPickupsAllocation": true,
-        "ConsumableDistributionInZone": "devileDefaultConsumableDistribution",
+        "ConsumableDistributionInZone": "devileFogRepHeavyConsumableDistribution",
         "BigPickupDistributionInZone": 2,
         "TerminalPlacements": [
           {
@@ -646,7 +646,7 @@
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
-        "SecurityGateToEnter": 0,
+        "SecurityGateToEnter": 1,
         "UseStaticBioscanPointsInZone": false,
         "TurnOffAlarmOnTerminal": false,
         "TerminalPuzzleZone": {
@@ -680,7 +680,7 @@
         "AllowSmallPickupsAllocation": true,
         "AllowResourceContainerAllocation": true,
         "ForceBigPickupsAllocation": false,
-        "ConsumableDistributionInZone": "devileDefaultConsumableDistribution",
+        "ConsumableDistributionInZone": "devileFogRepHeavyConsumableDistribution",
         "BigPickupDistributionInZone": 0,
         "TerminalPlacements": [
           {
@@ -714,25 +714,25 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 1.2,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 1.6,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 1.2,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "DisinfectionMulti": 0.0,
+        "DisinfectionMulti": 0.8,
         "DisinfectionPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -793,7 +793,7 @@
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
-        "SecurityGateToEnter": 0,
+        "SecurityGateToEnter": 1,
         "UseStaticBioscanPointsInZone": false,
         "TurnOffAlarmOnTerminal": false,
         "TerminalPuzzleZone": {
@@ -861,25 +861,25 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.8,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 1.0,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 0.8,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "DisinfectionMulti": 0.0,
+        "DisinfectionMulti": 0.8,
         "DisinfectionPlacement": {
           "Start": 0.0,
           "Middle": 0.0,

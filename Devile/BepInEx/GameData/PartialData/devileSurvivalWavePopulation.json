@@ -34,5 +34,17 @@
         "persistentID": "ch1d1_extraction_SurvivarlWavePopulation",
         "datablock": "SurvivalWavePopulation",
         "Comment": "Shooter, Striker, Hybrid, Hybrid, Hybrid"
+    },
+    {
+        "WaveRoleWeakling": 42,
+        "WaveRoleStandard": 13,
+        "WaveRoleSpecial": 11,
+        "WaveRoleMiniBoss": 16,
+        "WaveRoleBoss": 33,
+        "name": "Devile ch1d2 reactor wave no2 flyers",
+        "internalEnabled": true,
+        "persistentID": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+        "datablock": "SurvivalWavePopulation",
+        "Comment": "flyer, Striker, shooter, giant, Hybrid"
     }
 ]
