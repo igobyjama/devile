@@ -46,5 +46,18 @@
         "persistentID": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
         "datablock": "SurvivalWavePopulation",
         "Comment": "flyer, Striker, shooter, giant, Hybrid"
+    },
+    {
+        "WaveRoleWeakling": 29,
+        "WaveRoleStandard": 29,
+        "WaveRoleSpecial": 29,
+        "WaveRoleMiniBoss": 29,
+        "WaveRoleBoss": 29,
+        "name": "Devile ch1d2 reactor wave Tank Finish",
+        "internalEnabled": true,
+        "persistentID": "ch1d2_reactorNo3SurvivalWavePopulation_tank",
+        "datablock": "SurvivalWavePopulation",
+        "Comment": "Tank, Tank, Tank, Tank, Tank"
     }
+
 ]

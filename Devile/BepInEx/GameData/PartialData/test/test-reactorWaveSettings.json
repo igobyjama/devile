@@ -83,33 +83,5 @@
         "persistentID": "ch1d2_reactorWaveSequence2_flyers",
         "Comment": "Wave no2. Flyers + Giants",
         "datablock": "SurvivalWaveSettings"
-    },
-    {
-        "m_pauseBeforeStart": 0.0,
-        "m_pauseBetweenGroups": 3.0,
-        "m_wavePauseMin_atCost": 1.0,
-        "m_wavePauseMax_atCost": 1.0,
-        "m_wavePauseMin": 1.0,
-        "m_wavePauseMax": 1.0,
-        "m_populationFilter": [
-            1
-        ],
-        "m_filterType": 0,
-        "m_chanceToRandomizeSpawnDirectionPerWave": 1.0,
-        "m_chanceToRandomizeSpawnDirectionPerGroup": 0.1,
-        "m_overrideWaveSpawnType": true,
-        "m_survivalWaveSpawnType": 6,
-        "m_populationPointsTotal": 1.0,
-        "m_populationPointsPerWaveStart": 1.0,
-        "m_populationPointsPerWaveEnd": 1.0,
-        "m_populationPointsMinPerGroup": 1.0,
-        "m_populationPointsPerGroupStart": 1.0,
-        "m_populationPointsPerGroupEnd": 1.0,
-        "m_populationRampOverTime": 0.0,
-        "name": "ch1d2_reactorWaveSequenceTank",
-        "internalEnabled": true,
-        "persistentID": "ch1d2_reactorWaveSequenceTank",
-        "Comment": "Tank at the end of the Reactor",
-        "datablock": "SurvivalWaveSettings"
     }
 ]

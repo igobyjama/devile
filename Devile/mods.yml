@@ -279,7 +279,7 @@
     major: 0
     minor: 13
     patch: 3
-  enabled: false
+  enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/GTFOModding-CConsole/0.13.3/icon.png
 - manifestVersion: 1

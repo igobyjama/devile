@@ -131,22 +131,34 @@
       {
         "Warmup": 15.0,
         "WarmupFail": 10.0,
-        "Wave": 60.0,
+        "Wave": 90.0,
         "Verify": 45.0,
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 6,
         "EnemyWaves": [
             {
-                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
-                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
                 "SpawnTimeRel": 0.0,
                 "SpawnType": 1
             },
             {
-                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
-                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
-                "SpawnTimeRel": 0.25,
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.1,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.2,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.3,
                 "SpawnType": 1
             }
         ],
@@ -156,13 +168,48 @@
       {
         "Warmup": 20.0,
         "WarmupFail": 10.0,
-        "Wave": 60.0,
+        "Wave": 90.0,
         "Verify": 300.0,
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 9,
         "EnemyWaves": [
-            
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.2,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.2,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.30,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.3,
+                "SpawnType": 1
+            }
         ],
         "Events": 
         [
@@ -221,7 +268,38 @@
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 11,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.30,
+                "SpawnType": 1
+            }
+        ],
         "Events": 
         [
             {
@@ -279,7 +357,38 @@
         "VerifyFail": 60.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 13,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.30,
+                "SpawnType": 1
+            }
+        ],
         "Events": 
         [
             {
@@ -332,12 +441,49 @@
       {
         "Warmup": 10.0,
         "WarmupFail": 10.0,
-        "Wave": 100.0,
+        "Wave": 110.0,
         "Verify": 45.0,
         "VerifyFail": 45.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 14,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.30,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.4,
+                "SpawnType": 1
+            }
+        ],
         "Events": 
         []
       },
@@ -349,7 +495,44 @@
         "VerifyFail": 45.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 15,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.30,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.40,
+                "SpawnType": 1
+            }
+        ],
         "Events": 
         []
       },
@@ -361,7 +544,51 @@
         "VerifyFail": 30.0,
         "VerifyInOtherZone": true,
         "ZoneForVerification": 7,
-        "EnemyWaves": [],
+        "EnemyWaves": [
+                      {
+                "WaveSettings": "ch1d2_reactorWaveSequence2_flyers",
+                "WavePopulation": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
+                "SpawnTimeRel": 0.0,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.10,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.25,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveHybridsx3",
+                "WavePopulation": "ch1d1_errorSurvivarlWavePopulation",
+                "SpawnTimeRel": 0.30,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveBase",
+                "WavePopulation": "baselineWave_DevileCommonWavePopulation",
+                "SpawnTimeRel": 0.4,
+                "SpawnType": 1
+            },
+            {
+                "WaveSettings": "ch1d2_reactorWaveSequenceTank",
+                "WavePopulation": "ch1d2_reactorNo3SurvivalWavePopulation_tank",
+                "SpawnTimeRel": 1,
+                "SpawnType": 1
+            }
+            
+        ],
         "Events": 
         [
             {
