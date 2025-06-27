@@ -1,12 +1,23 @@
 # AdvancedWardenObjective
 
-This mod is basically Flowaria LGTuner with a small tweak that enables lgtuning dimension levellayouts. Also added: directional plugcap overrides.
-
-This is a full LGTuner compile with a +X version bump, bepinex should use the newest version. if any problems arise, delete the older LGTuner.dll (dependencies satisfied).
-
-All credit goes to Flowaria for his breath-taking work on GTFO. We miss you and wish you the best in all aspects of life.
+This mod is basically Flowaria LGTuner with added tweaks. All credit goes to Flowaria for his continuing breath-taking work on GTFO. 
 
 ## Changelog
+### v1.1.6
+- bugfix, snatcher arena dims didn't work in previous. sorry.
+
+### v1.1.5
+- makes extra dimensions' gridsize 40x40 instead of stock 10x10.
+- enables bigger levellayouts (or very big staticdimension geos) in dim1 and above.
+
+### v1.1.4
+- fix on geo_64x64_tech_lab_HA_05 softlock-spot (pipe under the grating in z281)
+- thanks auri and ghostlymire for debug help and testing
+
+### V1.1.3
+- hirnugeos removed from here, split into its own mod.
+- stairsfix moved over here, only runs fix if stairsfix is absent
+- AIGraphSource position fix on Assets/AssetPrefabs/Complex/Service/Geomorphs/Maintenance/geo_64x64_service_floodways_hub_SF_01.prefab (hopefully fixing navmesh and enemy spawning issues some have had with the tile)
 
 ### V1.1.2
 hotfix for issue reported by RLC, thanks cheese. if there was no tech complex either natively or loaded as extra shards, stupid choice of material handling location prevented lgtuner function. fixed.

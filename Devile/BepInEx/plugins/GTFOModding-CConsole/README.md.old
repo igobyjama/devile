@@ -2,7 +2,11 @@
 
 ## Development Console Command Tool for Rundown Devs!
 
-# Features
+# Main Features
+ - Simple CUI Devtool
+ - Provide TONS of useful feature for Developing MODs for GTFO (Check `Shortcuts` and `Commands` to see what is available for use!)
+
+# Extra QoL Features
  - Allow Force drop when you are host whatever teammate is ready or not
  - Allow swap weapon in lobby menu while in-game
  - Fast Elevator & Timescale on startup (Configurable)
@@ -35,7 +39,7 @@
  - KillEnemies | Kill reachable enemies
  - MarkEnemies | Mark reachable enemies [Usage: 'MarkEnemies [true/false]']
  - ShutUpSpitter | SHUT THE FUCK UP YOU FUCKING WALKSACKS [Usage: 'ShutUpSpitter [true/false]']
- - SpawnEnemy | Spawn Enemy on your crosshair by their EnemyID/Name [Usage: 'SpawnEnemy <Enemy ID/Enemy Name> [-scout / -hunter]']
+ - SpawnEnemy | Spawn Enemy on your crosshair by their EnemyID/Name [Usage: 'SpawnEnemy <Enemy ID/Enemy Name> [rotation] [-scout / -hunter]']
 ```
 # Game
 ```
@@ -51,10 +55,11 @@
 # Give
 ```
  - GiveGear | Equip Gear from gear offline id [Usage: 'GiveGear <playeroffline gear id>']
- - GiveItem | Equip Item from item id [Usage: 'GiveItem <item id>']
+ - GiveItem | Equip Item from item id [Usage: 'GiveItem <Item ID/Name>']
  - Ammo | Give Full Ammo
  - Disinfect | Fully Disinfect
- - Health | Give Full Health
+ - Health | Set or Add Health [Usage: 'Health [health%] [-add]']
+ - Infection | Set Infection Amount [Usage: 'Infection [amount%] [-add]']
 ```
 # LocalPlayer
 ```
@@ -135,9 +140,10 @@
  - JumpDimension | Jump to specified Dimension [Usage: 'JumpDimension <Dimension Index>']
  - Open | Open Door/Locker in your crosshair
  - OpenAll | Open All Door/Locker in Level [Usage: 'OpenAll <door/weakdoor/secdoor/locker/all>']
- - SetFog | Set Fog Setting [Usage: 'SetFog <FogDataID>']
+ - SetFog | Set Fog Setting (Locally) [Usage: 'SetFog <FogDataID/Name>']
  - SetLight | Locally change the Light settings in current zone [Usage: 'SetLight [Light Settings ID] [Lights Sub Seed]']
  - SetTerminalState | Change the Terminal State in crosshair [Usage: 'SetTerminalState <TERM_State ID or name>']
+ - StartFogTransition | Start Fog Transition (Network Synced) [Usage: 'SetFogTransition <FogDataID/Name> <Duration>']
  - Unlock | Unlock Door/Locker in your crosshair
  - UnlockAll | Unlock All Door/Locker in Level [Usage: 'UnlockAll <door/weakdoor/secdoor/locker/all>']
  - UnlockTerminal | Unlock Password Locked Terminal in crosshair
@@ -153,5 +159,6 @@
 ```
 # Misc
 ```
+ - LoadExpedition | Force Load Expedition with Given Key [Usage: 'LoadExpedition <Tier Index (1-5)> <Expedition Index (0~)>']
  - ShaderHelper | Lists all shaders or shows a single shaders properties [Usage: 'ShaderHelper [Shader Name]']
 ```

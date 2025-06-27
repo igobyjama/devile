@@ -1,0 +1,11 @@
+{
+    "name": "Player_Spawn_Apart",
+    "version_number": "1.0.4",
+    "website_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "description": "[For Rundown Devs] Finally, a level where the players split up.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.0",
+        "randomuserhi-AggroFix-0.0.2",
+        "dakkhuza-MTFO-4.4.4"
+    ]
+}

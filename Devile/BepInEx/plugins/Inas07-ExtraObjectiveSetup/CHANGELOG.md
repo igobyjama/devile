@@ -1,3 +1,17 @@
+# 1.6.9:
+Minor bug fix:
+- Fixed an indexing code which is susceptiable to index error exception
+- Added a small patch that: For vanilla reactor terminal, override its null `SpawnNode` to `ConnectedReactor.SpawnNode`
+
+# 1.6.8:
+ - Fixed: the issue mentioned here
+   - https://discord.com/channels/782438773690597389/783918553626836992/1380229542580457672
+
+# 1.6.5~1.6.7:
+ - Fixed: EOS Generator Cluster End Sequence not getting reset on checkpoint
+   - https://github.com/Inas-07/ExtraObjectiveSetup/pull/1
+ - `PartialData` Compatibility check 
+
 # 1.6.4:
  - No feature updates.
  - Fixed: `LocalizedTextConverter` in `PartialData` cannot perform write operation properly.

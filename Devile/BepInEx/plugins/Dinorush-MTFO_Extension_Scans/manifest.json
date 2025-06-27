@@ -1,0 +1,11 @@
+{
+    "name": "MTFO_Extension_Scans",
+    "author": "Dinorush",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/Dinorush/MTFO.Ext.Scans",
+    "description": "Adds additional fields to MTFO custom chained puzzles.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.1",
+        "dakkhuza-MTFO-4.6.2"
+    ]
+}

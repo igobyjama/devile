@@ -1,3 +1,8 @@
+# 1.6.8
+ - Fixed: `EventsOnProgress` not getting reset after checkpoint
+    - [PR from JarheadHME] https://github.com/Inas-07/ExtraChainedPuzzleCustomization/pull/2 
+ - `PartialData` Compatibility check 
+
 # 1.6.7
  - Fixed: `ConcurrentClusterHud` does not display properly with Concurrent T-Scan.
 

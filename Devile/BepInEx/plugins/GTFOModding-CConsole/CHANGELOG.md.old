@@ -1,3 +1,33 @@
+# Update (0.13.3)
+ - Toggling Some GUI now does not show up `ExFreecam` Legend overlay
+ - Replaced `OnIncomingDamage` Detour to Harmony Patch (It should now compatible with EWC)
+
+# Update (0.13.2)
+ - Added Missing Dependency for `BepInEx-BepInExPack_GTFO`
+ - Fixed: NRE issue while using `ExFreecam`
+
+# Update (0.13.1)
+ - Fixed: `SpawnEnemy` rotation parameter is feed wrong
+
+# Update (0.13.0)
+ - Thanks for `Auri` and `tru0067` for contributing to Update!
+ - Add: `StartFogTransition` Command. This one is network synced unlike `SetFog` does
+ - Add: `Infection` Command. This could precisely controls current players Infection amount
+ - Add: `LoadExpedition` Command. Useful for Accessing Locked Expedition without Editing RundownDB
+ - Update: `WorldEventGizmo` Now supports capsule collider to debug Security Sensor
+ - Update: `SpawnEnemy` Command. Now accepts rotation parameter
+ - Update: `Health` Command. Now it could precisely control your Health
+ - Update: `GiveItem` Command. Now accepts ItemDataBlock name
+ - Update: `ExFreecam`
+   - Now have a Inspector window to debug items in crosshair
+   - Now have a Legend window to guide what key binds are available
+   - Added Keybind `I` to inspect item in crosshair with `UnityExplorer`
+ - Fixed: `SpawnEnemy` and `SearchEnemy` now works with PartialData'ed Enemy Names
+ - Fixed: Exception when `UnityExplorer` is not installed
+ - Fixed: Disable Game Input when `UnityExplorer` UI is active
+ - Fixed: Potential Fix for `MarkEnemies` where info stops updating when enemy is too far away
+ - Fixed: Potential Fix for `KillEnemies` throw NRE when `KillIndicatorFix` mod is installed
+
 # Update (0.12.1)
  - Thanks for Auri for contributing this change!
  - Fixed Issue: Console now don't goes to softlock state while using terminal

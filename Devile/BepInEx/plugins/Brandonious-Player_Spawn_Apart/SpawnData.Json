@@ -1,0 +1,27 @@
+[
+  {
+    "Player1Spawn": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Player2Spawn": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Player3Spawn": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Player4Spawn": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "MainLevelLayoutID": 0,
+    "InternalEnabled": false,
+    "DebugName": "Test1"
+  }
+]

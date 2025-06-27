@@ -1,11 +1,10 @@
 {
     "name": "MTFO_Extension_PartialData",
-    "version_number": "1.4.3",
+    "version_number": "1.5.2",
     "website_url": "https://github.com/Flowaria/MTFO.Ext.PartialData",
     "description": "Add PartialData Support for your MTFO",
     "dependencies": [
-        "BepInEx-BepInExPack_GTFO-3.2.0",
-        "GTFOModding-InjectLib-1.0.1",
-        "dakkhuza-MTFO-4.5.1"
+        "BepInEx-BepInExPack_GTFO-3.2.1",
+        "dakkhuza-MTFO-4.6.2"
     ]
 }

@@ -1,0 +1,9 @@
+{
+    "name": "AggroFix",
+    "version_number": "0.0.2",
+    "website_url": "https://github.com/randomuserhi/GTFOAggroFix",
+    "description": "Host only mod to fix enemy targetting for custom rundowns that split players across zones",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.1.0"
+    ]
+}

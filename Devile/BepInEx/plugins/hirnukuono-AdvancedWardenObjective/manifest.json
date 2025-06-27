@@ -1,7 +1,7 @@
 {
     "name": "AdvancedWardenObjective",
     "author": "hirnukuono",
-    "version_number": "2.0.3",
+    "version_number": "2.1.0",
     "website_url": "https://github.com/hirnukuono/AdvancedWardenObjective",
     "description": "A modern fork of Flowaria's AdvancedWardenObjective (AWO). Now with 50+ warden events!",
     "dependencies": [
