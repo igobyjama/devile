@@ -1,3 +1,7 @@
+# 1.6.10
+  - Fixed a bug with Objective Counter where clients would sometimes become one step ahead of host on elevator land.
+    - Many thanks to Cris for reporting the issue, ThyUnsuspicious for testing, and Jarhead for compiling.
+
 # 1.6.9:
 Minor bug fix:
 - Fixed an indexing code which is susceptiable to index error exception

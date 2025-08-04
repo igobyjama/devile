@@ -1,3 +1,7 @@
+## v1.0.2
+
+- Fixed FullTeamScanMulti incompatibility with LobbyExpansion
+
 ## v1.0.1
 
 - Adjusted how FullTeamScanMulti is applied to remove the small delay

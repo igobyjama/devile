@@ -125,20 +125,20 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1751002089050
+  installedAtTime: 1753097438034
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
-    - GTFOModding-InjectLib-1.0.2
+    - GTFOModding-InjectLib-1.1.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 1
-    patch: 0
+    minor: 2
+    patch: 4
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/hirnukuono-AdvancedWardenObjective/2.1.0/icon.png
+    Manager/DataFolder/GTFO/cache/hirnukuono-AdvancedWardenObjective/2.2.4/icon.png
 - manifestVersion: 1
   name: Inas07-ExtraObjectiveSetup
   authorName: Inas07
@@ -149,7 +149,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1751002088892
+  installedAtTime: 1753097437799
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.0
@@ -159,10 +159,10 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 9
+    patch: 10
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/Inas07-ExtraObjectiveSetup/1.6.9/icon.png
+    Manager/DataFolder/GTFO/cache/Inas07-ExtraObjectiveSetup/1.6.10/icon.png
 - manifestVersion: 1
   name: Inas07-ExtraChainedPuzzleCustomization
   authorName: Inas07
@@ -221,7 +221,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1739228236426
+  installedAtTime: 1753097437618
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
@@ -231,10 +231,10 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/Dinorush-InheritanceDataBlocks/1.1.5/icon.png
+    Manager/DataFolder/GTFO/cache/Dinorush-InheritanceDataBlocks/1.1.6/icon.png
 - manifestVersion: 1
   name: hirnukuono-LGTuner
   authorName: hirnukuono
@@ -245,7 +245,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1751002088570
+  installedAtTime: 1753097437452
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
@@ -255,10 +255,10 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/hirnukuono-LGTuner/1.1.6/icon.png
+    Manager/DataFolder/GTFO/cache/hirnukuono-LGTuner/1.1.7/icon.png
 - manifestVersion: 1
   name: GTFOModding-CConsole
   authorName: GTFOModding
@@ -269,7 +269,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1751002088411
+  installedAtTime: 1753097437286
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
@@ -278,10 +278,10 @@
   versionNumber:
     major: 0
     minor: 13
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/GTFOModding-CConsole/0.13.3/icon.png
+    Manager/DataFolder/GTFO/cache/GTFOModding-CConsole/0.13.4/icon.png
 - manifestVersion: 1
   name: randomuserhi-AggroFix
   authorName: randomuserhi
@@ -341,7 +341,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1751003874709
+  installedAtTime: 1753097437103
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
@@ -351,7 +351,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/Dinorush-MTFO_Extension_Scans/1.0.1/icon.png
+    Manager/DataFolder/GTFO/cache/Dinorush-MTFO_Extension_Scans/1.0.2/icon.png

@@ -55,10 +55,13 @@
         "ZoneForVerification": 0,
         "EnemyWaves": [
             {
-                "WaveSettings": "ch1d2_reactorWaveSequenceTank",
-                "WavePopulation": "ch1d2_reactorNo3SurvivalWavePopulation_tank",
-                "SpawnTimeRel": 1,
-                "SpawnType": 1
+            
+              "WaveSettings": 30,
+              "WavePopulation": 16,
+              "AreaDistance": 2,
+              "SpawnTimeRel": 0.95,
+              "SpawnType": 0
+            
             }
         ],
         "Events": []

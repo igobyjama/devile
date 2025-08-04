@@ -2,10 +2,6 @@
 
 Allows developers to specify an additional field in any vanilla datablock, `parentID`. This causes the block to pull data from the given ID to fill any non-specified fields.
 
-## Note for Partial Data users
-
-InheritanceDataBlocks is **only** compatible with the [AWOPartialDataFixer](https://thunderstore.io/c/gtfo/p/hirnukuono/AWOPartialDataFixer/) version of partial data. On Flow's (normal) version, it will only work for vanilla datablocks and datablocks cannot use text IDs. 
-
 #### Example
 
 ```

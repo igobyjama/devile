@@ -1,3 +1,12 @@
+# Update (0.13.4)
+ - Thanks for `Auri` for contributing to Update!
+ - Added: `ListBinds` Command
+ - Fixed: `KillEnemies` can now kill Pablo (tank_boss) as clients
+ - Fixed: `MobileTurbine` breaking `FullBright`
+ - Change: `WEVisualizer` can now display generic `WorldEventObjects` in the level
+ - Change: `DebugDraw` Utility methods are now exposed under Namespace `CConsole.Utils.DebugDraw`
+ - Change: `LatestExpeditionGUI` can now be disabled by setting Key to `None`
+
 # Update (0.13.3)
  - Toggling Some GUI now does not show up `ExFreecam` Legend overlay
  - Replaced `OnIncomingDamage` Detour to Harmony Patch (It should now compatible with EWC)

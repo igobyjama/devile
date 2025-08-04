@@ -1,3 +1,7 @@
+## v1.1.6
+
+- Removed compatibility notice about partial data (normal version works now)
+
 ## v1.1.5
 
 - Removed some unnecessary code

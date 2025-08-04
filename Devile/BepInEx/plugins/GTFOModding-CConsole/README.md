@@ -119,7 +119,8 @@
 # Utility
 ```
  - Alias | Set Alias for Command(s) [Usage: 'Alias <Alias name> [Alias commands (Split by ';')]']
- - Bind | Bind Keyboard key with command [Usage: 'Bind <KeyCode> <command line>']
+ - Bind | Bind Keyboard key to a command [Usage: 'Bind <KeyCode> <command line>']
+ - ListBinds | List all registered bindings. Use the '-copy' flag to copy this to the clipboard. [Usage: 'ListBinds [-copy]']
  - Loop | Loop specified command line with given delay [Usage: 'Loop <count> <ms delay> <"command line">']
  - Unbind | Unbind Keyboard key with command [Usage: 'Unbind <KeyCode>']
 ```
@@ -155,7 +156,7 @@
  - InvisibleWalls | Show (most) invisible walls in the level [Usage: 'InvisibleWalls [unlit/bioscan/glass/solid] [-show-ncbg]']
  - NavGizmo | Toggle Visibility of NavMesh and Off-Links
  - TScanHelper | Toggle the T-Scan Creation Helper GUI [Usage: 'TScanHelper [<Action> <Index>]']
- - WorldEventGizmo | Shows world event triggers [Usage: 'WorldEventGizmo [-nogui]']
+ - WorldEventGizmo | Shows world event triggers [Usage: 'WorldEventGizmo [-nogui] [-showall]']
 ```
 # Misc
 ```

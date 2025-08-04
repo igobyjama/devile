@@ -3,6 +3,9 @@
 This mod is basically Flowaria LGTuner with added tweaks. All credit goes to Flowaria for his continuing breath-taking work on GTFO. 
 
 ## Changelog
+### v1.1.7
+- bugfix, dimensions got +50m height unintentionally. sorry.
+
 ### v1.1.6
 - bugfix, snatcher arena dims didn't work in previous. sorry.
 

@@ -1,7 +1,7 @@
 {
     "name": "InheritanceDataBlocks",
     "author": "Dinorush",
-    "version_number": "1.1.5",
+    "version_number": "1.1.6",
     "website_url": "https://github.com/Dinorush/InheritanceDataBlocks",
     "description": "Allows datablocks to inherit fields from another.",
     "dependencies": [
