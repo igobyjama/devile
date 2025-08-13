@@ -5,6 +5,8 @@ Adds additional fields for MTFO scans. These can be used in `Custom/PuzzleTypes.
 - `"PerTeamSizeScanMultis": list[list[float]]` - Similar to PlayersInScanMulti, except that each list only takes effect when the corresponding number of players are in the game. The first list corresponds to solo, the second to duo, and so on.
   - If the list for the current player count doesn't exist or is empty, the next populated list is used. If that does not exist, PlayersInScanMulti applies instead.
   - Lists autofill upwards. For instance, `[0.5, 1]` is equivalent to `[0.5, 1, 1, 1]`.
+- `"BioScanGraphics"` contains the following subfield:
+  - `"HideBulkheadSkullGraphic": string` - Hides the skull graphic shown on bulkhead scans.
 
 ### Example
 These flash scans do not scale with the number of players in the scan. However, they instantly complete if the entire team enters them.
@@ -26,7 +28,7 @@ These null scans do not scale with the number of players in the scan either, but
       "ReduceWhenNoPlayer": false,
       "RevealMode": "ScaleByDistance",
       "BioScanGraphics": {
-      "ScanText": "Flash Scan\nInstant With Team",
+        "ScanText": "Flash Scan\nInstant With Team",
         "Radius": 3.25,
         "colorModeColor": [
           { "mode": 1, "r": 1.0, "g": 0.6, "b": 0.0, "a": 1.0 },
@@ -53,7 +55,7 @@ These null scans do not scale with the number of players in the scan either, but
       "ReduceWhenNoPlayer": false,
       "RevealMode": "ScaleByDistance",
       "BioScanGraphics": {
-      "ScanText": "Null Scan\nNo Scaling",
+        "ScanText": "Null Scan\nNo Scaling",
         "Radius": 2.25,
         "colorModeColor": [
           { "mode": 1, "r": 0.0, "g": 0.0, "b": 1.0, "a": 1.0 },

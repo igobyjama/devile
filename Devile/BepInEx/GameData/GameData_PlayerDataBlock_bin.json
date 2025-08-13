@@ -2,16 +2,16 @@
   "Headers": [],
   "Blocks": [
     {
-      "health": 25.0,
+      "health": 100.0,
       "healthRegenStartDelayAfterDamage": 5.0,
-      "healthRegenRelMax": 0.2,
+      "healthRegenRelMax": 0.0,
       "healthRegenDelay": 1.0,
       "healthRegenPerSecond": 0.2,
-      "friendlyFireMulti": 0.5,
+      "friendlyFireMulti": 1.0,
       "fallDamageMinHeight": 4.0,
-      "fallDamageMaxHeight": 20.0,
+      "fallDamageMaxHeight": 45.0,
       "fallDamageMin": 2.0,
-      "fallDamageMax": 15.0,
+      "fallDamageMax": 100.0,
       "nanoswarmShieldDamageMultiplierCurve": {
         "keys": [
           {
@@ -424,7 +424,7 @@
       "itemFootstepDamping": 5.0,
       "breathingEnabled": true,
       "breathingStaminaEnabled": true,
-      "breathingScaredEnabled": false,
+      "breathingScaredEnabled": true,
       "breathingDebugEnabled": false,
       "breathingVolume": 15.0,
       "breathingHealthLowLimit": 0.1,
@@ -453,8 +453,8 @@
       "StaminaMaximumCapWhenInCombat": 0.9,
       "StaminaMaximumCapWhenInCombatFallRate": 0.0,
       "StaminaJumpCost": {
-        "baseStaminaCostInCombat": 0.05,
-        "baseStaminaCostOutOfCombat": 0.05,
+        "baseStaminaCostInCombat": 0.02,
+        "baseStaminaCostOutOfCombat": 0.02,
         "resetRestingTimerInCombat": true,
         "resetRestingTimerOutOfCombat": true
       },
@@ -465,26 +465,26 @@
         "resetRestingTimerOutOfCombat": false
       },
       "StaminaWalkCost": {
-        "baseStaminaCostInCombat": 0.0,
-        "baseStaminaCostOutOfCombat": 0.0,
+        "baseStaminaCostInCombat": 0.0001,
+        "baseStaminaCostOutOfCombat": 0.0001,
         "resetRestingTimerInCombat": false,
         "resetRestingTimerOutOfCombat": false
       },
       "StaminaRunCost": {
-        "baseStaminaCostInCombat": 0.01666,
-        "baseStaminaCostOutOfCombat": 0.00666,
+        "baseStaminaCostInCombat": 0.007,
+        "baseStaminaCostOutOfCombat": 0.003,
         "resetRestingTimerInCombat": true,
         "resetRestingTimerOutOfCombat": true
       },
       "StaminaCrouchEnterCost": {
-        "baseStaminaCostInCombat": 0.0,
-        "baseStaminaCostOutOfCombat": 0.0,
+        "baseStaminaCostInCombat": 0.001,
+        "baseStaminaCostOutOfCombat": 0.001,
         "resetRestingTimerInCombat": false,
         "resetRestingTimerOutOfCombat": false
       },
       "StaminaQuickStrafeCost": {
-        "baseStaminaCostInCombat": 1.5,
-        "baseStaminaCostOutOfCombat": 1.0,
+        "baseStaminaCostInCombat": 1.0,
+        "baseStaminaCostOutOfCombat": 0.5,
         "resetRestingTimerInCombat": true,
         "resetRestingTimerOutOfCombat": true
       },

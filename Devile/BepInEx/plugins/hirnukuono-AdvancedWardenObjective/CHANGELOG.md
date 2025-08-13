@@ -1,4 +1,7 @@
 # Changelog
+## v2.2.6
+- Added PartialData and TSL support for TerminalOutput in AddTerminalCommand.
+
 ## v2.2.4
 - Fully fixed CloseSecurityDoor and LockSecurityDoor events not working.
 - Changed the damage type for KillAllPlayers and KillAllPlayersInZone off of explosion damage.

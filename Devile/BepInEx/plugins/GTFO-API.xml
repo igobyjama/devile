@@ -186,6 +186,53 @@
             <returns>The applied detour</returns>
             <exception cref="T:System.ArgumentException">The il2cpp class is not registered in il2cpp</exception>
         </member>
+        <member name="T:GTFO.API.InteropAPI">
+            <summary>
+            Helper API for Interop-ing with other plugins
+            </summary>
+        </member>
+        <member name="P:GTFO.API.InteropAPI.Status">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.InteropAPI"/>
+            </summary>
+        </member>
+        <member name="M:GTFO.API.InteropAPI.PluginExists(System.String,BepInEx.PluginInfo@)">
+            <summary>
+            Check if given plugin is loaded
+            </summary>
+            <param name="pluginGUID">Plugin GUID to check</param>
+            <param name="pluginInfo">PluginInfo for that given plugin if exists</param>
+            <returns>true if Plugin is exists, otherwise false</returns>
+        </member>
+        <member name="M:GTFO.API.InteropAPI.ExecuteWhenPluginExists(System.String,System.Action{BepInEx.PluginInfo})">
+            <summary>
+            Execute callback if plugin with given GUID is loaded
+            </summary>
+            <param name="pluginGUID">GUID for Plugin to check</param>
+            <param name="action">Callback that should be called if Plugin is exists</param>
+        </member>
+        <member name="M:GTFO.API.InteropAPI.ExecuteWhenPluginNotExists(System.String,System.Action)">
+            <summary>
+            Execute callback if plugin with given GUID is NOT loaded
+            </summary>
+            <param name="pluginGUID">GUID for Plugin to check</param>
+            <param name="action">Callback that should be called if Plugin is NOT exists</param>
+        </member>
+        <member name="M:GTFO.API.InteropAPI.RegisterCall(System.String,System.Func{System.Object[],System.Object})">
+            <summary>
+            Register a Call for other developers to use your API without direct reference
+            </summary>
+            <param name="callName">Name of the call. should be unique across all other plugins</param>
+            <param name="callback">Callback when Call has invoked by <see cref="M:GTFO.API.InteropAPI.Call(System.String,System.Object[])"/></param>
+        </member>
+        <member name="M:GTFO.API.InteropAPI.Call(System.String,System.Object[])">
+            <summary>
+            Invoke a registed Call that provided by other Plugins
+            </summary>
+            <param name="callName">Name of the Call</param>
+            <param name="parameters">Parameters to pass to Call</param>
+            <returns>Returned object from other Plugin</returns>
+        </member>
         <member name="T:GTFO.API.LevelDataUpdateEvent">
             <summary>
             Delegate for LevelDataUpdate Event
@@ -234,6 +281,26 @@
         <member name="E:GTFO.API.LevelAPI.OnLevelCleanup">
             <summary>
             Invoked when Level has Cleaned up
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnFactoryStart">
+            <summary>
+            Invoked when LevelFactory has started. This is called after Every other <see cref="P:LevelGeneration.LG_Factory.OnFactoryBuildStart"/> event has invoked.
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnFactoryDone">
+            <summary>
+            Invoked when LevelFactory has finished. This is called after Every other <see cref="P:LevelGeneration.LG_Factory.OnFactoryBuildDone"/> event has invoked.
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnBeforeBuildBatch">
+            <summary>
+            Invoked when LevelGeneration Job Batch has Started
+            </summary>
+        </member>
+        <member name="E:GTFO.API.LevelAPI.OnAfterBuildBatch">
+            <summary>
+            Invoked when LevelGeneration Job Batch has Finished
             </summary>
         </member>
         <member name="T:GTFO.API.ActiveExpedition">
@@ -1185,6 +1252,12 @@
             </summary>
             <returns>A copy of the list as <see cref="T:Il2CppSystem.Collections.Generic.List`1"/></returns>
         </member>
+        <member name="M:GTFO.API.Extensions.ListExtensions.ToManaged``1(Il2CppSystem.Collections.Generic.List{``0})">
+            <summary>
+            Converts the <see cref="T:Il2CppSystem.Collections.Generic.List`1"/> to <see cref="T:System.Collections.Generic.List`1"/>
+            </summary>
+            <returns>A copy of the list as <see cref="T:System.Collections.Generic.List`1"/></returns>
+        </member>
         <member name="T:GTFO.API.JSON.JsonSerializer">
             <summary>
             Wrapper class for System Json serializer
@@ -1282,6 +1355,11 @@
         <member name="P:GTFO.API.Resources.APIStatus.SoundBank">
             <summary>
             Status info for the <see cref="T:GTFO.API.SoundBankAPI"/>
+            </summary>
+        </member>
+        <member name="P:GTFO.API.Resources.APIStatus.Interop">
+            <summary>
+            Status info for the <see cref="T:GTFO.API.InteropAPI"/>
             </summary>
         </member>
         <member name="T:GTFO.API.Utilities.CoroutineDispatcher">
@@ -1476,6 +1554,49 @@
             <param name="input">Json input string</param>
             <param name="vectorArray">Resulting array of floats</param>
             <returns>Whether parse was successful</returns>
+        </member>
+        <member name="T:GTFO.API.Utilities.SafeInvoke">
+            <summary>
+            Utility Class for Safely Invoke Delegates one-by-one with try-catching
+            </summary>
+        </member>
+        <member name="M:GTFO.API.Utilities.SafeInvoke.Invoke(System.Action)">
+            <summary>
+            Safely Invoke Action one-by-one with Try-Catch
+            </summary>
+            <param name="actionToInvoke">Action to Invoke</param>
+        </member>
+        <member name="M:GTFO.API.Utilities.SafeInvoke.Invoke``1(System.Action{``0},``0)">
+            <summary>
+            Safely Invoke Action one-by-one with Try-Catch
+            </summary>
+            <param name="actionToInvoke">Action to Invoke</param>
+            <param name="arg0">Argument to pass (Index 0)</param>
+        </member>
+        <member name="M:GTFO.API.Utilities.SafeInvoke.Invoke``2(System.Action{``0,``1},``0,``1)">
+            <summary>
+            Safely Invoke Action one-by-one with Try-Catch
+            </summary>
+            <param name="actionToInvoke">Action to Invoke</param>
+            <param name="arg0">Argument to pass (Index 0)</param>
+            <param name="arg1">Argument to pass (Index 1)</param>
+        </member>
+        <member name="M:GTFO.API.Utilities.SafeInvoke.Invoke``3(System.Action{``0,``1,``2},``0,``1,``2)">
+            <summary>
+            Safely Invoke Action one-by-one with Try-Catch
+            </summary>
+            <param name="actionToInvoke">Action to Invoke</param>
+            <param name="arg0">Argument to pass (Index 0)</param>
+            <param name="arg1">Argument to pass (Index 1)</param>
+            <param name="arg2">Argument to pass (Index 2)</param>
+        </member>
+        <member name="M:GTFO.API.Utilities.SafeInvoke.InvokeDelegate``1(System.Delegate,System.Action{``0})">
+            <summary>
+            Safely Invoke Delegate one-by-one with Try-Catch
+            </summary>
+            <typeparam name="D">Type of Delegate</typeparam>
+            <param name="delegateToInvoke">Delegate to Invoke</param>
+            <param name="invoke">Direction for how this delegate should be invoked</param>
         </member>
         <member name="T:GTFO.API.Utilities.ThreadDispatcher">
             <summary>

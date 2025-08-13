@@ -8,7 +8,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1739228161972
+  installedAtTime: 1755067514940
   loaders: []
   dependencies: []
   incompatibilities: []
@@ -16,10 +16,10 @@
   versionNumber:
     major: 3
     minor: 2
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/BepInEx-BepInExPack_GTFO/3.2.1/icon.png
+    Manager/DataFolder/GTFO/cache/BepInEx-BepInExPack_GTFO/3.2.2/icon.png
 - manifestVersion: 1
   name: dakkhuza-MTFO
   authorName: dakkhuza
@@ -111,7 +111,7 @@
     major: 1
     minor: 5
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/hirnukuono-AWOPartialDataFixer/1.5.1/icon.png
 - manifestVersion: 1
@@ -125,7 +125,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753097438034
+  installedAtTime: 1755067515288
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
@@ -135,10 +135,10 @@
   versionNumber:
     major: 2
     minor: 2
-    patch: 4
+    patch: 6
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/hirnukuono-AdvancedWardenObjective/2.2.4/icon.png
+    Manager/DataFolder/GTFO/cache/hirnukuono-AdvancedWardenObjective/2.2.6/icon.png
 - manifestVersion: 1
   name: Inas07-ExtraObjectiveSetup
   authorName: Inas07
@@ -341,7 +341,7 @@
   networkMode: both
   packageType: other
   installMode: managed
-  installedAtTime: 1753097437103
+  installedAtTime: 1755067515114
   loaders: []
   dependencies:
     - BepInEx-BepInExPack_GTFO-3.2.1
@@ -350,8 +350,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 2
+    minor: 1
+    patch: 0
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/Dinorush-MTFO_Extension_Scans/1.0.2/icon.png
+    Manager/DataFolder/GTFO/cache/Dinorush-MTFO_Extension_Scans/1.1.0/icon.png
