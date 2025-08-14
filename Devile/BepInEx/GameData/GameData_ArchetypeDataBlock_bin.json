@@ -2425,8 +2425,8 @@
       "PrecisionDamageMulti": 2.0025,
       "DefaultClipSize": 3,
       "DefaultReloadTime": 3.5,
-      "CostOfBullet": 17.5,
-      "ShotDelay": 0.8,
+      "CostOfBullet": 18.5,
+      "ShotDelay": 0.4,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -3013,7 +3013,7 @@
       "PrecisionDamageMulti": 0.7333,
       "DefaultClipSize": 2,
       "DefaultReloadTime": 2.66,
-      "CostOfBullet": 16.3,
+      "CostOfBullet": 21.4,
       "ShotDelay": 0.65,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
