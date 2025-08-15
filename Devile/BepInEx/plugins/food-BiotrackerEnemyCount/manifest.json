@@ -1,0 +1,7 @@
+{
+	"name": "BiotrackerEnemyCount",
+	"version_number": "0.2.1",
+	"website_url": "https://git.takina.io/gtfo/BiotrackerEnemyCount",
+	"description": "Shows the number of taggable/detected enemies in biotracker range",
+	"dependencies": ["BepInEx-BepInExPack_GTFO-3.2.1"]
+}

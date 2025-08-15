@@ -1,0 +1,9 @@
+{
+    "name": "BioScannerFix",
+    "version_number": "0.0.2",
+    "website_url": "https://github.com/randomuserhi/GTFOBioScannerFix",
+    "description": "Fixes the small red dots on bioscanner.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.1.0"
+    ]
+}
