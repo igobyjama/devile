@@ -593,7 +593,7 @@
         [
             {
                 "Comment": "Open door to ZONE_7 for Code Verification",
-                "Type": 2,
+                "Type": 1,
                 "Condition": {
                   "ConditionIndex": -1,
                   "IsTrue": false

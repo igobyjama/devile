@@ -109,6 +109,22 @@
                 "Comment": "Diff 103 - Ensured Hybrid Spawn"
             },
             {
+                "Role": 0,
+                "Difficulty": 104,
+                "Enemy": 30,
+                "Cost": 1.0,
+                "Weight": 1.0,
+                "Comment": "Diff 104 - Ensured Charger Spawn"
+            },
+            {
+                "Role": 0,
+                "Difficulty": 105,
+                "Enemy": 39,
+                "Cost": 2.0,
+                "Weight": 1.0,
+                "Comment": "Diff 105 - Ensured Charger Giant"
+            },
+            {
                 "Role": 8,
                 "Difficulty": 149,
                 "Enemy": 38,

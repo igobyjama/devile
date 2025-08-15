@@ -36,6 +36,18 @@
         "Comment": "Shooter, Striker, Hybrid, Hybrid, Hybrid"
     },
     {
+        "WaveRoleWeakling": 30,
+        "WaveRoleStandard": 30,
+        "WaveRoleSpecial": 30,
+        "WaveRoleMiniBoss": 39,
+        "WaveRoleBoss": 39,
+        "name": "Devile baseline chargers",
+        "internalEnabled": true,
+        "persistentID": "baselineChargerWave_DevileCommonWavePopulation",
+        "datablock": "SurvivalWavePopulation",
+        "Comment": "charger, charger, charger, BBC, BBC"
+    },
+    {
         "WaveRoleWeakling": 42,
         "WaveRoleStandard": 13,
         "WaveRoleSpecial": 11,
@@ -46,18 +58,6 @@
         "persistentID": "ch1d2_reactorNo2SurvivalWavePopulation_flyers",
         "datablock": "SurvivalWavePopulation",
         "Comment": "flyer, Striker, shooter, giant, Hybrid"
-    },
-    {
-        "WaveRoleWeakling": 29,
-        "WaveRoleStandard": 29,
-        "WaveRoleSpecial": 29,
-        "WaveRoleMiniBoss": 29,
-        "WaveRoleBoss": 29,
-        "name": "Devile ch1d2 reactor wave Tank Finish",
-        "internalEnabled": true,
-        "persistentID": "ch1d2_reactorNo3SurvivalWavePopulation_tank",
-        "datablock": "SurvivalWavePopulation",
-        "Comment": "Tank, Tank, Tank, Tank, Tank"
     }
 
 ]

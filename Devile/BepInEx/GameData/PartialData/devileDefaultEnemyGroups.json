@@ -35,7 +35,7 @@
     "persistentID": "breederHibernate",
     "datablock": "EnemyGroup"
   },
-    {
+  {
         "Type": 0,
         "Difficulty": 50,
         "SpawnPlacementType": 0,
@@ -53,8 +53,8 @@
         "internalEnabled": true,
         "persistentID": "tank_sleep",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
         "Type": 6,
         "Difficulty": 50,
         "SpawnPlacementType": 0,
@@ -71,8 +71,8 @@
         "internalEnabled": true,
         "persistentID": "bd_tank_wake",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
         "Type": 1,
         "Difficulty": 75,
         "SpawnPlacementType": 0,
@@ -89,8 +89,8 @@
         "internalEnabled": true,
         "persistentID": "forced_scout",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
       "Type": 1,
       "Difficulty": 76,
       "SpawnPlacementType": 0,
@@ -107,8 +107,8 @@
       "internalEnabled": true,
       "persistentID": "forced_shadow_scout",
       "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
       "Type": 1,
       "Difficulty": 77,
       "SpawnPlacementType": 0,
@@ -125,8 +125,8 @@
       "internalEnabled": true,
       "persistentID": "forced_charger_scout",
       "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
         "Type": 0,
         "Difficulty": 100,
         "SpawnPlacementType": 0,
@@ -148,8 +148,8 @@
         "internalEnabled": true,
         "persistentID": "easy_mix_4_2",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
         "Type": 0,
         "Difficulty": 100,
         "SpawnPlacementType": 0,
@@ -171,8 +171,8 @@
         "internalEnabled": true,
         "persistentID": "easy_mix_3_3",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
         "Type": 0,
         "Difficulty": 100,
         "SpawnPlacementType": 0,
@@ -190,8 +190,8 @@
         "internalEnabled": true,
         "persistentID": "easy_mix_2x_giant",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
         "Type": 0,
         "Difficulty": 101,
         "SpawnPlacementType": 0,
@@ -209,8 +209,8 @@
         "internalEnabled": true,
         "persistentID": "normal_4x_giant",
         "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
       "Type": 0,
       "Difficulty": 102,
       "SpawnPlacementType": 0,
@@ -228,8 +228,8 @@
       "internalEnabled": true,
       "persistentID": "easy_2x_giant",
       "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
       "Type": 0,
       "Difficulty": 103,
       "SpawnPlacementType": 0,
@@ -247,8 +247,46 @@
       "internalEnabled": true,
       "persistentID": "easy_2x_hybrid",
       "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
+      "Type": 0,
+      "Difficulty": 105,
+      "SpawnPlacementType": 0,
+      "MaxScore": 4.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Basic group 2 x BBC",
+      "Comment": "Basic group  2 x BBC",
+      "internalEnabled": true,
+      "persistentID": "easy_2x_bbc",
+      "datablock": "EnemyGroup"
+  },
+  {
+      "Type": 0,
+      "Difficulty": 104,
+      "SpawnPlacementType": 0,
+      "MaxScore": 3.0,
+      "ScoreInAreaPaddingMulti": 1.0,
+      "RelativeWeight": 1.0,
+      "Roles": [
+        {
+          "Role": 0,
+          "Distribution": 5
+        }
+      ],
+      "name": "Basic group 3 x charger",
+      "Comment": "Basic group  3 x charger",
+      "internalEnabled": true,
+      "persistentID": "easy_3x_chargers",
+      "datablock": "EnemyGroup"
+  },
+  {
       "Type": 0,
       "Difficulty": 149,
       "SpawnPlacementType": 0,
@@ -265,8 +303,8 @@
       "internalEnabled": true,
       "persistentID": "breeder_childHibernate",
       "datablock": "EnemyGroup"
-    },
-    {
+  },
+  {
       "Type": 6,
       "Difficulty": 200,
       "SpawnPlacementType": 0,
@@ -292,5 +330,5 @@
       "internalEnabled": true,
       "persistentID": "bd_strikerShooterHybridMix",
       "datablock": "EnemyGroup"
-    }
+  }
 ]
