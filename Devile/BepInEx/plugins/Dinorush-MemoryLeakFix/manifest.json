@@ -1,0 +1,10 @@
+{
+    "name": "MemoryLeakFix",
+    "author": "Dinorush",
+    "version_number": "1.2.2",
+    "website_url": "https://github.com/Dinorush/MemoryLeakFix",
+    "description": "Fixes bugs related to objects not being cleared when they should.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.1"
+    ]
+}

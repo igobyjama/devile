@@ -378,3 +378,26 @@
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/randomuserhi-BioScannerFix/0.0.2/icon.png
+- manifestVersion: 1
+  name: Dinorush-MemoryLeakFix
+  authorName: Dinorush
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Dinorush/MemoryLeakFix/
+  displayName: MemoryLeakFix
+  description: Fixes bugs related to objects not being cleared when they should.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755300875393
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Dinorush-MemoryLeakFix/1.2.2/icon.png
