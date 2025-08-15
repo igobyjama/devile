@@ -279,7 +279,7 @@
     major: 0
     minor: 13
     patch: 4
-  enabled: true
+  enabled: false
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/GTFOModding-CConsole/0.13.4/icon.png
 - manifestVersion: 1
@@ -378,26 +378,3 @@
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/randomuserhi-BioScannerFix/0.0.2/icon.png
-- manifestVersion: 1
-  name: food-BiotrackerEnemyCount
-  authorName: food
-  websiteUrl: https://thunderstore.io/c/gtfo/p/food/BiotrackerEnemyCount/
-  displayName: BiotrackerEnemyCount
-  description: Shows the number of taggable/detected enemies in biotracker range
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1755239978949
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack_GTFO-3.2.1
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 1
-  enabled: true
-  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/food-BiotrackerEnemyCount/0.2.1/icon.png

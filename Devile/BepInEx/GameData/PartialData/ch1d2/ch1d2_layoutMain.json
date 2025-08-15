@@ -634,7 +634,7 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "DisinfectionMulti": 0.0,
+        "DisinfectionMulti": 0.8,
         "DisinfectionPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -1121,19 +1121,19 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.6,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 0.8,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 0.6,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -1278,25 +1278,25 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.8,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 0.8,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 0.8,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "DisinfectionMulti": 0.0,
+        "DisinfectionMulti": 0.8,
         "DisinfectionPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -1432,19 +1432,19 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.4,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 0.4,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 0.4,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -1469,7 +1469,7 @@
         ]
       },
       {
-        "Comment": "Zone40 - 3rd Code for Reactor East from the hub zone - Class V to enter",
+        "Comment": "Zone40 - 3rd Code for Reactor East from the hub zone",
         "LocalIndex": 9,
         "AliasOverride": -1,
         "OverrideAliasPrefix": false,
@@ -1622,19 +1622,19 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.4,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 0.6,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 0.4,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -1937,25 +1937,25 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.4,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 1.0,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
-          "Middle": 0.0,
-          "End": 0.0
+          "Middle": 0.4,
+          "End": 0.4
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 0.6,
         "ToolAmmoPlacement": {
           "Start": 0.0,
-          "Middle": 0.0,
+          "Middle": 0.4,
           "End": 0.0
         },
-        "DisinfectionMulti": 0.0,
+        "DisinfectionMulti": 0.4,
         "DisinfectionPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -2112,7 +2112,7 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.8,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -2274,7 +2274,7 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.4,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -2286,7 +2286,7 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "ToolAmmoMulti": 0.0,
+        "ToolAmmoMulti": 1.2,
         "ToolAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -2436,17 +2436,17 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.4,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
           "End": 0.0
         },
-        "WeaponAmmoMulti": 0.0,
+        "WeaponAmmoMulti": 1.2,
         "WeaponAmmoPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
-          "End": 0.0
+          "End": 1.0
         },
         "ToolAmmoMulti": 0.0,
         "ToolAmmoPlacement": {
@@ -2598,7 +2598,7 @@
         "PowerGeneratorPlacements": [],
         "DisinfectionStationPlacements": [],
         "DumbwaiterPlacements": [],
-        "HealthMulti": 0.0,
+        "HealthMulti": 0.4,
         "HealthPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
@@ -2616,7 +2616,7 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "DisinfectionMulti": 0.0,
+        "DisinfectionMulti": 0.4,
         "DisinfectionPlacement": {
           "Start": 0.0,
           "Middle": 0.0,
