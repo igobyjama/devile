@@ -38,7 +38,7 @@
     "ChainedPuzzleToActive": 10,
     "ChainedPuzzleMidObjective": 0,
     "ChainedPuzzleAtExit": 11,
-    "ChainedPuzzleAtExitScanSpeedMultiplier": 2.0,
+    "ChainedPuzzleAtExitScanSpeedMultiplier": 5.0,
     "Gather_RequiredCount": -1,
     "Gather_ItemId": 0,
     "Gather_SpawnCount": 0,

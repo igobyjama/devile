@@ -640,7 +640,17 @@
           "Middle": 0.0,
           "End": 0.0
         },
-        "StaticSpawnDataContainers": []
+        "StaticSpawnDataContainers": [
+            {
+                "Count": 250,
+                "DistributionWeightType": 1,
+                "DistributionWeight": 1.0,
+                "DistributionRandomBlend": 0.5,
+                "DistributionResultPow": 2.0,
+                "StaticSpawnDataId": 3,
+                "FixedSeed": 0
+            }
+        ]
       },
       {
         "Comment": "Zone35 - South from 33 - bridge",

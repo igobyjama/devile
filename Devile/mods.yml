@@ -111,7 +111,7 @@
     major: 1
     minor: 5
     patch: 1
-  enabled: false
+  enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/hirnukuono-AWOPartialDataFixer/1.5.1/icon.png
 - manifestVersion: 1
