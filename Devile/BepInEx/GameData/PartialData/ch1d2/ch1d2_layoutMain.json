@@ -383,7 +383,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "devileTeamScan",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -530,7 +530,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "devileTeamScan",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -691,7 +691,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "devileTeamScan",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -859,7 +859,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "devileTeamScan",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -1158,7 +1158,7 @@
         ]
       },
       {
-        "Comment": "Zone38 - South from reactor, opens in completion, BD mom + Tank",
+        "Comment": "Zone38 - South from reactor, opens in completion, 2 x Tank",
         "LocalIndex": 7,
         "AliasOverride": -1,
         "OverrideAliasPrefix": false,
@@ -1517,7 +1517,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "devileTeamScan",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -1649,7 +1649,7 @@
         "StaticSpawnDataContainers": []
       },
       {
-        "Comment": "Zone41 - East from 32 Cell for zone 42 - Class V cluster to enter",
+        "Comment": "Zone41 - East from 32 Cell for zone 42 - Class III S to enter",
         "LocalIndex": 10,
         "AliasOverride": -1,
         "OverrideAliasPrefix": false,
@@ -1697,7 +1697,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d2_ClassI_S_X3",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -2012,7 +2012,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": [          ]
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": "ch1d2_ClassI_S_X3",
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -2188,7 +2188,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": 196,
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -2350,7 +2350,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": 196,
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,
@@ -2512,7 +2512,7 @@
           "PlacementCount": 1,
           "ZonePlacementData": []
         },
-        "ChainedPuzzleToEnter": 0,
+        "ChainedPuzzleToEnter": 196,
         "IsCheckpointDoor": false,
         "PlayScannerVoiceAudio": true,
         "SkipAutomaticProgressionObjective": false,

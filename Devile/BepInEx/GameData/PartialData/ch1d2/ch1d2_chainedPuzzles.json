@@ -21,5 +21,36 @@
 		"persistentID": "ch1d2_ClassI_S",
 		"datablock": "ChainedPuzzle",
         "Comment": "1 x S"
+	},
+	{
+		"PublicAlarmName": "Alarm Class III S",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": "ch1d1_BasicMix",
+		"SurvivalWavePopulation": "baselineWave_DevileCommonWavePopulation",
+		"DisableSurvivalWaveOnComplete": true,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 10.0,
+		"WantedDistanceBetweenPuzzleComponents": 18.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 32
+			},
+						{
+				"PuzzleType": 32
+			},
+						{
+				"PuzzleType": 32
+			}
+			
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Ch1 D2 class III S",
+		"internalEnabled": true,
+		"persistentID": "ch1d2_ClassI_S_X3",
+		"datablock": "ChainedPuzzle",
+        "Comment": "3 x S"
 	}
+
 ]
