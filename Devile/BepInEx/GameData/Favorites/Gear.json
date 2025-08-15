@@ -1,12 +1,12 @@
 {
   "Favorites": [],
-  "LastEquipped_Standard": "OfflineGear_ID_15",
+  "LastEquipped_Standard": "OfflineGear_ID_47",
   "LastEquipped_Special": "OfflineGear_ID_43",
-  "LastEquipped_Class": "OfflineGear_ID_17",
+  "LastEquipped_Class": "OfflineGear_ID_20",
   "LastEquipped_Melee": "OfflineGear_ID_28",
-  "LastEquipped_HelmetId": 45,
-  "LastEquipped_TorsoId": 17,
-  "LastEquipped_LegsId": 4,
-  "LastEquipped_BackpackId": 15,
-  "LastEquipped_PaletteId": 55
+  "LastEquipped_HelmetId": 35,
+  "LastEquipped_TorsoId": 69,
+  "LastEquipped_LegsId": 68,
+  "LastEquipped_BackpackId": 11,
+  "LastEquipped_PaletteId": 52
 }

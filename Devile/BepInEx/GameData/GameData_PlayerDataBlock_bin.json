@@ -2,16 +2,16 @@
   "Headers": [],
   "Blocks": [
     {
-      "health": 100.0,
+      "health": 25.0,
       "healthRegenStartDelayAfterDamage": 5.0,
-      "healthRegenRelMax": 0.0,
+      "healthRegenRelMax": 0.2,
       "healthRegenDelay": 1.0,
-      "healthRegenPerSecond": 0.2,
+      "healthRegenPerSecond": 0.1,
       "friendlyFireMulti": 1.0,
       "fallDamageMinHeight": 4.0,
       "fallDamageMaxHeight": 45.0,
       "fallDamageMin": 2.0,
-      "fallDamageMax": 100.0,
+      "fallDamageMax": 25.0,
       "nanoswarmShieldDamageMultiplierCurve": {
         "keys": [
           {
