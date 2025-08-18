@@ -1,0 +1,12 @@
+{
+    "name": "ExtraWeaponCustomization",
+    "author": "Dinorush",
+    "version_number": "3.7.3",
+    "website_url": "https://github.com/Dinorush/ExtraWeaponCustomization",
+    "description": "Adds several new features to customize weapons.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.1",
+        "dakkhuza-MTFO-4.6.2",
+        "Dinorush-MovementSpeedAPI-1.1.0"
+    ]
+}

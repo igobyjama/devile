@@ -1,0 +1,9 @@
+{
+  "name": "CConsole",
+  "version_number": "0.13.4",
+  "website_url": "",
+  "description": "CUI-Based Utility Plugin for Rundown Developers",
+  "dependencies": [
+    "BepInEx-BepInExPack_GTFO-3.2.1"
+  ]
+}

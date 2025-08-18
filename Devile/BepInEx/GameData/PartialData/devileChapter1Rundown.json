@@ -457,7 +457,7 @@
               "HasStoryStyle": false
             },
             {
-              "Enabled": false,
+              "Enabled": true,
               "IsSinglePlayer": false,
               "SkipLobby": false,
               "PutIconAboveTier": false,
@@ -484,8 +484,8 @@
                 "ProgressionVisualStyle": 0,
                 "ExpeditionDepth": 720,
                 "EstimatedDuration": "Unkown",
-                "ExpeditionDescription": "Voluenteers are dispatched to power on a backup reactor.",
-                "RoleplayedWardenIntel": "'Do we really have to go that way?'\r\n'Shhh... i really don't want to wake them up'.\r\n<color=red>*SCREAM*</color>"
+                "ExpeditionDescription": "Voluenteers are dispatched to investigate previously closed quearters.",
+                "RoleplayedWardenIntel": "'What are we supposed to do here?'\n 'I have no clue, team wen't missing or something.'\n <color=red>'Awww Shit... Not one of those.</color>'"
               },
               "Seeds": {
                 "BuildSeed": 1,
@@ -526,13 +526,13 @@
                 "BulkheadKeyPlacements": [
                 ],
                 "ObjectiveData": {
-                  "DataBlockId": "unsolvable_obj",
-                  "WinCondition": 0,
+                  "DataBlockId": "ch1d3ObjectiveMain",
+                  "WinCondition": 1,
                   "ZonePlacementDatas": [
                     [                        
                       {
-                      "DimensionIndex": 0,
-                      "LocalIndex": 0,
+                      "DimensionIndex": 1,
+                      "LocalIndex": 1,
                       "Weights": {
                         "Start": 0.0,
                         "Middle": 0.0,
@@ -549,11 +549,11 @@
                   "ArtifactZoneDistributions": []
                 }
               },
-              "SecondaryLayerEnabled": false,
-              "SecondaryLayout": 0,
+              "SecondaryLayerEnabled": true,
+              "SecondaryLayout": "ch1d3LayoutSecondary",
               "BuildSecondaryFrom": {
                 "LayerType": 0,
-                "Zone": 0
+                "Zone": 7
               },
               "SecondaryLayerData": {
                 "ZonesWithBulkheadEntrance": [
@@ -563,7 +563,7 @@
                 "BulkheadKeyPlacements": [
                 ],
                 "ObjectiveData": {
-                  "DataBlockId": 0,
+                  "DataBlockId": "ch1d3ObjectiveSecondary",
                   "WinCondition": 0,
                   "ZonePlacementDatas": [
                   ]
@@ -597,15 +597,21 @@
                   "ArtifactZoneDistributions": []
                 }
               },
-              "DimensionDatas": [],
-              "SoundEventOnWarpToReality": 0,
+              "DimensionDatas": [
+                {          
+                  "DimensionIndex": 1,
+                  "DimensionData": "devile_ch1d3_d1",
+                  "Enabled": true
+                }
+              ],
+              "SoundEventOnWarpToReality": 231201012,
               "SpecialOverrideData": {
                 "WeakResourceContainerWithPackChanceForLocked": -1.0,
                 "InfectionLevelAtExpeditionStart": 0.0,
                 "HealthLevelAtExpeditionStart": 1.0,
-                "StandardAmmoAtExpeditionStart": 2.0,
-                "SpecialAmmoAtExpeditionStart": 2.0,
-                "ToolAmmoAtExpeditionStart": 2.0
+                "StandardAmmoAtExpeditionStart": 1.0,
+                "SpecialAmmoAtExpeditionStart": 1.0,
+                "ToolAmmoAtExpeditionStart": 1.0
               },
               "HasExternalStyle": true,
               "HasStoryStyle": false

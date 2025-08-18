@@ -22,8 +22,14 @@
 	{ "GUID": "ch1d2_reactorWaveHybridsx3", "ID": 250 },
 	{ "GUID": "ch1d2_reactorWaveSequence2_flyers", "ID": 249 },
 	{ "GUID": "ch1d2_reactorWaveSequenceTank", "ID": 248 },
-	{ "GUID": "ch1d3LayoutMain", "ID": 65532 },
-	{ "GUID": "devileTeamScan", "ID": 65529 },
+	{ "GUID": "ch1d3_???_mix", "ID": 65529 },
+	{ "GUID": "devile_ch1d3_d1", "ID": 65535 },
+	{ "GUID": "ch1d3_layoutMain_d1", "ID": 65532 },
+	{ "GUID": "ch1d3LayoutMain", "ID": 65531 },
+	{ "GUID": "ch1d3LayoutSecondary", "ID": 65530 },
+	{ "GUID": "ch1d3ObjectiveMain", "ID": 65532 },
+	{ "GUID": "ch1d3ObjectiveSecondary", "ID": 65531 },
+	{ "GUID": "devileTeamScan", "ID": 65528 },
 	{ "GUID": "devileDefaultConsumableDistribution", "ID": 65535 },
 	{ "GUID": "devileGlowStickTroll", "ID": 65534 },
 	{ "GUID": "devileFogRepHeavyConsumableDistribution", "ID": 65533 },
@@ -50,7 +56,7 @@
 	{ "GUID": "ch1d1_extraction_SurvivarlWavePopulation", "ID": 253 },
 	{ "GUID": "baselineChargerWave_DevileCommonWavePopulation", "ID": 252 },
 	{ "GUID": "ch1d2_reactorNo2SurvivalWavePopulation_flyers", "ID": 251 },
-	{ "GUID": "devileLayoutTest", "ID": 65531 },
-	{ "GUID": "devileObjectiveTest", "ID": 65532 },
-	{ "GUID": "unsolvable_obj", "ID": 65531 }
+	{ "GUID": "devileLayoutTest", "ID": 65529 },
+	{ "GUID": "devileObjectiveTest", "ID": 65530 },
+	{ "GUID": "unsolvable_obj", "ID": 65529 }
 ]

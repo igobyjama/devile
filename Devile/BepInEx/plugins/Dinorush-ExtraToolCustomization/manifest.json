@@ -1,0 +1,10 @@
+{
+    "name": "ExtraToolCustomization",
+    "author": "Dinorush",
+    "version_number": "1.5.3",
+    "website_url": "https://github.com/Dinorush/ExtraToolCustomization",
+    "description": "Fixes tool bugs and adds customization for Sentries and Mines.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.1"
+    ]
+}

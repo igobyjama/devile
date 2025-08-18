@@ -1,0 +1,12 @@
+{
+  "name": "EEC_H",
+  "author": "hirnukuono",
+  "version_number": "1.8.18",
+  "website_url": "https://github.com/hirnukuono/ExtraEnemyCustomization/",
+  "description": "A modern fork of Flowaria's ExtraEnemyCustomization (EEC), with a few fixes, tweaks, and additions",
+  "dependencies": [
+    "BepInEx-BepInExPack_GTFO-3.2.1",
+    "dakkhuza-MTFO-4.6.2",
+    "GTFOModding-InjectLib-1.1.0"
+  ]
+}

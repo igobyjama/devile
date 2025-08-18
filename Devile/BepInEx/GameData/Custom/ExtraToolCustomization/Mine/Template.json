@@ -1,0 +1,52 @@
+[
+  {
+    "OfflineID": 0,
+    "ItemID": 0,
+    "Name": "Mine Deployer",
+    "Delay": 0.25,
+    "Radius": 2.5,
+    "DistanceMin": 3,
+    "DistanceMax": 15,
+    "DamageMin": 15,
+    "DamageMax": 50,
+    "Force": 1000,
+    "PlacementTime": 0.5,
+    "PlacementCooldown": 2,
+    "PickupTime": 0.5,
+    "BeamData": {
+      "Color": "#FF0000FF",
+      "Width": 1,
+      "Length": 20
+    },
+    "LightData": {
+      "Color": "#FF0000FF",
+      "Intensity": 0.03,
+      "Range": 1
+    }
+  },
+  {
+    "OfflineID": 0,
+    "ItemID": 0,
+    "Name": "Consumable Mine",
+    "Delay": 0.25,
+    "Radius": 2,
+    "DistanceMin": 2.5,
+    "DistanceMax": 12,
+    "DamageMin": 10,
+    "DamageMax": 35,
+    "Force": 700,
+    "PlacementTime": 0.5,
+    "PlacementCooldown": 2,
+    "PickupTime": 0.5,
+    "BeamData": {
+      "Color": "#FF0000FF",
+      "Width": 1,
+      "Length": 20
+    },
+    "LightData": {
+      "Color": "#FF2020FF",
+      "Intensity": 0.3,
+      "Range": 0.8
+    }
+  }
+]

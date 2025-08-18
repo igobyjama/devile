@@ -1,0 +1,53 @@
+[
+    {
+		"PublicAlarmName": "Alarm ???",
+		"TriggerAlarmOnActivate": true,
+		"SurvivalWaveSettings": 0,
+		"SurvivalWavePopulation": 0,
+		"DisableSurvivalWaveOnComplete": false,
+		"UseRandomPositions": true,
+		"WantedDistanceFromStartPos": 0.0,
+		"WantedDistanceBetweenPuzzleComponents": 35.0,
+		"ChainedPuzzle": [
+			{
+				"PuzzleType": 48
+			},
+			{
+				"PuzzleType": 16
+			},
+			{
+				"PuzzleType": 61
+			},
+			{
+				"PuzzleType": 45
+			},
+			{
+				"PuzzleType": 61
+			},
+			{
+				"PuzzleType": 45
+			},
+			{
+				"PuzzleType": 61
+			},
+			{
+				"PuzzleType": 45
+			},
+			{
+				"PuzzleType": 16
+			},
+			{
+				"PuzzleType": 50
+			}
+		],
+		"OnlyShowHUDWhenPlayerIsClose": false,
+		"AlarmSoundStart": 3339129407,
+		"AlarmSoundStop": 42633153,
+		"name": "Ch1 D3 class ??? mix",
+		"internalEnabled": true,
+		"persistentID": "ch1d3_???_mix",
+		"datablock": "ChainedPuzzle",
+        "Comment": "Alarm before portal"
+	}
+
+]

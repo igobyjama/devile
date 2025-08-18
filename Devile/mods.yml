@@ -91,30 +91,6 @@
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/Flowaria-MTFO_Extension_PartialData/1.5.2/icon.png
 - manifestVersion: 1
-  name: hirnukuono-AWOPartialDataFixer
-  authorName: hirnukuono
-  websiteUrl: https://thunderstore.io/c/gtfo/p/hirnukuono/AWOPartialDataFixer/
-  displayName: AWOPartialDataFixer
-  description: PartialData with AWO and inheritance support
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  installedAtTime: 1739228192299
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack_GTFO-3.2.1
-    - dakkhuza-MTFO-4.6.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 1
-  enabled: true
-  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/GTFO/cache/hirnukuono-AWOPartialDataFixer/1.5.1/icon.png
-- manifestVersion: 1
   name: hirnukuono-AdvancedWardenObjective
   authorName: hirnukuono
   websiteUrl: https://thunderstore.io/c/gtfo/p/hirnukuono/AdvancedWardenObjective/
@@ -279,7 +255,7 @@
     major: 0
     minor: 13
     patch: 4
-  enabled: false
+  enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/GTFOModding-CConsole/0.13.4/icon.png
 - manifestVersion: 1
@@ -401,3 +377,100 @@
   enabled: true
   icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/GTFO/cache/Dinorush-MemoryLeakFix/1.2.2/icon.png
+- manifestVersion: 1
+  name: hirnukuono-EEC_H
+  authorName: hirnukuono
+  websiteUrl: https://thunderstore.io/c/gtfo/p/hirnukuono/EEC_H/
+  displayName: EEC_H
+  description: A modern fork of Flowaria's ExtraEnemyCustomization (EEC), with a
+    few fixes, tweaks, and additions
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755540485893
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+    - dakkhuza-MTFO-4.6.2
+    - GTFOModding-InjectLib-1.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 8
+    patch: 18
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/hirnukuono-EEC_H/1.8.18/icon.png
+- manifestVersion: 1
+  name: Dinorush-ExtraToolCustomization
+  authorName: Dinorush
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Dinorush/ExtraToolCustomization/
+  displayName: ExtraToolCustomization
+  description: Fixes tool bugs and adds customization for Sentries and Mines.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755540609705
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 3
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Dinorush-ExtraToolCustomization/1.5.3/icon.png
+- manifestVersion: 1
+  name: Dinorush-MovementSpeedAPI
+  authorName: Dinorush
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Dinorush/MovementSpeedAPI/
+  displayName: MovementSpeedAPI
+  description: API for plugin developers to modify movement speed.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755540622800
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Dinorush-MovementSpeedAPI/1.1.0/icon.png
+- manifestVersion: 1
+  name: Dinorush-ExtraWeaponCustomization
+  authorName: Dinorush
+  websiteUrl: https://thunderstore.io/c/gtfo/p/Dinorush/ExtraWeaponCustomization/
+  displayName: ExtraWeaponCustomization
+  description: Adds several new features to customize weapons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1755540622970
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_GTFO-3.2.1
+    - dakkhuza-MTFO-4.6.2
+    - Dinorush-MovementSpeedAPI-1.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 7
+    patch: 3
+  enabled: true
+  icon: C:/Users/devha/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/GTFO/cache/Dinorush-ExtraWeaponCustomization/3.7.3/icon.png

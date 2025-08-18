@@ -1,0 +1,14 @@
+[
+  {
+    "ArchetypeID": 0,
+    "Name": "Sentry Gun",
+    "BackDamage": false,
+    "FriendlyDamageMulti": 1,
+    "DeployTime": 3,
+    "ScanDelay": 1.5,
+    "PlacementTime": 0.6,
+    "PickupTime": 0.6,
+    "ScanColor": "#00895CFF",
+    "TargetColor": "#F0561AF4"
+  }
+]

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovementSpeedAPI</name>
+    </assembly>
+    <members>
+        <member name="T:MovementSpeedAPI.ISpeedModifier">
+            <summary>
+            A movement speed modifier object. Player movement speed is affected by its Mod when Active.
+            </summary>
+        </member>
+        <member name="P:MovementSpeedAPI.ISpeedModifier.Mod">
+            <summary>The value of this modifier.</summary>
+            <value>Updates player speed when modified if Active.</value>
+        </member>
+        <member name="P:MovementSpeedAPI.ISpeedModifier.Layer">
+            <summary>The layer of this modifier.</summary>
+        </member>
+        <member name="P:MovementSpeedAPI.ISpeedModifier.Active">
+            <summary>Whether the modifier is active (in the system).</summary>
+        </member>
+        <member name="M:MovementSpeedAPI.ISpeedModifier.Enable">
+            <summary>
+            Enables the movement modifier (adds it back to the system).
+            </summary>
+        </member>
+        <member name="M:MovementSpeedAPI.ISpeedModifier.Enable(System.Single)">
+            <summary>
+            Enables the movement modifier (adds it back to the system) and sets its value.
+            </summary>
+            <param name="mod">The value of the modifier.</param>
+        </member>
+        <member name="M:MovementSpeedAPI.ISpeedModifier.Disable">
+            <summary>
+            Disables this movement modifier (removes it from the system).
+            </summary>
+        </member>
+        <member name="F:MovementSpeedAPI.MoveSpeedAPI.DefaultGroup">
+            <summary>
+            The default group for modifiers.
+            </summary>
+        </member>
+        <member name="M:MovementSpeedAPI.MoveSpeedAPI.AddModifier(System.Single,MovementSpeedAPI.StackLayer,System.String)">
+            <summary>
+            Adds a local movement modifier, returning the modifier object.
+            </summary>
+            <param name="mod">The value of the modifier.</param>
+            <param name="layer">The layer within the group to place the modifier on.</param>
+            <param name="groupName">The group to put the modifier in. Layers function per-group. Separate groups are multiplied together for the final result.</param>
+            <returns>
+            The modifier object created.
+            </returns>
+        </member>
+        <member name="T:MovementSpeedAPI.StackLayer">
+            <summary> Used to determine how speed modifiers stack.</summary>
+        </member>
+        <member name="F:MovementSpeedAPI.StackLayer.Multiply">
+            <summary> All modifiers are multiplied together.</summary>
+        </member>
+        <member name="F:MovementSpeedAPI.StackLayer.Add">
+            <summary> All modifiers are added together (i.e. [Mod_A - 1] + [Mod_B - 1] + ...).</summary>
+        </member>
+        <member name="F:MovementSpeedAPI.StackLayer.Max">
+            <summary> Only the modifier with the highest value is used.</summary>
+        </member>
+        <member name="F:MovementSpeedAPI.StackLayer.Min">
+            <summary> Only the modifier with the lowest value is used.</summary>
+        </member>
+        <member name="F:MovementSpeedAPI.StackLayer.Override">
+            <summary> Overrides all other modifiers. If multiple overrides are applied, the chosen modifier is ambiguous.</summary>
+        </member>
+    </members>
+</doc>
